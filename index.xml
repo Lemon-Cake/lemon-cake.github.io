@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lemon Cake</title>
-    <link>/</link>
+    <link>lemon-cake.github.io/</link>
     <description>Recent content on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 18 May 2017 09:46:51 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="lemon-cake.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Présentation de la stack Elastic</title>
-      <link>/post/cedric-presentation-stack-elastic/</link>
+      <link>lemon-cake.github.io/post/cedric-presentation-stack-elastic/</link>
       <pubDate>Thu, 18 May 2017 09:46:51 +0200</pubDate>
       
-      <guid>/post/cedric-presentation-stack-elastic/</guid>
+      <guid>lemon-cake.github.io/post/cedric-presentation-stack-elastic/</guid>
       <description>Stack Elastic : ElasticSearch, Logstash, Kibana, Beats Un fichier de log est un fondamental dans le cadre du développement logiciel. De nombreuses applications inscrivent ainsi leurs activités dans ces fichiers dédiés, notifiant des événements significatifs, tels que des erreurs importantes ou des crashs d&amp;rsquo;une application. Ainsi, la recherche d&amp;rsquo;erreur et la compréhension de leur contexte est facilitée avec ces historiques.
 Ces fichiers contiennent peuvent ainsi contenir plusieurs dizaines de milliers de lignes par jour, selon les applications.</description>
     </item>
