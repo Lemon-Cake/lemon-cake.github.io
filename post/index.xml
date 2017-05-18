@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Lemon Cake</title>
-    <link>lemon-cake.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 18 May 2017 09:46:51 +0200</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Présentation de la stack Elastic</title>
-      <link>lemon-cake.github.io/post/presentation-de-la-stack-elastic/</link>
+      <link>/post/presentation-de-la-stack-elastic/</link>
       <pubDate>Thu, 18 May 2017 09:46:51 +0200</pubDate>
       
-      <guid>lemon-cake.github.io/post/presentation-de-la-stack-elastic/</guid>
+      <guid>/post/presentation-de-la-stack-elastic/</guid>
       <description>Stack Elastic : ElasticSearch, Logstash, Kibana, Beats Un fichier de log est un fondamental dans le cadre du développement logiciel. De nombreuses applications inscrivent ainsi leurs activités dans ces fichiers dédiés, notifiant des événements significatifs, tels que des erreurs importantes ou des crashs d&amp;rsquo;une application. Ainsi, la recherche d&amp;rsquo;erreur et la compréhension de leur contexte est facilitée avec ces historiques.
 Ces fichiers contiennent peuvent ainsi contenir plusieurs dizaines de milliers de lignes par jour, selon les applications.</description>
     </item>
     
     <item>
       <title>Windows – Comment utiliser Git, Npm, Bower et Ruby Gem Manager derrière un proxy ?</title>
-      <link>lemon-cake.github.io/post/windows-comment-utiliser-git-npm-bower-et-ruby-gem-manager-derriere-un-proxy/</link>
+      <link>/post/windows-comment-utiliser-git-npm-bower-et-ruby-gem-manager-derriere-un-proxy/</link>
       <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/windows-comment-utiliser-git-npm-bower-et-ruby-gem-manager-derriere-un-proxy/</guid>
+      <guid>/post/windows-comment-utiliser-git-npm-bower-et-ruby-gem-manager-derriere-un-proxy/</guid>
       <description>&lt;p&gt;L&amp;rsquo;utilisation de &lt;strong&gt;gestionnaires de paquets derrière un proxy&lt;/strong&gt; nécessite un ensemble de configuration propres à chaque outils. Voici un ensemble non exhaustif de solutions permettant de configurer les gestionnaires de paquets &lt;strong&gt;NPM&lt;/strong&gt;, &lt;strong&gt;Bower&lt;/strong&gt; et les outils dont ils peuvent dépendre : &lt;strong&gt;Git&lt;/strong&gt; et &lt;strong&gt;Ruby Gem&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
