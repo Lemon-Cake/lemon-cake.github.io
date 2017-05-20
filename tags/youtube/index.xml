@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Youtube on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/youtube/</link>
+    <description>Recent content in Youtube on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 09 Aug 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dites bye-bye aux 301 vues des vidéos YouTube</title>
+      <link>lemon-cake.github.io/post/dites-bye-bye-aux-301-vues-des-videos-youtube/</link>
+      <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/dites-bye-bye-aux-301-vues-des-videos-youtube/</guid>
+      <description>&lt;p&gt;Si comme moi vous regardez des vid&amp;eacute;os sur &lt;strong&gt;YouTube&lt;/strong&gt;, vous avez d&amp;ucirc;t vous rendre compte que d&amp;egrave;s qu&amp;#39;une vid&amp;eacute;o est sortie sur une grosse chaine elle est bloqu&amp;eacute;e &amp;agrave; &lt;strong&gt;301+ vues&lt;/strong&gt;. Et bien maintenant tout va changer car &lt;strong&gt;YouTube a&amp;nbsp;chang&amp;eacute; son syst&amp;egrave;me&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

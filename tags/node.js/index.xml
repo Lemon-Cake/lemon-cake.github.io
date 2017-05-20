@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.Js on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/node.js/</link>
+    <description>Recent content in Node.Js on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 20 Dec 2016 16:45:00 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crypter et décrypter une chaîne de caractères avec Node JS</title>
+      <link>lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</link>
+      <pubDate>Tue, 20 Dec 2016 16:45:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</guid>
+      <description>Dans un précèdent article je vous expliquais comment on pouvait crypter et décrypter une chaine de caractères en PHP. Cette fois je vais vous montrer comment le faire en Node JS.
+var crypto = require(&#39;crypto&#39;); var text = &amp;quot;Master of puppets I&#39;m pulling your strings, twisting your mind and smashing your dreams.&amp;quot; // On définit notre algorithme de cryptage var algorithm = &#39;aes256&#39;; // Notre clé de chiffrement, elle est souvent générée aléatoirement mais elle doit être la même pour le décryptage var password = &#39;l5JmP+G0/1zB%;r8B8?</description>
+    </item>
+    
+  </channel>
+</rss>

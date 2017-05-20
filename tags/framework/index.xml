@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/framework/</link>
+    <description>Recent content in Framework on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 10 Jan 2017 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Créer une tâche CRON sous Symfony</title>
+      <link>lemon-cake.github.io/post/creer-une-tache-cron-sous-symfony/</link>
+      <pubDate>Tue, 10 Jan 2017 12:30:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-une-tache-cron-sous-symfony/</guid>
+      <description>Je me suis enfin plongé dans Symfony pour des besoins professionnels et j&amp;rsquo;ai été confronté au fait de devoir exécuter une tâche CRON sur un site Symfony. Alors oui créer un CRON n&amp;rsquo;est pas dur mais pouvoir réutiliser la logique et surtout la puissance de Symfony n&amp;rsquo;est pas forcément facile à faire si on doit charger composants après composants.
+Il y a toujours la possibilité de créer des routes et d&amp;rsquo;appeler les URL dans le CRON mais comme Symfony intègre une console, pourquoi ne pas s&amp;rsquo;en servir justement.</description>
+    </item>
+    
+    <item>
+      <title>Nouvelle version de GameApp</title>
+      <link>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</guid>
+      <description>&lt;p&gt;Il y a quelques temps je vous parlais de mon application &lt;strong&gt;&lt;a href=&#34;https://www.babeuloula.fr/blog/gameapp-l-application-qui-gere-vos-jeux-pc.html&#34; target=&#34;_blank&#34;&gt;GameApp&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;qui permettait de lancer des applications facilements via une interface simplifi&amp;eacute;e. Et bien la version 0.4 est sortie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GameApp, l&#39;application qui gère vos jeux PC</title>
+      <link>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Développez des applications iOS en HTML et JavaScript</title>
+      <link>lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Couper une chaîne en concervant les balises HTML</title>
+      <link>lemon-cake.github.io/post/couper-une-chaine-en-concervant-les-balises-html/</link>
+      <pubDate>Sat, 16 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/couper-une-chaine-en-concervant-les-balises-html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La téléportation à portée de tous</title>
+      <link>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</guid>
+      <description>&lt;p&gt;Vous avez toujours voulu vous d&amp;eacute;placer aux quatres coins du monde mais il faut payer et c&amp;#39;est souvent tr&amp;egrave;s long ? Et bien gr&amp;acirc;ce &amp;agrave; la premi&amp;egrave;re et unique application gratuite de t&amp;eacute;l&amp;eacute;portation, ce r&amp;ecirc;ve est maintenant r&amp;eacute;alit&amp;eacute; :&amp;nbsp;&lt;a href=&#34;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&#34; target=&#34;_blank&#34; title=&#34;Teleport v2&#34;&gt;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Bon aller fini de rigoler, cette applicaiton n&amp;#39;est qu&amp;#39;un bon gros troll, mais elle m&amp;#39;a permis de mettre en pratique les quelques heures de programmation Android que j&amp;#39;ai eu lors de ma licence pro &amp;agrave; Vichy. La premi&amp;egrave;re version &amp;agrave; &amp;eacute;t&amp;eacute; publi&amp;eacute; le 16 Janvier 2013 et ne permettait pas grand chose. Et maintenant avec la v2, j&amp;#39;ai ajout&amp;eacute; plusieurs petites choses. Je vous laisse lire le changelog :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SourceTree, mergez sous Windows et Mac</title>
+      <link>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
+
+
+&lt;p&gt;Comme vous pouvez le voir sur l&amp;#39;image de t&amp;ecirc;te vous avez acc&amp;egrave;s aux diff&amp;eacute;rentes branches des projets, vous pouvez laissez des commentaires sur ces branches ...&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ConsoleBundle pour Symfony2</title>
+      <link>lemon-cake.github.io/post/consolebundle-pour-symfony2/</link>
+      <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/consolebundle-pour-symfony2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

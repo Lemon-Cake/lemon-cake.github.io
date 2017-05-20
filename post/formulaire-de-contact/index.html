@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Formulaire de contact &middot;  Lemon Cake" />
+        <meta property="og:site_name" content="Lemon Cake" />
+        <meta property="og:url" content="lemon-cake.github.io/post/formulaire-de-contact/" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2013-11-29T19:42:35Z" />
+        <meta property="og:article:tag" content="PHP" />
+        <meta property="og:article:tag" content="Tutoriaux" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="Formulaire de contact" />
+        <meta name="twitter:description" content="Créer un formulaire de contact en PHP" />
+        <meta name="twitter:url" content="lemon-cake.github.io/post/formulaire-de-contact/" />
+    
+
+        <title> Formulaire de contact &middot;  Lemon Cake</title>
+
+        <link rel="preload" href="lemon-cake.github.io/js/main.js" as="script" />
+        <link rel="preload" href="lemon-cake.github.io/css/main.css" as="style" />
+
+    
+        <meta name="description" content="Créer un formulaire de contact en PHP" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="lemon-cake.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Lemon Cake" />
+    
+
+    
+        <link rel="canonical" href="lemon-cake.github.io/post/formulaire-de-contact/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "lemon-cake.github.io/post/formulaire-de-contact/"
+        },
+        "headline": "Formulaire de contact",
+        "description": "Créer un formulaire de contact en PHP",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "lemon-cake.github.io/",
+          "name": "Lemon Cake",
+          "url": "lemon-cake.github.io/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.babeuloula.fr/images/blog/head/1389539_67119338.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2013-11-29",
+        "dateModified": "2013-11-29",
+        "wordCount": 1035,
+        "keywords": ["PHP","Tutoriaux"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "lemon-cake.github.io\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face{font-family:'icons';src:url(lemon-cake.github.io//fonts/icons.eot?9273991);src:url(lemon-cake.github.io//fonts/icons.eot?9273991#iefix) format("embedded-opentype"),url(lemon-cake.github.io//fonts/icons.woff?9273991) format("woff"),url(lemon-cake.github.io//fonts/icons.ttf?9273991) format("truetype"),url(lemon-cake.github.io//fonts/icons.svg?9273991#icons) format("svg");font-weight:400;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #36D995}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #36D995}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#36D995}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #36D995;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#2DB77E}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #36D995;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#36D995;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#2DB77E;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+              <a href="lemon-cake.github.io/">
+      			  
+              </a>
+            </div>
+            <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
+                
+                
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+	<article class="post">
+		<div class="inner">
+
+			<div id="push">
+
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">29/11/2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">1035</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">Formulaire de contact</h1>
+  			</header>
+
+  			<section class="post-content">
+  				<p>Afin que les visiteurs de votre site puissent vous contacter, le mieux serai de mettre en place un formulaire de contact.</p>
+
+<p>Dans ce tutoriel nous allons créer le formulaire en HTML et faire l&rsquo;envoi du mail en PHP.</p>
+
+<div class="read-more"></div>
+
+<h2>Création de la partie HTML</h2>
+
+<p>Pour envoyer des informations en HTML, il faut passer un formulaire avec les balises <strong>form</strong>. Après il faut remplir les attributs :</p>
+
+<ol>
+    <li><strong>action</strong> : la page où le script sera exécuté</li>
+    <li><strong>method</strong> : <strong>post</strong> fait partir les données en caché ou <strong>get </strong>les fait partir dans l'URL. Faites donc un test vous comprendrez mieux</li>
+</ol>
+
+<p>Après les attributs, il faut passer aux champs. Les champs se font avec des <strong>input</strong> avec différents attribut type :</p>
+
+<ul>
+    <li><strong>text</strong> : un champs classique, par exemple le nom de la personne</li>
+    <li><strong>checkbox</strong> : affiche des cases à cocher (choix multiple)</li>
+    <li><strong>hidden</strong> : ne s'affiche pas mais permet de faire passer des données sans que l'utilisateur ne le sache</li>
+    <li><strong>password</strong> : comme son nom l'indique, pour les mots de passe. Cache les lettres par des étoiles</li>
+    <li><strong>radio</strong> : affiche des cases à cocher (choix unique)</li>
+    <li><strong>submit</strong> : affiche un bouton pour soumettre le formulaire</li>
+</ul>
+
+<p>Et pour chaque input, il faut penser à mettre l&rsquo;attribut &ldquo;name&rdquo; qui nous permettra de récupérer les données sur notre page PHP. Cette attribut doit être absolument différent les uns des autres pour ne pas créer d&rsquo;erreurs.</p>
+
+<p>[html]</p>
+
+<p>&lt;form action=&quot;send.php&quot; method=&quot;post&quot;&gt;
+    &lt;label for=&quot;nom&quot;&gt;Votre Nom :&lt;/label&gt;
+    &lt;input class=&quot;contact_text&quot; type=&quot;text&quot; name=&quot;nom&quot;&gt;</p>
+
+<pre><code>&amp;lt;label for=&amp;quot;email&amp;quot;&amp;gt;Votre E-mail :&amp;lt;/label&amp;gt;
+&amp;lt;input class=&amp;quot;contact_text&amp;quot; type=&amp;quot;text&amp;quot; name=&amp;quot;email&amp;quot;&amp;gt;
+
+&amp;lt;label for=&amp;quot;message&amp;quot;&amp;gt;Votre Message :&amp;lt;/label&amp;gt;
+&amp;lt;textarea class=&amp;quot;contact_textarea&amp;quot; name=&amp;quot;message&amp;quot; rows=&amp;quot;7&amp;quot; cols=&amp;quot;10&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;
+
+&amp;lt;input class=&amp;quot;contact_submit&amp;quot; type=&amp;quot;submit&amp;quot; value=&amp;quot;Envoyer&amp;quot;&amp;gt;
+</code></pre>
+
+<p>&lt;/form&gt;</p>
+
+<p>[/html]</p>
+
+<h2>Création de la partie PHP</h2>
+
+<p>Dans notre fichier PHP nous allons devoir faire plusieurs tests afin de vérifier si tous les champs sont correctement remplis.</p>
+
+<p>[php]</p>
+
+<p>&lt;?php</p>
+
+<p>if(!empty($_POST)) {
+    // Permet d&rsquo;extraire le tableau et crée automatiquement les variables en fonctions des attributs name écrit précédement
+    extract($_POST);</p>
+
+<pre><code>$valid = true;
+
+// Si le champs nom est vide, cela veut dire qu'il ne l'a pas rempli
+if(empty($nom)) {
+    $valid = false;
+    $notif = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+// Pareil pour le champs email
+if(empty($email)) {
+    $valid = false;
+    $notif = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+// Permet de vérifier si le texte écrit dans le champs email est correct
+// S'il contient bien au moins 2 caractères avant l’arobase
+// S'il contient bien une arobase
+// S'il contient bien au moins 2 caractères entre l'arobase et le point
+// S'il y a bien entre 2 et 4 caractères après le point
+// Ce qui permet de vérifier si l'email est bien sous cette forme email@domaine.fr
+if($email != NULL &amp;amp;&amp;amp; !preg_match(&amp;quot;#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#&amp;quot;,$email)) {
+    $valid = false;
+    $notif = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+// Pareil pour le champs du message
+if(empty($message)) {
+    $valid = false;
+    $notif = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+</code></pre>
+
+<p>}</p>
+
+<p>// Si le tout est valide, on va alors envoyer l&rsquo;email
+if($valid) {
+    // Spécifiez votre adresse email
+    $to = &quot;votre@email.fr&quot;;</p>
+
+<pre><code>// Spécifiez le sujet
+$subject = &amp;quot;Sujet du mail&amp;quot;;
+
+// Ne pas toucher. Ce sont les infos pour bien envoyer le mail et être bien encodé
+$headers = 'MIME-Version: 1.0' . &amp;quot;\r\n&amp;quot;;
+$headers .= 'Content-type: text/html; charset=utf-8' . &amp;quot;\r\n&amp;quot;;
+$headers .= &amp;quot;From: &amp;quot;.$nom.&amp;quot; &amp;lt;&amp;quot;.$email.&amp;quot;&amp;gt; \r\n&amp;quot;;
+$headers .= &amp;quot;Reply-To: &amp;quot;.$email;
+
+// On appel la fonction mail() de PHP afin de l'envoyer
+if(mail($to, $subject, $message, $headers)) {
+    $notif = &amp;quot;Votre mail a bien été envoyé.&amp;quot;;
+} else {
+    $notif = &amp;quot;Une erreur est survenue lors de l'envoi.&amp;quot;;
+}
+
+// Permet de vider les variables pour éviter les problèmes
+unset($nom);
+unset($email);
+unset($message);
+</code></pre>
+
+<p>}</p>
+
+<p>// Affiche le message à l&rsquo;utilisateur
+echo $notif;</p>
+
+<p>?&gt;</p>
+
+<p>[/php]</p>
+
+<h2>Amélioration du formulaire</h2>
+
+<p>Voyons comment améliorer le tout. Car pour le moment tout cela reste un peu moche. Avec l&rsquo;arrivé du HTML5, de nouveaux attributs sont arrivés. Par exemple les attributs placeholder, required et pattern.</p>
+
+<ul>
+    <li><strong>placeholder</strong> : Permet d'afficher un texte à l'utilisateur qui disparaîtra lors de son clic dans le champs</li>
+    <li><strong>required</strong> : Permet de bloquer l'envoi du formulaire si le champs en required n'est pas remplie</li>
+    <li><strong>pattern</strong> : Permet de créer une règle de détection plus spécifique. A ne pas oublier de coupler avec un required</li>
+</ul>
+
+<p>[html]</p>
+
+<p>&lt;input class=&quot;contact<em>text&quot; type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;email@domaine.fr&quot; pattern=&quot;^[a-z0-9.</em>-]+@[a-z0-9._-]{2,}.[a-z]{2,4}$&quot; required&gt;</p>
+
+<p>[/html]</p>
+
+<p>Pour la partie PHP, vous avez dû vous rendre compte que si vous soumettiez le formulaire et qu&rsquo;une erreur arrive vous aurez perdu toutes vos données. Donc nous pouvons déjà commencer par stocker le message d&rsquo;erreur et les données de l&rsquo;utilisateur dans la variable $_SESSION à condition de démarrer la session sur la page de contact et celle de l&rsquo;envoi avec la fonction session_start();</p>
+
+<p>Voici maintenant les deux pages modifiés :</p>
+
+<p>[php]</p>
+
+<p>&lt;?php session_start(); ?&gt;</p>
+
+<p>&lt;?php if(isset($_SESSION[&lsquo;notif&rsquo;])) { echo $_SESSION[&lsquo;notif&rsquo;] } ?&gt;</p>
+
+<p>&lt;form action=&quot;send.php&quot; method=&quot;post&quot;&gt;
+    &lt;label for=&quot;nom&quot;&gt;Votre Nom :&lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;nom&quot; value=&quot;&lt;?php if(isset($_SESSION[&lsquo;nom&rsquo;])) { echo $_SESSION[&lsquo;nom&rsquo;] } ?&gt;&quot;&gt;</p>
+
+<pre><code>&amp;lt;label for=&amp;quot;email&amp;quot;&amp;gt;Votre E-mail :&amp;lt;/label&amp;gt;
+&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;email&amp;quot; value=&amp;quot;&amp;lt;?php if(isset($_SESSION['email'])) { echo $_SESSION['email'] } ?&amp;gt;&amp;quot;&amp;gt;
+
+&amp;lt;label for=&amp;quot;message&amp;quot;&amp;gt;Votre Message :&amp;lt;/label&amp;gt;
+&amp;lt;textarea name=&amp;quot;message&amp;quot; rows=&amp;quot;7&amp;quot; cols=&amp;quot;10&amp;quot;&amp;gt;&amp;lt;?php if(isset($_SESSION['message'])) { echo $_SESSION['message'] } ?&amp;gt;&amp;lt;/textarea&amp;gt;
+
+&amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Envoyer&amp;quot;&amp;gt;
+</code></pre>
+
+<p>&lt;/form&gt;</p>
+
+<p>&lt;?php</p>
+
+<p>// On vide notre variable $_SESSION afin que si l&rsquo;utilisateur actualise la page, les messages disparaissent
+unset(isset($_SESSION[&lsquo;nom&rsquo;], $_SESSION[&lsquo;email&rsquo;] $_SESSION[&lsquo;message&rsquo;], $_SESSION[&lsquo;notif&rsquo;]);</p>
+
+<p>?&gt;</p>
+
+<p>[/php]</p>
+
+<p>&nbsp;</p>
+
+<p>[php]</p>
+
+<p>&lt;?php</p>
+
+<p>session_start();</p>
+
+<p>if(!empty($_POST)) {
+    extract($_POST);</p>
+
+<pre><code>$valid = true;
+
+if(empty($nom)) {
+    $valid = false;
+    $_SESSION['notif'] = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+if(empty($email)) {
+    $valid = false;
+    $_SESSION['notif'] = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+if($email != NULL &amp;amp;&amp;amp; !preg_match(&amp;quot;#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#&amp;quot;,$email)) {
+    $valid = false;
+    $_SESSION['notif'] = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+if(empty($message)) {
+    $valid = false;
+    $_SESSION['notif'] = &amp;quot;Veuillez remplir correctement les champs.&amp;quot;;
+}
+
+$_SESSION['nom'] = $nom;
+$_SESSION['email'] = $email;
+$_SESSION['message'] = $message;
+</code></pre>
+
+<p>}</p>
+
+<p>if($valid) {
+    $to = &quot;votre@email.fr&quot;;</p>
+
+<pre><code>$subject = &amp;quot;Sujet du mail&amp;quot;;
+
+$headers = 'MIME-Version: 1.0' . &amp;quot;\r\n&amp;quot;;
+$headers .= 'Content-type: text/html; charset=utf-8' . &amp;quot;\r\n&amp;quot;;
+$headers .= &amp;quot;From: &amp;quot;.$nom.&amp;quot; &amp;lt;&amp;quot;.$email.&amp;quot;&amp;gt; \r\n&amp;quot;;
+$headers .= &amp;quot;Reply-To: &amp;quot;.$email;
+
+if(mail($to, $subject, $message, $headers)) {
+    $_SESSION['notif'] = &amp;quot;Votre mail a bien été envoyé.&amp;quot;;
+} else {
+    $notif = &amp;quot;Une erreur est survenue lors de l'envoi.&amp;quot;;
+}
+
+unset($nom);
+unset($email);
+unset($message);
+</code></pre>
+
+<p>}</p>
+
+<p>// Permet de renvoyer vers une autre page
+header(&quot;Location: contact.php&quot;);</p>
+
+<p>?&gt;</p>
+
+<p>[/php]</p>
+
+<p>Voilà, maintenant votre formulaire est quand même un peu mieux et vous avez vos erreurs qui s&rsquo;affichent sur votre page de contact et les données de l&rsquo;utilisateur sont conservés.</p>
+
+<h2 id="démo">Démo</h2>
+
+<p>2016-08-30 19:40:48</p>
+
+<h2 id="source">Source</h2>
+
+<p><a href="http://lemon-cake.fr/?p=175">http://lemon-cake.fr/?p=175</a></p>
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="lemon-cake.github.io//tags/php/">PHP</a>
+            
+                <a href="lemon-cake.github.io//tags/tutoriaux/">Tutoriaux</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=Formulaire%20de%20contact&url=lemon-cake.github.io%2fpost%2fformulaire-de-contact%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=lemon-cake.github.io%2fpost%2fformulaire-de-contact%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=lemon-cake.github.io%2fpost%2fformulaire-de-contact%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
+			</div>
+
+			<nav class="post-nav">
+				
+					<a class="post-nav-item post-nav-next" href="lemon-cake.github.io/post/bibliotheque-dicones-gratuite/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Bibliothèque d&#39;icônes gratuite</h4>
+								<p class="post-nav-excerpt">Ne cherchez plus, voici l&#39;une des plus grande bibliothèque d&#39;icônes&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				
+					<a class="post-nav-item post-nav-prev" href="lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Créer des cookies avec du JavaScript</h4>
+								<p class="post-nav-excerpt">Apprenez comment mettre en place des cookies en JavaScript à travers trois fonctions JavaScript&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
+
+		</div>
+	</article>
+</main>
+
+				<div id="body-class" style="display: none;"></div>
+				<footer id="footer">
+					<section class="credits">
+						<span class="credits-theme">A forked FR theme of <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
+					</section>
+				</footer>
+				
+				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#démo">Démo</a></li>
+<li><a href="#source">Source</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+				<div class="overlay"></div>
+			</div>
+		</section>
+
+    <script async src="lemon-cake.github.io/js/main.js"></script>
+
+
+
+
+  <noscript><link rel="stylesheet" href="lemon-cake.github.io/css/main.css"></noscript>
+</body>
+</html>
+

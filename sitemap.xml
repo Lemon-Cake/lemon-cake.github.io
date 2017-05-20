@@ -2,34 +2,729 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/post/presentation-de-la-stack-elastic/</loc>
+    <loc>lemon-cake.github.io/post/presentation-de-la-stack-elastic/</loc>
     <lastmod>2017-05-18T09:46:51+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/windows-comment-utiliser-git-npm-bower-et-ruby-gem-manager-derriere-un-proxy/</loc>
-    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+    <loc>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</loc>
+    <lastmod>2017-05-17T12:30:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</loc>
+    <lastmod>2017-02-15T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-une-tache-cron-sous-symfony/</loc>
+    <lastmod>2017-01-10T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</loc>
+    <lastmod>2016-12-20T16:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/comment-fonctionne-la-compression-gzip/</loc>
+    <lastmod>2016-12-19T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-httpie-sur-windows-et-linux/</loc>
+    <lastmod>2016-12-12T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</loc>
+    <lastmod>2016-11-22T12:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre/</loc>
+    <lastmod>2016-11-07T12:15:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/migrer-de-windows-7-a-windows-10-meme-apres-la-fin-de-la-mise-a-jour-gratuite/</loc>
+    <lastmod>2016-10-28T11:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/gnu-linux-distribution-timeline/</loc>
+    <lastmod>2016-10-25T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</loc>
+    <lastmod>2016-10-06T12:00:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-un-systeme-de-connexion-se-souvenir-de-moi/</loc>
+    <lastmod>2016-09-23T12:30:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/</loc>
+    <lastmod>2016-09-23T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/</loc>
+    <lastmod>2016-09-20T12:15:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/ralentissement-des-videos-en-plein-ecran-sous-google-chrome/</loc>
+    <lastmod>2016-09-08T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/</loc>
+    <lastmod>2016-09-03T17:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</loc>
+    <lastmod>2016-05-26T12:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/css-lorthographe-de-selecteurs/</loc>
+    <lastmod>2015-11-03T12:30:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/dites-bye-bye-aux-301-vues-des-videos-youtube/</loc>
+    <lastmod>2015-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/bases-shell/</loc>
+    <lastmod>2015-08-03T12:30:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/la-dematerialisation-pour-ou-contre/</loc>
+    <lastmod>2015-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/connaitre-la-duree-d-un-script-shell/</loc>
+    <lastmod>2015-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</loc>
+    <lastmod>2015-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-bittorrent-sync-sur-son-nas-synology/</loc>
+    <lastmod>2015-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/renommer-le-dossier-d-un-compte-utilisateur-sous-windows-7/</loc>
+    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</loc>
+    <lastmod>2015-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-ipkg-sur-son-nas-synology-dsm-5/</loc>
+    <lastmod>2015-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/la-cnil-et-ses-cookies-aussi-simple-d-une-tarte-au-citron/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-une-fonction-javascript-avec-un-callback/</loc>
+    <lastmod>2014-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/erreur-0x80004005-windows/</loc>
+    <lastmod>2014-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/blur-et-masques-en-svg/</loc>
+    <lastmod>2014-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</loc>
+    <lastmod>2014-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/fusionner-des-images-avec-php-avec-un-canal-alpha/</loc>
+    <lastmod>2014-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/payez-en-ligne-simplement-avec-stripe/</loc>
+    <lastmod>2014-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/animation-d-un-fichier-png-sans-une-seule-ligne-de-javascript/</loc>
+    <lastmod>2014-06-01T12:30:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/convertir-les-styles-css-en-attribut-style-des-balises-html/</loc>
+    <lastmod>2014-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</loc>
+    <lastmod>2014-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/generer-un-labyrinthe-en-javascript/</loc>
+    <lastmod>2014-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/generer-des-mots-de-passe-aleatoire/</loc>
+    <lastmod>2014-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</loc>
+    <lastmod>2014-04-14T12:30:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/ajouter-du-code-dans-ckeditor/</loc>
+    <lastmod>2014-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/humm-delire-terrance/</loc>
+    <lastmod>2014-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/lire-de-gros-fichiers-textes/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/commandes-utiles-postfix/</loc>
+    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-des-evenements-recurrents-en-php/</loc>
+    <lastmod>2014-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/les-fonctions-de-php-en-javascript/</loc>
+    <lastmod>2014-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</loc>
+    <lastmod>2014-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-un-systeme-de-notification-en-javascript/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/une-barre-de-progression-a-la-sauce-youtube/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</loc>
+    <lastmod>2014-02-25T12:31:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/reouverture-du-blog/</loc>
+    <lastmod>2014-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</loc>
+    <lastmod>2014-02-18T12:30:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/connexion-pdo-mysql/</loc>
+    <lastmod>2014-01-28T13:00:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</loc>
+    <lastmod>2014-01-06T14:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/explorateur-de-fichiers/</loc>
+    <lastmod>2013-12-12T15:07:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/bibliotheque-dicones-gratuite/</loc>
+    <lastmod>2013-12-11T11:09:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/formulaire-de-contact/</loc>
+    <lastmod>2013-11-29T19:42:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/</loc>
+    <lastmod>2013-11-29T11:30:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/explorateur-de-fichiers-jquery-file-tree/</loc>
+    <lastmod>2013-11-26T20:18:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/parcourez-des-dossiers-facilement-avec-jquery/</loc>
+    <lastmod>2013-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/supprimer-un-dossier-recursivement/</loc>
+    <lastmod>2013-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/generateurs-de-proprietes-css3/</loc>
+    <lastmod>2013-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/couper-une-chaine-en-concervant-les-balises-html/</loc>
+    <lastmod>2013-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/faire-un-backup-d-un-volume-synology-plante-ou-crashed-/</loc>
+    <lastmod>2013-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/creer-un-fichier-zip-de-votre-serveur/</loc>
+    <lastmod>2013-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/temps-d-execution-d-un-script-php/</loc>
+    <lastmod>2013-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</loc>
+    <lastmod>2013-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/faire-sa-promo-facilement/</loc>
+    <lastmod>2013-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</loc>
+    <lastmod>2013-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</loc>
+    <lastmod>2013-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/git-sur-un-nas-synology/</loc>
+    <lastmod>2013-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</loc>
+    <lastmod>2013-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/du-ssh-dans-le-navigateur-chrome/</loc>
+    <lastmod>2013-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/contourner-le-wifi-des-aeroports/</loc>
+    <lastmod>2013-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/consolebundle-pour-symfony2/</loc>
+    <lastmod>2013-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/checkboxes-css3/</loc>
+    <lastmod>2013-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/gites-fr-application-android/</loc>
+    <lastmod>2013-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/couper-une-chaine-tous-les-x-caracteres/</loc>
+    <lastmod>2013-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/turbulenz-leur-moteur-de-jeux-html5-opensource/</loc>
+    <lastmod>2013-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/responsive-design-et-media-queries/</loc>
+    <lastmod>2013-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/lunascape-3-en-1/</loc>
+    <lastmod>2013-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</loc>
+    <lastmod>2013-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/ouverture-du-blog/</loc>
+    <lastmod>2013-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/ajax/</loc>
+    <lastmod>2016-05-26T12:30:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>lemon-cake.github.io/tags/algorithme/</loc>
+    <lastmod>2017-05-17T12:30:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/android/</loc>
+    <lastmod>2016-11-22T12:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/animation/</loc>
+    <lastmod>2014-06-01T12:30:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/api/</loc>
+    <lastmod>2016-12-12T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/articles/</loc>
+    <lastmod>2013-11-26T20:18:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/base-de-donn%C3%A9es/</loc>
+    <lastmod>2017-02-15T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/cours/</loc>
+    <lastmod>2014-04-14T12:30:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/css/</loc>
+    <lastmod>2015-11-03T12:30:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/css3/</loc>
+    <lastmod>2014-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/d%C3%A9veloppement/</loc>
+    <lastmod>2014-04-14T12:30:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/framework/</loc>
+    <lastmod>2017-01-10T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/hors-sujet/</loc>
+    <lastmod>2015-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/html/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/html5/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/information/</loc>
+    <lastmod>2016-12-19T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/ios/</loc>
+    <lastmod>2014-08-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/java/</loc>
+    <lastmod>2014-08-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/javascript/</loc>
+    <lastmod>2017-05-17T12:30:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/jeux/</loc>
+    <lastmod>2015-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/jquery/</loc>
+    <lastmod>2017-05-17T12:30:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/</loc>
     <lastmod>2017-05-18T09:46:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>lemon-cake.github.io/tags/linux/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/logiciel/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/nas/</loc>
+    <lastmod>2015-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/navigateur/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/node.js/</loc>
+    <lastmod>2016-12-20T16:45:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/open-source/</loc>
+    <lastmod>2017-05-17T12:30:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/php/</loc>
+    <lastmod>2017-02-15T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/post/</loc>
     <lastmod>2017-05-18T09:46:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>lemon-cake.github.io/tags/probl%C3%A8me/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/projet/</loc>
+    <lastmod>2014-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/ressources/</loc>
+    <lastmod>2014-01-28T13:00:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/serveur/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/shell/</loc>
+    <lastmod>2015-08-03T12:30:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/sprites/</loc>
+    <lastmod>2014-06-01T12:30:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/sql/</loc>
+    <lastmod>2017-02-15T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/svg/</loc>
+    <lastmod>2014-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/symfony/</loc>
+    <lastmod>2017-01-10T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/synology/</loc>
+    <lastmod>2015-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/s%C3%A9curit%C3%A9/</loc>
+    <lastmod>2017-02-15T12:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/</loc>
+    <lastmod>2016-05-26T12:30:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/tutorial/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/tutoriaux/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/ubuntu/</loc>
+    <lastmod>2017-03-23T17:00:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/windows/</loc>
+    <lastmod>2017-05-13T19:35:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>lemon-cake.github.io/tags/youtube/</loc>
+    <lastmod>2015-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

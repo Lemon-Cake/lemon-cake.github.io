@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/javascript/</link>
+    <description>Recent content in Javascript on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 17 May 2017 12:30:16 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Détecter des visages grâce au Javascript</title>
+      <link>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</link>
+      <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</guid>
+      <description>Le développeur Jay Salvat a développé un plugin jQuery qui permet de détecter les visages sur des images et des vidéos.
+
+Une fois les visages reconnus, le plugin vous retourne un tableau d&amp;rsquo;objets avec les informations suivantes :
+ x - Coordonnée X du visage y - Coordonnée Y du visage width - Largeur du visage height - Hauteur du visage positionX - Position X par rapport au document positionY - Position Y par rapport au document offsetX - Position X par rapport au parent offsetY - Position Y par rapport au parent scaleX - Ratio de la largeur entre l&amp;rsquo;image originale et l&amp;rsquo;image affichée scaleY - Ratio de la hauteur entre l&amp;rsquo;image originale et l&amp;rsquo;image affichée confidence - Niveau de confiance  Pour les informations un peu plus techniques et si vous savez lire le Chinois, le plugin est basé sur l&amp;rsquo;algorithme de Liu Liu.</description>
+    </item>
+    
+    <item>
+      <title>Tester son site sur toutes les versions de Microsoft Internet Explorer</title>
+      <link>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
+      <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
+      <description>Lors de la réalisation d&amp;rsquo;un site Internet, il est important de devoir le rendre compatible avec les navigateurs les plus utilisés et surtout avec Microsoft Internet Explorer. Le problème c&amp;rsquo;est qu&amp;rsquo;il existe plein de versions différentes de ce navigateur. Et dès que vous allez faire une mise à jour Windows, il va installer automatiquement la dernière version. Du coup plutôt que d&amp;rsquo;avoir une batterie d&amp;rsquo;ordinateurs avec toutes les versions d&amp;rsquo;IE qui existe, Microsoft a pensé à nous, petits développeurs web.</description>
+    </item>
+    
+    <item>
+      <title>La CNIL et ses cookies, aussi simple d&#39;une tarte au citron</title>
+      <link>lemon-cake.github.io/post/la-cnil-et-ses-cookies-aussi-simple-d-une-tarte-au-citron/</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/la-cnil-et-ses-cookies-aussi-simple-d-une-tarte-au-citron/</guid>
+      <description>&lt;p&gt;La &lt;strong&gt;CNIL &lt;/strong&gt;(&lt;strong&gt;Commission Nationale de l&amp;#39;Informatique et des Libert&amp;eacute;s&lt;/strong&gt;), a&amp;nbsp;fait passer une directive europ&amp;eacute;enne appel&amp;eacute;e &amp;quot;&lt;strong&gt;paquet t&amp;eacute;l&amp;eacute;com&lt;/strong&gt;&amp;quot;, qui dit que d&amp;egrave;s qu&amp;#39;un utilisateur arrive sur votre site vous devez l&amp;#39;informer que votre site utilise des cookies. Voici une solution tr&amp;egrave;s simple pour notifier l&amp;#39;utilisation &amp;agrave; vos utilisateurs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer une fonction JavaScript avec un callback</title>
+      <link>lemon-cake.github.io/post/creer-une-fonction-javascript-avec-un-callback/</link>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-une-fonction-javascript-avec-un-callback/</guid>
+      <description>&lt;p&gt;Lorsque vous faites de la programmation en &lt;strong&gt;JavaScript&lt;/strong&gt;, vous &amp;eacute;xecutez sans doute des fonctions et des fois vous avez besoin d&amp;#39;une fonction se termine pour appeler une nouvelle fonction. Donc vous avez besoin d&amp;#39;un &lt;strong&gt;callback&lt;/strong&gt;. Voici comment cr&amp;eacute;er un &lt;strong&gt;callback &lt;/strong&gt;en &lt;strong&gt;JavaScript&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blur et masques en SVG</title>
+      <link>lemon-cake.github.io/post/blur-et-masques-en-svg/</link>
+      <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/blur-et-masques-en-svg/</guid>
+      <description>Il existe de plus en plus de site avec le fond de leur site qui est flouté ou d&amp;rsquo;autres qui utilisent des formes complexes pour rendre un peu plus joli leur site. Je me suis donc penché sur sur ces techniques et voici quelques petites astuces pour faire du flou (ou blur en anglais) et pour faire aussi des masques en SVG.
+Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas correctement la demo, c&amp;rsquo;est sans doute car votre navigateur gère mal le SVG.</description>
+    </item>
+    
+    <item>
+      <title>Développez des applications iOS en HTML et JavaScript</title>
+      <link>lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Générer un labyrinthe en JavaScript</title>
+      <link>lemon-cake.github.io/post/generer-un-labyrinthe-en-javascript/</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/generer-un-labyrinthe-en-javascript/</guid>
+      <description>&lt;p&gt;L&amp;#39;avantage d&amp;#39;avoir un ami qui fait une &amp;eacute;cole d&amp;#39;ing&amp;eacute;nieur c&amp;#39;est qu&amp;#39;il nous apprend plein de chose. L&amp;#39;une des choses qu&amp;#39;il nous apprend au est comment g&amp;eacute;n&amp;eacute;rer un labyrinthe en JavaScript gr&amp;acirc;ce aux Canvas.&lt;/p&gt;
+
+
+&lt;p&gt;Mon ami Patataa nous fait d&amp;eacute;couvrir pour &lt;a href=&#34;http://www.lemon-cake.fr/&#34; target=&#34;_blank&#34;&gt;Lemon Cake&lt;/a&gt;&amp;nbsp;diff&amp;eacute;rents algo comme le Growing Tree ou le Recursive Backtracking m&amp;ecirc;me s&amp;#39;ils sont relativement ressemblant.&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Générer des mots de passe aléatoire</title>
+      <link>lemon-cake.github.io/post/generer-des-mots-de-passe-aleatoire/</link>
+      <pubDate>Wed, 16 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/generer-des-mots-de-passe-aleatoire/</guid>
+      <description>&lt;p&gt;Sur mes sites Internet, quand un utilisateur se cr&amp;eacute; un compte, ou s&amp;#39;il perd son mot de passe, je dois lui en renvoyer un. Mais comme ne je suis pas non plus idiot, je le g&amp;eacute;n&amp;egrave;re automatiquement en PHP ou JavaScript, en fonction du contexte. Voici comment les g&amp;eacute;n&amp;eacute;rer&lt;/p&gt;
+
+
+&lt;p&gt;La g&amp;eacute;n&amp;eacute;ration des mots de passes est une chose tr&amp;egrave;s simple, mais plut&amp;ocirc;t que de s&amp;#39;emb&amp;eacute;ter &amp;agrave; programmer le truc, voici 2 fonctions pour le faire.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer des graphiques dynamiques avec Highcharts</title>
+      <link>lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</link>
+      <pubDate>Mon, 14 Apr 2014 12:30:25 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;Highcharts&#34; href=&#34;http://www.highcharts.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Highcharts&lt;/strong&gt;&lt;/a&gt; est un &lt;strong&gt;plugin JavaScript&lt;/strong&gt; gratuit vous permettant de créer facilement des graphiques interactifs. Tous ces graphiques sont réalisés en &lt;strong&gt;SVG&lt;/strong&gt;, qui est un format d’image vectorielle pour le web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Highcharts&lt;/strong&gt; propose deux types de librairies. La première &lt;strong&gt;Highstock&lt;/strong&gt; (pour la bourse par exemple) et la deuxième, celle que nous allons utiliser, &lt;strong&gt;Highcharts&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ajouter du code dans CKEditor</title>
+      <link>lemon-cake.github.io/post/ajouter-du-code-dans-ckeditor/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/ajouter-du-code-dans-ckeditor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humm délire Terrance !</title>
+      <link>lemon-cake.github.io/post/humm-delire-terrance/</link>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/humm-delire-terrance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les fonctions de PHP en JavaScript</title>
+      <link>lemon-cake.github.io/post/les-fonctions-de-php-en-javascript/</link>
+      <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/les-fonctions-de-php-en-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extension Pyload pour Google Chrome</title>
+      <link>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Créer un système de notification en JavaScript</title>
+      <link>lemon-cake.github.io/post/creer-un-systeme-de-notification-en-javascript/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-un-systeme-de-notification-en-javascript/</guid>
+      <description>&lt;p&gt;Peut &amp;ecirc;tre que pour un de vos projets web vous avez l&amp;#39;intention de faire un syst&amp;egrave;me de notifications mais le favicon restait statique ?&amp;nbsp;&lt;span style=&#34;line-height: 1.6em;&#34;&gt;Et bien maintenant vous pourrez le modifier en quelques lignes de JavaScript.&lt;/span&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Avec le plugin &lt;a href=&#34;http://lab.ejci.net/favico.js/&#34; target=&#34;_blank&#34;&gt;favico.js&lt;/a&gt; vous pourrez cr&amp;eacute;er autant de notifications que vous souhaitez.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Une barre de progression à la sauce YouTube</title>
+      <link>lemon-cake.github.io/post/une-barre-de-progression-a-la-sauce-youtube/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/une-barre-de-progression-a-la-sauce-youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Créer une barre de progression incrémentable</title>
+      <link>lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</link>
+      <pubDate>Tue, 25 Feb 2014 12:31:17 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</guid>
+      <description>&lt;p&gt;Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème &amp;ldquo;Mais où en est mon script ?&amp;rdquo;. Et bien voici un petit tutorial simple pour vous apprendre à créer une barre de progression incrémentable très facilement.&lt;/p&gt;
+
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Lors de ce tutorial nous allons créer 2 scripts PHP, l&amp;rsquo;un qui servira à savoir où en est l&amp;rsquo;avancement du script et l&amp;rsquo;autre qui sera le script à écouter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Améliorer votre site avec DareBoost</title>
+      <link>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimiser des scripts Javascript en PHP</title>
+      <link>lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</link>
+      <pubDate>Mon, 06 Jan 2014 14:02:42 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</guid>
+      <description>&lt;p&gt;Je viens de trouver une petite classe PHP qui vous permettra de gagner du temps de chargement sur vos gros scripts Javascript.&lt;/p&gt;
+
+&lt;p&gt;Vous avez déjà vu que lorsque vous télécharger par exemple la bibliothèque JavaScript jQuery vous avez une version *.min.js et une autre ? Et bien c&amp;rsquo;est que celle ci a été minimisé. Et bien je vais vous montrer comment minimiser vous même vos scripts JavaScript.&lt;/p&gt;
+
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+
+&lt;h2&gt;Prérequis&lt;/h2&gt;
+
+&lt;p&gt;Il vous faudra juste télécharger la classe à cette adresse : &lt;a href=&#34;https://github.com/rgrove/jsmin-php&#34;&gt;https://github.com/rgrove/jsmin-php&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explorateur de fichiers</title>
+      <link>lemon-cake.github.io/post/explorateur-de-fichiers/</link>
+      <pubDate>Thu, 12 Dec 2013 15:07:49 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/explorateur-de-fichiers/</guid>
+      <description>&lt;p&gt;Il y a quelques jours je vous parlais d&amp;rsquo;un petit plugin sympa pour parcourir un dossier et ses sous-dossiers. Le système est très pratique mais je me suis aperçu qu&amp;rsquo;il comportait une grosse faille de sécurité. En effet, il suffisait de faire une petite injection JavaScript via la console du navigateur et vous aviez accès aux dossiers que vous n&amp;rsquo;auriez jamais pu voir.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer des cookies avec du JavaScript</title>
+      <link>lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/</link>
+      <pubDate>Fri, 29 Nov 2013 11:30:46 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/</guid>
+      <description>&lt;p&gt;Un cookie en informatique est un ensemble de fichiers qui sont stockés sur votre ordinateur afin de charger plus facilement des informations. Ainsi grâce à eux, vous pouvez rester connecté à un site même après plusieurs jours sans y être venu. Et oui car la plupart du temps quand vous cocher la petite case &amp;ldquo;Se souvenir de moi&amp;rdquo;, le script de connexion va créer des cookies pour vous reconnaître plus facilement. Le système de panier sur les sites de e-commerce fonctionnent sur le même principe.&lt;/p&gt;
+
+&lt;p&gt;Des fois il se peut que vous reveniez sur un site plusieurs jours après mais vous n&amp;rsquo;êtes pas reconnu, car les cookies pour des raisons de sécurités ont une date d&amp;rsquo;expiration qui est modifiable.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Parcourez des dossiers facilement avec jQuery</title>
+      <link>lemon-cake.github.io/post/parcourez-des-dossiers-facilement-avec-jquery/</link>
+      <pubDate>Fri, 22 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/parcourez-des-dossiers-facilement-avec-jquery/</guid>
+      <description>&lt;p&gt;Si vous chercher une m&amp;eacute;thode facile, efficace et jolie de parcourir vos dossiers pour un site Internet sans devoir conna&amp;icirc;tre une seule ligne de PHP je vous conseil le plugin &lt;a href=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34; target=&#34;_blank&#34; title=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34;&gt;jQuery File Tree&lt;/a&gt;&amp;nbsp;qui est tr&amp;egrave;s simple &amp;agrave; mettre en place.&lt;/p&gt;
+
+
+&lt;p&gt;Et voil&amp;agrave; vous avez un syst&amp;egrave;me complet qui vous permettera d&amp;#39;afficher le dossier que vous souhaitez.&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explorez vos dossiers avec Apaxy</title>
+      <link>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</link>
+      <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piwik, une alternative à Google Analytics</title>
+      <link>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SourceTree, mergez sous Windows et Mac</title>
+      <link>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
+
+
+&lt;p&gt;Comme vous pouvez le voir sur l&amp;#39;image de t&amp;ecirc;te vous avez acc&amp;egrave;s aux diff&amp;eacute;rentes branches des projets, vous pouvez laissez des commentaires sur ces branches ...&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Couper une chaîne tous les X caractères</title>
+      <link>lemon-cake.github.io/post/couper-une-chaine-tous-les-x-caracteres/</link>
+      <pubDate>Tue, 11 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/couper-une-chaine-tous-les-x-caracteres/</guid>
+      <description>&lt;p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Codiad, la programmation dans les nuages</title>
+      <link>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</guid>
+      <description>&lt;p&gt;En tant que programmeur vous avez d&amp;ucirc;t &amp;ecirc;tre confront&amp;eacute; &amp;agrave; ce probl&amp;egrave;me au travail, (enfin pour ma part c&amp;#39;est le cas), d&amp;#39;avoir un peu de temps libre et vouloir programmer quelque chose. Mais soit vous n&amp;#39;avez pas vous sources sur vous, soit vous un &amp;ecirc;tes un aficionado de l&amp;#39;&amp;eacute;diteur de texte libre Sublime Text et forc&amp;eacute;ment vous ne l&amp;#39;avez pas sur la machine et vous ne voulez pas programmer sous DreamWeaver ou Notepad++.&amp;nbsp;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;zoombox zgallery1&#34; href=&#34;https://www.babeuloula.fr/mages/codiad.png&#34;&gt;&lt;img alt=&#34;L&#39;interface&#34; src=&#34;https://www.babeuloula.fr/images/codiad.png&#34; style=&#34;display:block; height:344px; margin-left:auto; margin-right:auto; width:500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

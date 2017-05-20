@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/windows/</link>
+    <description>Recent content in Windows on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 13 May 2017 19:35:07 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tester son site sur toutes les versions de Microsoft Internet Explorer</title>
+      <link>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
+      <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
+      <description>Lors de la réalisation d&amp;rsquo;un site Internet, il est important de devoir le rendre compatible avec les navigateurs les plus utilisés et surtout avec Microsoft Internet Explorer. Le problème c&amp;rsquo;est qu&amp;rsquo;il existe plein de versions différentes de ce navigateur. Et dès que vous allez faire une mise à jour Windows, il va installer automatiquement la dernière version. Du coup plutôt que d&amp;rsquo;avoir une batterie d&amp;rsquo;ordinateurs avec toutes les versions d&amp;rsquo;IE qui existe, Microsoft a pensé à nous, petits développeurs web.</description>
+    </item>
+    
+    <item>
+      <title>Comment fonctionne la compression Gzip</title>
+      <link>lemon-cake.github.io/post/comment-fonctionne-la-compression-gzip/</link>
+      <pubDate>Mon, 19 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/comment-fonctionne-la-compression-gzip/</guid>
+      <description>Vous avez tous déjà compressé des fichiers, soit pour gagner de la place soit pour un envoi. Mais savez-vous vraiment comment elle fonctionne ?
+Lors de la KiwiParty de 2012 organisé par Alsacréations, une agence web basée à Strasbourg, Frédéric Kayser est intervenu avec une conférence sur Images : état de l&amp;rsquo;art et aspects méconnus qui parlait de la compression des images.
+Et un peu plus tard, après cette conférence, il est revenu plus en détails sur le fonctionnement de la compression Gzip.</description>
+    </item>
+    
+    <item>
+      <title>Installer HTTPie sur Windows et Linux</title>
+      <link>lemon-cake.github.io/post/installer-httpie-sur-windows-et-linux/</link>
+      <pubDate>Mon, 12 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/installer-httpie-sur-windows-et-linux/</guid>
+      <description>HTTPie, que l&amp;rsquo;on prononce aitch-tee-tee-pie, est une librairie pour Mac qui permet de taper des requêtes HTTP directement en lignes de commandes. Elle a été créée par Jakub Roztocil un développeur installé à Londres.
+Cela est assez pratique si on doit tester une API ou une URL rapidement sans utiliser un logiciel ou autre.
+Normalement, quand vous souhaitez envoyer une requête HTTP en ligne de commande, vous passez sans doute par cURL avec une commande de ce genre là :</description>
+    </item>
+    
+    <item>
+      <title>Résoudre &#34;Impossible d’ouvrir l’application avec le compte Administrateur intégré&#34;</title>
+      <link>lemon-cake.github.io/post/resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre/</link>
+      <pubDate>Mon, 07 Nov 2016 12:15:32 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre/</guid>
+      <description>J&amp;rsquo;ai récement fais l&amp;rsquo;acquisition de Gears Of War 4 sur ma console Xbox One et j&amp;rsquo;ai voulu bénéficier de la nouvelle foncitonnalité proposé par Microsoft, j&amp;rsquo;ai nommé Play Everywhere. Ce système permet de jouer à un jeu sorti sur Xbox One sur votre PC et inversement.
+Le problème c&amp;rsquo;est qu&amp;rsquo;au lancement de l&amp;rsquo;application Xbox (ou toute autre application proposé par le Windows Store), j&amp;rsquo;avais ce message d&amp;rsquo;erreur :
+
+Voici comment résoudre le soucis, très faiclement.</description>
+    </item>
+    
+    <item>
+      <title>Migrer gratuitement de Windows 7 à Windows 10 même après la fin de la mise à jour gratuite</title>
+      <link>lemon-cake.github.io/post/migrer-de-windows-7-a-windows-10-meme-apres-la-fin-de-la-mise-a-jour-gratuite/</link>
+      <pubDate>Fri, 28 Oct 2016 11:45:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/migrer-de-windows-7-a-windows-10-meme-apres-la-fin-de-la-mise-a-jour-gratuite/</guid>
+      <description>Je suis passé à Windows 10 lorsque Microsoft à proposé de faire la mise à jour gratuite. Le problème c&amp;rsquo;est que comme n&amp;rsquo;importe quel Windows, au bout d&amp;rsquo;un certains temps, il est bon de réinstaller son système pour palier à divers problèmes comme des lenteurs, ou des BSoD (Blue Screen of Death).
+Malheureusement depuis le mois de Juillet 2016, la mise à jour gratuite est terminée et il est donc impossible de passer à Windows 10 gratuitement.</description>
+    </item>
+    
+    <item>
+      <title>Visualiser les photos Windows 10 dans l&#39;ordre d&#39;affichage</title>
+      <link>lemon-cake.github.io/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/</link>
+      <pubDate>Tue, 20 Sep 2016 12:15:41 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/</guid>
+      <description>Quand Windows 10 est sorti j&amp;rsquo;ai voulu tester sur mon PC portable où je fais des tests dessus et je me suis aperçu d&amp;rsquo;un soucis assez génant concernant l&amp;rsquo;affichage des photos.
+J&amp;rsquo;ai voulu faire une recherche dans mes photos de famille et je voulais regarder les photos via la Visionneuse de photos Windows (Windows Photo Viewer pour les intimes) et à ma grande surprise, lorsque je regardais ces photos, j&amp;rsquo;arrivais à visualiser des photos qui n&amp;rsquo;étaient pas du tout issues de la recherche mais du dossier où était contenu la photo que je visualisais.</description>
+    </item>
+    
+    <item>
+      <title>Renommer le dossier d&#39;un compte utilisateur sous Windows 7</title>
+      <link>lemon-cake.github.io/post/renommer-le-dossier-d-un-compte-utilisateur-sous-windows-7/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/renommer-le-dossier-d-un-compte-utilisateur-sous-windows-7/</guid>
+      <description>&lt;p&gt;J&amp;#39;ai eu le probl&amp;egrave;me ce matin o&amp;ugrave; une &lt;strong&gt;application refusait de se lancer&lt;/strong&gt; car j&amp;#39;ai des &lt;strong&gt;accents dans mon nom de session&lt;/strong&gt;. Et oui je m&amp;#39;appelle &lt;strong&gt;J&amp;eacute;r&amp;eacute;my&lt;/strong&gt; et j&amp;#39;ai &amp;eacute;cris la session pareil. Si jamais vous avez le m&amp;ecirc;me soucis, voici comment renommer le dossier d&amp;#39;un compte utilisateur sous Windows 7, voici la solution&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

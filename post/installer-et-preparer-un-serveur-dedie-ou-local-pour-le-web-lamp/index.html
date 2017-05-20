@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Installer et préparer un serveur dédié ou local pour le web (LAMP) &middot;  Lemon Cake" />
+        <meta property="og:site_name" content="Lemon Cake" />
+        <meta property="og:url" content="lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2014-02-18T12:30:05Z" />
+        <meta property="og:article:tag" content="Serveur" />
+        <meta property="og:article:tag" content="Tutoriaux" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="Installer et préparer un serveur dédié ou local pour le web (LAMP)" />
+        <meta name="twitter:description" content="Vous avez besoin d&#39;un serveur Web (LAMP) pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ?" />
+        <meta name="twitter:url" content="lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/" />
+    
+
+        <title> Installer et préparer un serveur dédié ou local pour le web (LAMP) &middot;  Lemon Cake</title>
+
+        <link rel="preload" href="lemon-cake.github.io/js/main.js" as="script" />
+        <link rel="preload" href="lemon-cake.github.io/css/main.css" as="style" />
+
+    
+        <meta name="description" content="Vous avez besoin d&#39;un serveur Web (LAMP) pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ?" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="lemon-cake.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Lemon Cake" />
+    
+
+    
+        <link rel="canonical" href="lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/"
+        },
+        "headline": "Installer et préparer un serveur dédié ou local pour le web (LAMP)",
+        "description": "Vous avez besoin d&#39;un serveur Web (LAMP) pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ?",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "lemon-cake.github.io/",
+          "name": "Lemon Cake",
+          "url": "lemon-cake.github.io/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.babeuloula.fr/images/blog/head/matrix.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2014-02-18",
+        "dateModified": "2014-02-18",
+        "wordCount": 1791,
+        "keywords": ["Serveur","Tutoriaux"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "lemon-cake.github.io\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face{font-family:'icons';src:url(lemon-cake.github.io//fonts/icons.eot?9273991);src:url(lemon-cake.github.io//fonts/icons.eot?9273991#iefix) format("embedded-opentype"),url(lemon-cake.github.io//fonts/icons.woff?9273991) format("woff"),url(lemon-cake.github.io//fonts/icons.ttf?9273991) format("truetype"),url(lemon-cake.github.io//fonts/icons.svg?9273991#icons) format("svg");font-weight:400;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #36D995}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #36D995}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#36D995}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #36D995;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#2DB77E}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #36D995;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#36D995;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#2DB77E;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+              <a href="lemon-cake.github.io/">
+      			  
+              </a>
+            </div>
+            <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
+                
+                
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+	<article class="post">
+		<div class="inner">
+
+			<div id="push">
+
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">18/02/2014</span> <span class="reading-time">| <span class="estimated-reading-time">9 min.</span> (<span class="word-count">1791</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">Installer et préparer un serveur dédié ou local pour le web (LAMP)</h1>
+  			</header>
+
+  			<section class="post-content">
+  				<p>Vous avez besoin chez vous ou à distance d&rsquo;avoir un serveur Web pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ? Vous voulez avoir la main sur tout et ne pas être bridé ?</p>
+
+<p>Voici la marche à suivre pour installer un serveur LAMP (Linux Apache MySQL PHP) le tout en vidéos.</p>
+
+<div class="read-more"></div>
+
+<p>Je vais essayer à travers ce tuto de vous expliquer pas à pas comment installer un serveur web. Par contre je conseil quand même d&rsquo;avoir une petite connaissance des commandes Linux pour ne pas être perdu et en cas de pépins pouvoir résoudre les soucis.</p>
+
+<p>Mais ne vous inquiétez pas si jamais vous avez des soucis lors du tuto, posez vos questions dans les commentaires et je vous répondrez (si j&rsquo;ai la solution).</p>
+
+<h1>Prérequis</h1>
+
+<p>Pour suivre ce tuto vous allez avoir besoin des logiciels suivants :</p>
+
+<ul>
+    <li>Un Linux, peu importe lequel, mais de préférence un sans interface graphique afin de gagner en puissance. Pour ce tuto je vais utiliser <a title="Ubuntu Server" href="http://www.ubuntu.com/download/server" target="_blank">Ubuntu Server</a> 12.04 64bits mais vous pouvez aussi prendre un <a title="Debian" href="https://www.debian.org/index.fr.html">Debian</a> ou <a title="CentOS" href="http://www.centos.org/" target="_blank">CentOS</a></li>
+    <li><a title="PuTTY" href="http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe" target="_blank">PuTTY</a> pour les utilisateurs Windows, pour les Mac et Linux le terminal fonctionne très bien</li>
+    <li>Un ordinateur pouvant être utilisé comme serveur. Si vous prenez un dédié chez OVH ou autre, la distribution se fait lors de la commande du serveur</li>
+    <li>De la patience, de la rigueur et de bons doigts car tout va se faire en lignes de commandes</li>
+</ul>
+
+<p>Je vous passe les détails d&rsquo;installation du Linux car si vous prenez un dédié la distribution sera installée automatiquement et si vous le faites à la main, ce n&rsquo;est pas très dur. Gravez, installez et c&rsquo;est fini. Sachant que si vous installez vous même le serveur, un utilisateur différent du <em>root</em> sera créé. Si vous passez par un hébergeur web, il y a de grandes chances que vous n&rsquo;ayez que le <em>root</em>. Ce n&rsquo;est pas grave en soit, mais pensez juste à mettre un mot de passe assez complexe.</p>
+
+<p>Pour changer votre mot de passe tapez ceci sans spécifier le nom de l&rsquo;utilisateur :</p>
+
+<p>[shell]
+passwd
+[/shell]</p>
+
+<p>Je vais utiliser pour ma part un Ubuntu Server 12.04 en machine virtuelle. Cela sera plus simple pour faire les vidéos. Je vous dé-conseil, même pour un serveur local de l&rsquo;émuler, votre serveur va ramer fortement.</p>
+
+<h1>Connexion au serveur</h1>
+
+<p>La connexion au serveur va se faire via Secure Shell ou SSH qui est un protocole de connexion sécurisé, comme cela vous n&rsquo;avez aucunes craintes.</p>
+
+<h2>Windows</h2>
+
+<p>Première chose à faire avec PuTTY c&rsquo;est créer changer le système d&rsquo;encodage de l&rsquo;affichage pour éviter les artefacts :</p>
+
+<ul>
+    <li>Window</li>
+    <li>Translation</li>
+    <li>Et sélectionnez dans le menu déroulant : UTF-8</li>
+</ul>
+
+<p>Revenez dans l&rsquo;onglet Session, et renseignez :</p>
+
+<ul>
+    <li><em>Host Name</em> : nomUtilisateur@IP_du_serveur</li>
+    <li><em>Port</em> : 22</li>
+    <li><em>Connection type</em> : SSH</li>
+</ul>
+
+<p>Donnez un nom à votre session, cliquez sur <em>Save</em>. Pour les prochaines connexions, vous aurez juste à cliquer sur le nom de votre session puis <em>Load</em>.</p>
+
+<p style="text-align: center;"><strong><em><a href="//babeuloula.fr/images/lemoncake/putty.png"><img class="alignnone size-medium wp-image-461" src="//babeuloula.fr/images/lemoncake/putty.png" alt="putty" width="300" height="288" /></a></em></strong></p>
+
+<p>Et pour vous connecter cliquez sur <em>Open</em>.</p>
+
+<p>Une nouvelle fenêtre s&rsquo;ouvre. PuTTY se connecte au serveur.</p>
+
+<h2>Linux et Mac</h2>
+
+<p>Ouvrez le terminal et tapez :</p>
+
+<p>[shell]
+ssh nomUtilisateur@IP_du_serveur
+[/shell]</p>
+
+<p>La connexion se fait, bien plus simple que pour les Windowsiens.</p>
+
+<p>Maintenant que vous êtes connecté au serveur, rentez votre mot de passe. Je vous avertis tout de suite, lorsque vous allez taper votre mot de passe, il n&rsquo;y aura pas d&rsquo;indication sur les caractères tapés. Si vous faites une erreur, validez et recommencez dès qu&rsquo;il vous redonnera la main.</p>
+
+<h1>Installation des modules principaux</h1>
+
+<p>Nous allons passer maintenant à la partie la plus longue.</p>
+
+<p>Commençons par mettre à jour nos différents paquets et repositories (dépôt, c&rsquo;est là où sont stocké la plupart des logiciels).</p>
+
+<p>La première fois que vous allez rentrer la commande <em>sudo</em> vous allez devoir rentrer votre mot de passe.</p>
+
+<p>[shell]
+sudo apt-get update
+sudo apt-get upgrade
+[/shell]</p>
+
+<p>Les paquets (ou logiciels) qui vont être installés sont :</p>
+
+<ul>
+    <li>apache2 : Installera un serveur Apache, qui est le serveur HTTP qui est la base pour fonctionner</li>
+    <li>php5 : Installera PHP5 avec sa dernière version</li>
+    <li>libapache2-mod-php5 : Librairie qui permet de lier apache et php</li>
+    <li>mysql-server : Installera MySQL pour les bases de données</li>
+    <li>php5-mysql : Librairie qui fait le lien entre PHP5 et MySQL</li>
+</ul>
+
+<p>Nous allons lancer l&rsquo;installation de tous les paquets d&rsquo;un coup comme cela les dépendances s&rsquo;installerons en même temps et donc correctement. Mais vous pouvez les installer les unes après les autres, normalement les dépendances doivent s’installer en même temps mais par sécurités &hellip;</p>
+
+<p>[shell]
+sudo apt-get install apache2 php5 mysql-server libapache2-mod-php5 php5-mysql
+[/shell]</p>
+
+<p>Apache et PHP ne nécessitent pas de paramétrage, par contre MySQL vous demandera d&rsquo;être très attentif pour ne pas devoir tout refaire du début.</p>
+
+<p>Si c&rsquo;est pour un serveur local, qui ne sera jamais visible de l’extérieur, je vous conseille de mettre <em>root</em> en utilisateur et <em>root</em> en mot de passe. Ne laissez pas le champ vide sinon cela va créer des erreurs.</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/G-BmjIHCvxw?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<p>Une fois tous les paquets installés, essayez de taper dans votre navigateur : <a href="http://ip_du_serveur/">http://ip_du_serveur/</a></p>
+
+<p>Si tout a fonctionné correctement vous devriez avoir le beau message : &ldquo;It works!&rdquo;.</p>
+
+<h1>Installation de PHPMyAdmin</h1>
+
+<p>Afin de gérer plus facilement nos bases de données je vous propose d&rsquo;installer PHPMyAdmin</p>
+
+<p>[shell]
+sudo apt-get install phpmyadmin
+[/shell]</p>
+
+<p>Il va vous demander de sélectionner le serveur web à reconfigurer. Vous avez le choix entre <em>apache2</em> et <em>lighttpd</em>. Comme nous avons installé <em>apache2</em>, nous allons donc reconfigurer <em>apache2</em>. Pour se sélectionner vous devez appuyer sur la touche <em>Espace</em>, puis <em>Tabulation</em> pour aller sur le bouton <em>OK</em>.</p>
+
+<p>Pour fonctionner PHPMyAdmin a besoin d&rsquo;une base de données. Il va vous demander si vous souhaitez faire cette installation manuellement (difficile), ou si vous souhaitez que <em>dbconfig-common</em> s&rsquo;en charge pour vous (recommandé). N&rsquo;étant pas un expert là-dedans, je préfère vous recommander la deuxième solution.</p>
+
+<p>Indiquez le mot de passe créé lors de l&rsquo;installation de LAMP, chez moi <em>root</em>.</p>
+
+<p>Indiquez un mot de passe pour l&rsquo;utilisateur PHPMyAdmin, je vous conseille de mettre le même. Celui si servira à créer les utilisateurs si vous êtes plusieurs à utiliser ce serveur et que vous ne voulez pas que vos utilisateurs aient accès aux bases de données des autres.</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/ZneQ8B46nCw?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<p>Une fois l&rsquo;installation terminée, tapez dans votre navigateur : <a href="http://ip_du_serveur/phpmyadmin/">http://ip_du_serveur/phpmyadmin/</a></p>
+
+<p>Connectez-vous avec le login et mot de passe que vous avez saisie lors de l&rsquo;installation de MySQL.</p>
+
+<p>Si vous perdez le mot de passe de cet utilisateur faites la commande ci-dessous et modifier le mot de passe. Vous pouvez aussi modifier le nom de l&rsquo;utilisateur :</p>
+
+<p>[shell]
+sudo nano /etc/dbconfig-common/phpmyadmin.conf
+sudo reboot
+[/shell]</p>
+
+<h1 style="text-align: left;">Vérification des modules web installés</h1>
+
+<p>Pour vérifier facilement les modules web installés, nous allons créer un  fichier php, que vous mettrez à la racine de votre serveur web.</p>
+
+<p>Pour cela nous allons d&rsquo;abord nous placer dans le dossier du serveur puis grâce à <em>nano</em>, l&rsquo;éditeur de texte en ligne commande nous allons créer le fichier</p>
+
+<p>[shell]
+cd /var/www/sudo nano phpinfo.php
+[/shell]</p>
+
+<p>Ecrivez dans le fichier :</p>
+
+<p>[php]
+&lt;?php phpinfo(); ?&gt;
+[/php]</p>
+
+<p>Pour sauvegarder faites CTRL+O pour écrire le fichier sur le serveur, puis CTRL+X pour fermer <em>nano</em>.</p>
+
+<p>Allez maintenant  avec votre navigateur : <a href="http://ip_du_serveur/phpinfo.php">http://ip_du_serveur/phpinfo.php</a> et vérifier que tout est bien installé, y compris PDO qui est le système de connexion aux bases de données sécurisé.</p>
+
+<h1>Installation d'un serveur mail</h1>
+
+<p>Si vous utilisez votre serveur pour héberger un site ou plusieurs, vous avez sans doute envie d&rsquo;avoir des adresses emails <em>moi@monsite.fr</em> ? Nous allons créer l&rsquo;adresse email suivante : lemon-cake@tuto-lamp.fr ainsi qu&rsquo;un alias lemoncake@tuto-lamp.fr</p>
+
+<p>Cette partie n&rsquo;est très pas complexe d&rsquo;autant que sur la plupart des serveurs web que vous achèterez chez un tiers,  ceci sera préinstallé. Mais il est bon de la connaitre au cas où &hellip;</p>
+
+<p>Pour se faire nous allons utiliser <em>Postfix</em>, qui est un serveur d&rsquo;envoi (SMTP) libre. Son avantage est qu&rsquo;il est plus sécurisé que <em>Sendmail </em>et supporte l&rsquo;IPv6.</p>
+
+<p>[shell]
+sudo apt-get install postfix
+[/shell]</p>
+
+<p>Sélectionnez &ldquo;Pas de configuration&rdquo;. Nous ferons la configuration plus tard.</p>
+
+<p>Nous allons maintenant installer un serveur IMAP qui lui est le serveur d&rsquo;envoi :</p>
+
+<p>[shell]
+sudo apt-get install dovecot-imapd
+[/shell]</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/dKIin0eBTqg?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<h1>Paramétrage de Postfix</h1>
+
+<p>Le paramétrage est assez simple.</p>
+
+<p>[shell]
+sudo dpkg-reconfigure postfix
+[/shell]</p>
+
+<p>Il va vous demander la configuration que vous souhaitez :</p>
+
+<ul>
+    <li>Type de serveur : Site Internet</li>
+    <li>Nom du courrier : tuto-lamp.fr</li>
+    <li>Destinataire des courriers de root (c'est à dire l'admin du serveur) : admin</li>
+    <li>Autres destinations : par défaut</li>
+    <li>Mises à jour synchronisées : non</li>
+    <li>Réseaux internes : par défaut</li>
+    <li>Taille max BAL : 0</li>
+    <li>Caractère d'extention : *</li>
+    <li>Protocoles : tous</li>
+</ul>
+
+<p>Par défaut, Postfix va utiliser le format de stockage Mailbox qui va créer des répertoires correspondant aux boites mails dans /home/. Or, nous ne souhaitons pas utiliser ceci, nous allons donc lui dire d&rsquo;utiliser Maildir</p>
+
+<p>[shell]
+sudo nano /etc/postfix/main.cf
+[/shell]</p>
+
+<p>Tout en bas du fichier ajoutez la ligne :</p>
+
+<p>[shell]
+home_mailbox = Maildir/
+[/shell]</p>
+
+<p>Pour appliquer les changements il faut redémarrer le service Postfix</p>
+
+<p>[shell]
+sudo service postfix restart
+[/shell]</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/TxrB86jOUl8?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<h1>Paramétrage du serveur IMAP</h1>
+
+<p>Par défaut lors de l&rsquo;installation de Dovecot, IMAP + SSL et comme juste avant nous avons configuré Postfix avec Maildir, il faut lui indiquer de l&rsquo;utiliser</p>
+
+<p>[shell]
+sudo nano /etc/dovecot/conf.d/10-mail.conf
+[/shell]</p>
+
+<p>Et commentez/décommentez avec <em>#</em> (suivant les cas) la ligne suivante :</p>
+
+<p>[shell]
+mail_location = maildir:~/Maildir
+[/shell]</p>
+
+<p>Et on relance le service pour appliquer les changements :</p>
+
+<p>[shell]
+sudo service dovecot restart
+[/shell]</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/W-5TCvuTvYs?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<h1>Création de la boite emails</h1>
+
+<p>Lors de la configuration de Postfix, nous avions juste créé la boite mail de l&rsquo;admin. Maintenant si nous voulons avoir notre propre adresse email il faut la créer.</p>
+
+<p>Tout d&rsquo;abord il faut créer le compte utilisateur :</p>
+
+<p>[shell]
+sudo useradd -m lemon-cake
+sudo passwd lemon-cake
+[/shell]</p>
+
+<p>Et comme des fois les gens ne savent pas écrire des adresses emails, je vous conseille de créer un alias. C&rsquo;est une autre adresse email qui sera redirigé vers la bonne. Ainsi si la personne envoi un mail à <em>lemoncake@tuto-lamp.fr</em>, l&rsquo;mail ira directement à <em>lemon-cake@tuto-lamp.fr</em>.</p>
+
+<p>[shell]
+sudo nano /etc/aliases
+[/shell]</p>
+
+<p>Ajoutez en bas du fichier :</p>
+
+<p>[shell]
+lemoncake: lemon-cake
+[/shell]</p>
+
+<p>La syntaxe est toujours <em>utilisateurARediriger: utilisateurPrincipal</em></p>
+
+<p>Il faut maintenant valider cet alias et recharger Postfix</p>
+
+<p>[shell]
+sudo newaliases
+sudo service postfix reload
+[/shell]</p>
+
+<iframe src="//www.youtube-nocookie.com/embed/POzuqkS-IZI?rel=0" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<h1>Conclusion</h1>
+
+<p>Voilà la configuration de votre serveur est terminé. Vous pouvez maintenant vous connecter avec FileZilla et les identifiants de connexion PuTTY, en SFTP sur le port 22. Mettez les fichiers dans /var/www/</p>
+
+<p>Si vous avez des soucis de droits d&rsquo;accès à ce dossier faites :</p>
+
+<p>[shell]
+sudo chown NOM_UTILISATEUR /var/www/
+[/shell]</p>
+
+<p>Pour ce qui est des adresses emails, vous avez juste paramétrer :</p>
+
+<ul>
+    <li>SMTP : smtp.tuto-lamp.fr</li>
+    <li>IMAP : imap.tuto-lamp.fr</li>
+</ul>
+
+<p>Si vous avez besoin de plus d&rsquo;options ou si vous ne voulez pas à chaque fois passez en ligne de commande pour créer des adresses emails, je vous conseil <a title="iRedMail" href="http://www.iredmail.org/" target="_blank">iRedMail</a> qui est un autre serveur mail</p>
+
+<h2 id="démo">Démo</h2>
+
+<p>2016-08-30 19:46:40</p>
+
+<h2 id="source">Source</h2>
+
+<p><a href="http://lemon-cake.fr/?p=447">http://lemon-cake.fr/?p=447</a></p>
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="lemon-cake.github.io//tags/serveur/">Serveur</a>
+            
+                <a href="lemon-cake.github.io//tags/tutoriaux/">Tutoriaux</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=Installer%20et%20pr%c3%a9parer%20un%20serveur%20d%c3%a9di%c3%a9%20ou%20local%20pour%20le%20web%20%28LAMP%29&url=lemon-cake.github.io%2fpost%2finstaller-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=lemon-cake.github.io%2fpost%2finstaller-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=lemon-cake.github.io%2fpost%2finstaller-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
+			</div>
+
+			<nav class="post-nav">
+				
+					<a class="post-nav-item post-nav-next" href="lemon-cake.github.io/post/reouverture-du-blog/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Réouverture du blog</h4>
+								<p class="post-nav-excerpt">&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				
+					<a class="post-nav-item post-nav-prev" href="lemon-cake.github.io/post/connexion-pdo-mysql/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Connexion à PDO MySQL</h4>
+								<p class="post-nav-excerpt">PDO ou PHP Data Objects est une classe PHP permettant de se connecter à une base de donnée&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
+
+		</div>
+	</article>
+</main>
+
+				<div id="body-class" style="display: none;"></div>
+				<footer id="footer">
+					<section class="credits">
+						<span class="credits-theme">A forked FR theme of <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
+					</section>
+				</footer>
+				
+				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#démo">Démo</a></li>
+<li><a href="#source">Source</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+				<div class="overlay"></div>
+			</div>
+		</section>
+
+    <script async src="lemon-cake.github.io/js/main.js"></script>
+
+
+
+
+  <noscript><link rel="stylesheet" href="lemon-cake.github.io/css/main.css"></noscript>
+</body>
+</html>
+

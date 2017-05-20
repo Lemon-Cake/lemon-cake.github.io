@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/open-source/</link>
+    <description>Recent content in Open Source on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 17 May 2017 12:30:16 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Détecter des visages grâce au Javascript</title>
+      <link>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</link>
+      <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</guid>
+      <description>Le développeur Jay Salvat a développé un plugin jQuery qui permet de détecter les visages sur des images et des vidéos.
+
+Une fois les visages reconnus, le plugin vous retourne un tableau d&amp;rsquo;objets avec les informations suivantes :
+ x - Coordonnée X du visage y - Coordonnée Y du visage width - Largeur du visage height - Hauteur du visage positionX - Position X par rapport au document positionY - Position Y par rapport au document offsetX - Position X par rapport au parent offsetY - Position Y par rapport au parent scaleX - Ratio de la largeur entre l&amp;rsquo;image originale et l&amp;rsquo;image affichée scaleY - Ratio de la hauteur entre l&amp;rsquo;image originale et l&amp;rsquo;image affichée confidence - Niveau de confiance  Pour les informations un peu plus techniques et si vous savez lire le Chinois, le plugin est basé sur l&amp;rsquo;algorithme de Liu Liu.</description>
+    </item>
+    
+    <item>
+      <title>Chronologie des distributions GNU/Linux</title>
+      <link>lemon-cake.github.io/post/gnu-linux-distribution-timeline/</link>
+      <pubDate>Tue, 25 Oct 2016 12:30:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/gnu-linux-distribution-timeline/</guid>
+      <description>GNU/Linux ou Linux est un système d&amp;rsquo;exploitation créé en 1991 par Linus Torvalds qui remplace le précédent noyau GNU fondé en 1984 par Richard Stallman.
+Depuis cette date, il existe une multitude de déclinaisons (ou fork) ou distributions. Et pour illustrer toutes ces distributions, José Alex Sandoval, aidé par d&amp;rsquo;autres personnes (Andreas Lundqvist, Donjan Rodic, Mohammed A. Mustafa, Aleksandar Urošević) ont décidés de créer la GNU/Linux Distribution Timeline.
+On y retrouve toutes (sauf oubli) les distributions, comme les plus connues Debian, Ubuntu, RedHat, CentOS ou encore Fedora.</description>
+    </item>
+    
+  </channel>
+</rss>

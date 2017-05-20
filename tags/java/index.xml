@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/java/</link>
+    <description>Recent content in Java on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 21 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Payez en ligne simplement avec Stripe</title>
+      <link>lemon-cake.github.io/post/payez-en-ligne-simplement-avec-stripe/</link>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/payez-en-ligne-simplement-avec-stripe/</guid>
+      <description>&lt;p&gt;La derni&amp;egrave;re fois que j&amp;#39;ai programm&amp;eacute; un site de vente en ligne, j&amp;#39;ai d&amp;ucirc; utiliser Paypal car le client ne voulait pas utiliser le syst&amp;egrave;me de sa banque. Vous allez dire que c&amp;#39;est cool car l&amp;#39;API de Paypal est simple. Le seul souci&amp;nbsp;c&amp;#39;est que pour payer on est forc&amp;eacute;ment redirig&amp;eacute; vers leur site Internet.&amp;nbsp;Et bien gr&amp;acirc;ce &amp;agrave;&amp;nbsp;&lt;a href=&#34;https://stripe.com/fr&#34; target=&#34;_blank&#34;&gt;Stripe&lt;/a&gt;&amp;nbsp;vous pourrez cr&amp;eacute;er votre propre page de paiement avec vos petits doigts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La téléportation à portée de tous</title>
+      <link>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</guid>
+      <description>&lt;p&gt;Vous avez toujours voulu vous d&amp;eacute;placer aux quatres coins du monde mais il faut payer et c&amp;#39;est souvent tr&amp;egrave;s long ? Et bien gr&amp;acirc;ce &amp;agrave; la premi&amp;egrave;re et unique application gratuite de t&amp;eacute;l&amp;eacute;portation, ce r&amp;ecirc;ve est maintenant r&amp;eacute;alit&amp;eacute; :&amp;nbsp;&lt;a href=&#34;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&#34; target=&#34;_blank&#34; title=&#34;Teleport v2&#34;&gt;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Bon aller fini de rigoler, cette applicaiton n&amp;#39;est qu&amp;#39;un bon gros troll, mais elle m&amp;#39;a permis de mettre en pratique les quelques heures de programmation Android que j&amp;#39;ai eu lors de ma licence pro &amp;agrave; Vichy. La premi&amp;egrave;re version &amp;agrave; &amp;eacute;t&amp;eacute; publi&amp;eacute; le 16 Janvier 2013 et ne permettait pas grand chose. Et maintenant avec la v2, j&amp;#39;ai ajout&amp;eacute; plusieurs petites choses. Je vous laisse lire le changelog :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SourceTree, mergez sous Windows et Mac</title>
+      <link>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
+
+
+&lt;p&gt;Comme vous pouvez le voir sur l&amp;#39;image de t&amp;ecirc;te vous avez acc&amp;egrave;s aux diff&amp;eacute;rentes branches des projets, vous pouvez laissez des commentaires sur ces branches ...&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gites.fr, Application Android</title>
+      <link>lemon-cake.github.io/post/gites-fr-application-android/</link>
+      <pubDate>Thu, 13 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/gites-fr-application-android/</guid>
+      <description>&lt;p&gt;La raison pour laquelle je n&amp;#39;ai pas publi&amp;eacute; depuis plusieurs jours est celle ci. Durant mon stage de fin d&amp;#39;&amp;eacute;tude j&amp;#39;ai d&amp;ucirc; r&amp;eacute;aliser une application Android pour Cybevasion et j&amp;#39;ai &amp;eacute;t&amp;eacute; plut&amp;ocirc;t occup&amp;eacute; ces derni&amp;egrave;res semaines car la fin de mon stage approche et je n&amp;#39;avais pas fini l&amp;#39;application et le client ne validait pas encore. Mais bon cette histoire est fini, l&amp;#39;application est enfin disponible sur le Google Play Store. Elle est bien s&amp;ucirc;r gratuite.&lt;/p&gt;
+
+
+&lt;p&gt;Afin de r&amp;eacute;aliser cette application, je me suis bas&amp;eacute; sur sa grande soeur programm&amp;eacute; en Objective C, qui &amp;eacute;tait donc pour iPhone, iPod et iPad.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Couper une chaîne tous les X caractères</title>
+      <link>lemon-cake.github.io/post/couper-une-chaine-tous-les-x-caracteres/</link>
+      <pubDate>Tue, 11 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/couper-une-chaine-tous-les-x-caracteres/</guid>
+      <description>&lt;p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Codiad, la programmation dans les nuages</title>
+      <link>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</guid>
+      <description>&lt;p&gt;En tant que programmeur vous avez d&amp;ucirc;t &amp;ecirc;tre confront&amp;eacute; &amp;agrave; ce probl&amp;egrave;me au travail, (enfin pour ma part c&amp;#39;est le cas), d&amp;#39;avoir un peu de temps libre et vouloir programmer quelque chose. Mais soit vous n&amp;#39;avez pas vous sources sur vous, soit vous un &amp;ecirc;tes un aficionado de l&amp;#39;&amp;eacute;diteur de texte libre Sublime Text et forc&amp;eacute;ment vous ne l&amp;#39;avez pas sur la machine et vous ne voulez pas programmer sous DreamWeaver ou Notepad++.&amp;nbsp;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;zoombox zgallery1&#34; href=&#34;https://www.babeuloula.fr/mages/codiad.png&#34;&gt;&lt;img alt=&#34;L&#39;interface&#34; src=&#34;https://www.babeuloula.fr/images/codiad.png&#34; style=&#34;display:block; height:344px; margin-left:auto; margin-right:auto; width:500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

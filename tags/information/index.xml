@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on Lemon Cake</title>
+    <link>lemon-cake.github.io/tags/information/</link>
+    <description>Recent content in Information on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 19 Dec 2016 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="lemon-cake.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment fonctionne la compression Gzip</title>
+      <link>lemon-cake.github.io/post/comment-fonctionne-la-compression-gzip/</link>
+      <pubDate>Mon, 19 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/comment-fonctionne-la-compression-gzip/</guid>
+      <description>Vous avez tous déjà compressé des fichiers, soit pour gagner de la place soit pour un envoi. Mais savez-vous vraiment comment elle fonctionne ?
+Lors de la KiwiParty de 2012 organisé par Alsacréations, une agence web basée à Strasbourg, Frédéric Kayser est intervenu avec une conférence sur Images : état de l&amp;rsquo;art et aspects méconnus qui parlait de la compression des images.
+Et un peu plus tard, après cette conférence, il est revenu plus en détails sur le fonctionnement de la compression Gzip.</description>
+    </item>
+    
+    <item>
+      <title>Dites bye-bye aux 301 vues des vidéos YouTube</title>
+      <link>lemon-cake.github.io/post/dites-bye-bye-aux-301-vues-des-videos-youtube/</link>
+      <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/dites-bye-bye-aux-301-vues-des-videos-youtube/</guid>
+      <description>&lt;p&gt;Si comme moi vous regardez des vid&amp;eacute;os sur &lt;strong&gt;YouTube&lt;/strong&gt;, vous avez d&amp;ucirc;t vous rendre compte que d&amp;egrave;s qu&amp;#39;une vid&amp;eacute;o est sortie sur une grosse chaine elle est bloqu&amp;eacute;e &amp;agrave; &lt;strong&gt;301+ vues&lt;/strong&gt;. Et bien maintenant tout va changer car &lt;strong&gt;YouTube a&amp;nbsp;chang&amp;eacute; son syst&amp;egrave;me&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La CNIL et ses cookies, aussi simple d&#39;une tarte au citron</title>
+      <link>lemon-cake.github.io/post/la-cnil-et-ses-cookies-aussi-simple-d-une-tarte-au-citron/</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/la-cnil-et-ses-cookies-aussi-simple-d-une-tarte-au-citron/</guid>
+      <description>&lt;p&gt;La &lt;strong&gt;CNIL &lt;/strong&gt;(&lt;strong&gt;Commission Nationale de l&amp;#39;Informatique et des Libert&amp;eacute;s&lt;/strong&gt;), a&amp;nbsp;fait passer une directive europ&amp;eacute;enne appel&amp;eacute;e &amp;quot;&lt;strong&gt;paquet t&amp;eacute;l&amp;eacute;com&lt;/strong&gt;&amp;quot;, qui dit que d&amp;egrave;s qu&amp;#39;un utilisateur arrive sur votre site vous devez l&amp;#39;informer que votre site utilise des cookies. Voici une solution tr&amp;egrave;s simple pour notifier l&amp;#39;utilisation &amp;agrave; vos utilisateurs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Erreur 0x80004005 Windows</title>
+      <link>lemon-cake.github.io/post/erreur-0x80004005-windows/</link>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/erreur-0x80004005-windows/</guid>
+      <description>&lt;p&gt;Je me suis achet&amp;eacute; r&amp;eacute;cement une manette de jeux pour t&amp;eacute;l&amp;eacute;phone, la &lt;strong&gt;WAMO Pro 2&lt;/strong&gt;, compatible &lt;strong&gt;Android&lt;/strong&gt;, &lt;strong&gt;iPhone&lt;/strong&gt;, &lt;strong&gt;tablette &lt;/strong&gt;et &lt;strong&gt;PC&lt;/strong&gt;. Mais &amp;agrave; ma grande surprise, impossible de la connecter en &lt;strong&gt;Bluetooth &lt;/strong&gt;&amp;agrave; mon &lt;strong&gt;PC &lt;/strong&gt;via un dongle achet&amp;eacute; sur &lt;strong&gt;eBay &lt;/strong&gt;&amp;agrave; 1&amp;euro;. Voici la marche &amp;agrave; suivre pour l&amp;#39;utiliser.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nouvelle version de GameApp</title>
+      <link>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</guid>
+      <description>&lt;p&gt;Il y a quelques temps je vous parlais de mon application &lt;strong&gt;&lt;a href=&#34;https://www.babeuloula.fr/blog/gameapp-l-application-qui-gere-vos-jeux-pc.html&#34; target=&#34;_blank&#34;&gt;GameApp&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;qui permettait de lancer des applications facilements via une interface simplifi&amp;eacute;e. Et bien la version 0.4 est sortie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GameApp, l&#39;application qui gère vos jeux PC</title>
+      <link>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Améliorer votre site avec DareBoost</title>
+      <link>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Réouverture du blog</title>
+      <link>lemon-cake.github.io/post/reouverture-du-blog/</link>
+      <pubDate>Sat, 22 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/reouverture-du-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faire sa promo facilement</title>
+      <link>lemon-cake.github.io/post/faire-sa-promo-facilement/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/faire-sa-promo-facilement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contourner le Wifi des aéroports</title>
+      <link>lemon-cake.github.io/post/contourner-le-wifi-des-aeroports/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/contourner-le-wifi-des-aeroports/</guid>
+      <description>&lt;p&gt;Vous avez pu le voir, les bornes Wifi public sont de plus en plus pr&amp;eacute;sentent. Il en existe des gratuites sans inscriptions&amp;nbsp;comme dans les gares SNCF, avec un code d&amp;#39;acc&amp;egrave;s comme&amp;nbsp;dans les restaurants&amp;nbsp;McDonalds (oui&amp;nbsp;ils peuvent &amp;ecirc;tre consid&amp;eacute;r&amp;eacute;s comme tel) et bien s&amp;ucirc;r des payantes comme dans les a&amp;eacute;roports.&lt;/p&gt;
+
+
+&lt;p&gt;Si vous &amp;ecirc;tes comme moi, que cela vous emb&amp;ecirc;te de devoir payer pour avoir un simple acc&amp;egrave;s &amp;agrave; Internet alors que vous attendez votre avion, voici un petit hack qui vous permettera de contourner cette protection mineur. Il vous suffit de rajouter cela &amp;agrave; la fin de vos URL :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ouverture du blog</title>
+      <link>lemon-cake.github.io/post/ouverture-du-blog/</link>
+      <pubDate>Wed, 13 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lemon-cake.github.io/post/ouverture-du-blog/</guid>
+      <description>&lt;p&gt;Bonjour &amp;agrave; tous,&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
