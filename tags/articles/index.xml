@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/articles/</link>
+    <description>Recent content in Articles on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 26 Nov 2013 20:18:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Explorateur de fichiers jQuery File Tree</title>
+      <link>https://lemon-cake.github.io/post/explorateur-de-fichiers-jquery-file-tree/</link>
+      <pubDate>Tue, 26 Nov 2013 20:18:59 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/explorateur-de-fichiers-jquery-file-tree/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;jQuery File Tree&#34; href=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34; target=&#34;_blank&#34;&gt;jQuery File Tree&lt;/a&gt; est un plugin jQuery fonctionnant en AJAX qui permet d&amp;rsquo;explorer facilement un dossier. Ainsi en quelques lignes de codes vous pourrez parcourir un dossier pour votre front ou back office.
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+Vous avez une démo à cette adresse : &lt;a href=&#34;http://labs.abeautifulsite.net/archived/jquery-fileTree/demo/&#34;&gt;http://labs.abeautifulsite.net/archived/jquery-fileTree/demo/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

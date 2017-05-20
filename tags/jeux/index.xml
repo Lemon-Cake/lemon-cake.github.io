@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeux on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/jeux/</link>
+    <description>Recent content in Jeux on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 13 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/jeux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Débat : La dématérialisation, pour ou contre ?</title>
+      <link>https://lemon-cake.github.io/post/la-dematerialisation-pour-ou-contre/</link>
+      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/la-dematerialisation-pour-ou-contre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installer un serveur Terraria sous Linux ou sur un NAS Synology</title>
+      <link>https://lemon-cake.github.io/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</guid>
+      <description>&lt;p&gt;Je viens de me mettre &amp;agrave; un&amp;nbsp;petit jeu ind&amp;eacute;pendant, &lt;a href=&#34;http://www.terraria.org/&#34; target=&#34;_blank&#34;&gt;Terraria&lt;/a&gt;. Pour ceux qui ne connaissant pas, c&amp;#39;est un genre de Minecraft mais en 2D. En gros vous avez un personnag et vous devez utiliser votre environnement pour construite des habitations, trouver des ressources pour faire des armes, armures ... Le jeu est soit PvE, soit PvP. Et voulant y jouer avec mes amis &amp;agrave; moindre frais, j&amp;#39;ai cr&amp;eacute;&amp;eacute; mon propre serveur.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Turbulenz leur moteur de jeux HTML5 OpenSource</title>
+      <link>https://lemon-cake.github.io/post/turbulenz-leur-moteur-de-jeux-html5-opensource/</link>
+      <pubDate>Mon, 06 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/turbulenz-leur-moteur-de-jeux-html5-opensource/</guid>
+      <description>&lt;p&gt;Vous aimez les jeux vid&amp;eacute;o je suppose ? Vous aimez la programmation web si vous suivez ce blog ? Alors vous allez aimer le nouveau moteur de rendu de la soci&amp;eacute;t&amp;eacute;&amp;nbsp;&lt;a href=&#34;https://turbulenz.com/games&#34; target=&#34;_blank&#34; title=&#34;https://turbulenz.com/games&#34;&gt;&lt;strong&gt;Turbulenz&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;La soci&amp;eacute;t&amp;eacute; qui &amp;eacute;dite des jeux met en place gratuitement sur son &lt;a href=&#34;https://github.com/turbulenz/turbulenz_engine&#34; target=&#34;_blank&#34; title=&#34;https://github.com/turbulenz/turbulenz_engine&#34;&gt;Github&lt;/a&gt;, les sources de leur moteur de rendu.&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

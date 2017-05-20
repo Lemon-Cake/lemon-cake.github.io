@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement &middot;  Lemon Cake" />
+        <meta property="og:site_name" content="Lemon Cake" />
+        <meta property="og:url" content="https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2016-05-26T12:30:03Z" />
+        <meta property="og:article:tag" content="AJAX" />
+        <meta property="og:article:tag" content="API" />
+        <meta property="og:article:tag" content="jQuery" />
+        <meta property="og:article:tag" content="PHP" />
+        <meta property="og:article:tag" content="Tutoriaux" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement" />
+        <meta name="twitter:description" content="L&#39;API Facebook est une vraie galère quand il s&#39;agit de récupérer des données. Voici comment récupérer le fil d&#39;actualité d&#39;un page Facebook." />
+        <meta name="twitter:url" content="https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/" />
+    
+
+        <title> Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement &middot;  Lemon Cake</title>
+
+        <link rel="preload" href="https://lemon-cake.github.io/js/main.js" as="script" />
+        <link rel="preload" href="https://lemon-cake.github.io/css/main.css" as="style" />
+
+    
+        <meta name="description" content="L&#39;API Facebook est une vraie galère quand il s&#39;agit de récupérer des données. Voici comment récupérer le fil d&#39;actualité d&#39;un page Facebook." />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="https://lemon-cake.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Lemon Cake" />
+    
+
+    
+        <link rel="canonical" href="https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/"
+        },
+        "headline": "Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement",
+        "description": "L&#39;API Facebook est une vraie galère quand il s&#39;agit de récupérer des données. Voici comment récupérer le fil d&#39;actualité d&#39;un page Facebook.",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://lemon-cake.github.io/",
+          "name": "Lemon Cake",
+          "url": "https://lemon-cake.github.io/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.babeuloula.fr/images/blog/head/recuperer-le-fil-d-actualite-d-une-page-Facebook-facilement.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2016-05-26",
+        "dateModified": "2016-05-26",
+        "wordCount": 1010,
+        "keywords": ["AJAX","API","jQuery","PHP","Tutoriaux"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "https:\/\/lemon-cake.github.io\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face{font-family:'icons';src:url(https://lemon-cake.github.io//fonts/icons.eot?9273991);src:url(https://lemon-cake.github.io//fonts/icons.eot?9273991#iefix) format("embedded-opentype"),url(https://lemon-cake.github.io//fonts/icons.woff?9273991) format("woff"),url(https://lemon-cake.github.io//fonts/icons.ttf?9273991) format("truetype"),url(https://lemon-cake.github.io//fonts/icons.svg?9273991#icons) format("svg");font-weight:400;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #36D995}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #36D995}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#36D995}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #36D995;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#2DB77E}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #36D995;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#36D995;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#2DB77E;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+              <a href="https://lemon-cake.github.io/">
+      			  
+              </a>
+            </div>
+            <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
+                
+                
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+	<article class="post">
+		<div class="inner">
+
+			<div id="push">
+
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">26/05/2016</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">1010</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement</h1>
+  			</header>
+
+  			<section class="post-content">
+  				<p>Si vous connaissez l&rsquo;API de Facebook, vous savez à quel point celle-ci est très complexe à utiliser.
+Aujourd&rsquo;hui je vous propose de récupérer le contenu des actualités qui ont été postés sur une page Facebook (dont vous êtes ou non le propriétaire).</p>
+
+<p></p>
+
+<p>Le but est de ce tuto est d&rsquo;avoir, sans trop de lignes de code et surtout sans que cela soit indigeste à comprendre, la possibilité d&rsquo;afficher sur un site le contenu d&rsquo;une page Facebook avec le design de son site et pas celui de Facebook.</p>
+
+<p>Le tuto est fait actuellement avec la <strong>version 2.6 de l&rsquo;API Facebook</strong>. Sauf s&rsquo;ils changent leur système, il devrait toujours être possible de le faire dans les versions futures.</p>
+
+<h2>Création d'une application Facebook</h2>
+
+<p>Nous allons avoir besoin de créer une application Facebook uniquement pour avoir un <em>app_id</em> et un <em>secret</em>.</p>
+
+<p>Commencez par vous rendre sur le site : <a href="https://developers.facebook.com/" target="_blank"><a href="https://developers.facebook.com/">https://developers.facebook.com/</a></a></p>
+
+<p>Si cela n&rsquo;est pas fait, loggez vous et cliquez sur le bouton <strong>Ajouter une app</strong> en haut à droite (au niveau de votre image de profile) :</p>
+
+<p><a href="//babeuloula.fr/images/lemoncake/facebook_dev-1024x755.png"><img class="aligncenter wp-image-820 size-large" src="//babeuloula.fr/images/lemoncake/facebook_dev-1024x755.png" alt="facebook_dev" width="550" height="406" /></a></p>
+
+<p>Puis sélectionnez <strong>Site web (www)</strong> :</p>
+
+<p><a href="//babeuloula.fr/images/lemoncake/application_site_web_www.png"><img class="aligncenter wp-image-817 size-full" src="//babeuloula.fr/images/lemoncake/application_site_web_www.png" alt="application_site_web_www" width="938" height="523" /></a></p>
+
+<p>Dans le champ, rentrer le nom de votre application  et cliquez sur <strong>Create New Facebook App ID</strong> :</p>
+
+<p><a href="//babeuloula.fr/images/lemoncake/create_app.png"><img class="aligncenter wp-image-818 size-full" src="//babeuloula.fr/images/lemoncake/create_app.png" alt="create_app" width="940" height="308" /></a></p>
+
+<p>Dans la popup, laissez cocher <strong>non</strong> à la question <em>Est-ce la version de test d’une autre app ?</em>, saisissez votre adresse email qui sera utilisée en cas de soucis avec votre application et pour terminer sélectionnez la catégorie de votre application (perso je préfère mettre la catégorie de la page Facebook dont je veux avoir le contenu) :</p>
+
+<p><a href="//babeuloula.fr/images/lemoncake/popup_create_app.png"><img class="aligncenter wp-image-821 size-full" src="//babeuloula.fr/images/lemoncake/popup_create_app.png" alt="popup_create_app" width="624" height="610" /></a></p>
+
+<p>Une fois l&rsquo;application créée, cliquez sur le bouton <strong>Skip Quick Start</strong> en haut à droite :</p>
+
+<p><a href="//babeuloula.fr/images/lemoncake/skip_quick_start.png"><img class="aligncenter wp-image-823 size-full" src="//babeuloula.fr/images/lemoncake/skip_quick_start.png" alt="skip_quick_start" width="941" height="305" /></a></p>
+
+<p>Là vous devriez arriver sur votre <b>Tableau de bord</b> et vous devriez voir votre <em>app_id</em> et votre <em>secret</em>. Notez bien ces informations, elles nous servirons pour la suite :</p>
+
+<p><img class="aligncenter wp-image-819 size-full" src="//babeuloula.fr/images/lemoncake/credentials.png" alt="credentials" width="801" height="283" /></p>
+
+<p>Et pour terminer sur le site de Facebook, rendez-vous dans <strong>Examen des apps</strong> et passez <em>Votre app est en <strong>développement</strong> et donc indisponible au public</em> sur <strong>oui</strong> et confirmer dans la popup :</p>
+
+<p><img class="aligncenter wp-image-822 size-full" src="//babeuloula.fr/images/lemoncake/public_app.png" alt="public_app" width="810" height="143" /></p>
+
+<h2>Passons au code PHP</h2>
+
+<p>La partie PHP va être très rapide</p>
+
+<p>[php]</p>
+
+<p>$app_id = &lsquo;aaa&rsquo;; // Remplacez par votre app_id
+$secret = &lsquo;bbb&rsquo;; // Remplacez par votre secret</p>
+
+<p>$pageName = &lsquo;LemonCake&rsquo; // Nom de la page Facebook que vous souhaitez récupérer. Ce nom est celui dans l&rsquo;URL de la page et non le nom réel. Ex: <a href="https://www.facebook.com/LemonCake/">https://www.facebook.com/LemonCake/</a></p>
+
+<p>$token = $app_id . &lsquo;|&rsquo; . $secret; // On prépare le token en séparant $app_id et $secret par un |</p>
+
+<p>// Via cette URL on va récupérer l&rsquo;identifiant unique de la page pour récupérer les données
+$page = file_get_contents(&lsquo;<a href="https://graph.facebook.com/'">https://graph.facebook.com/'</a> . $pageName . &lsquo;?fields=fan_count,talking_about_count,name&amp;access_token=&lsquo;.$token);
+$page = json_decode($page);</p>
+
+<p>// Récupération de l&rsquo;identifiant unique de la page
+$pageID = $page-&gt;id;</p>
+
+<p>// Récupération du flux de la page
+// Dans cette URL on peut voir que je demande de récupérer :
+// - L&rsquo;image du poste
+// - Le message
+// - La date de création
+// - Les partages
+// - Les likes et commentaires dont vous pouvez modifier la limite qui là est de 1
+$response = file_get_contents(&quot;<a href="https://graph.facebook.com/v2.6/$pageID/feed?fields=picture,message,story,created_time,shares,likes.limit(1).summary(true),comments.limit(1).summary(true)&amp;access_token=&quot;.$token">https://graph.facebook.com/v2.6/$pageID/feed?fields=picture,message,story,created_time,shares,likes.limit(1).summary(true),comments.limit(1).summary(true)&amp;access_token=&quot;.$token</a>);
+$response = json_decode($response);</p>
+
+<p>[/php]</p>
+
+<p>Si vous souhaitez visualiser les données je vous conseil de faire un <em>var_dump</em> de <i>$response</i>.</p>
+
+<p>Afin de rendre ce tuto assez complet, je vous donne le code d&rsquo;une page qui vous affichera le contenu de 2 pages Facebook, celle de <strong>Lemon Cake</strong> et celle de <strong>Golden Moustache</strong>.
+J&rsquo;ai rajouté une partie javascript pour charger le reste de la page via une requête AJAX :</p>
+
+<p>[html]</p>
+
+<p>&lt;!DOCTYPE HTML&gt;</p>
+
+<p>&lt;html lang=&quot;fr&quot;&gt;</p>
+
+<pre><code>&amp;lt;head&amp;gt;
+
+    &amp;lt;title&amp;gt;Facebook Pages&amp;lt;/title&amp;gt;
+
+    &amp;lt;link title=&amp;quot;defaut&amp;quot; type=&amp;quot;text/css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&amp;quot; media=&amp;quot;screen&amp;quot;&amp;gt;
+    &amp;lt;link title=&amp;quot;defaut&amp;quot; type=&amp;quot;text/css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css&amp;quot; media=&amp;quot;screen&amp;quot;&amp;gt;
+
+    &amp;lt;META CHARSET=&amp;quot;UTF-8&amp;quot;&amp;gt;
+    &amp;lt;META HTTP-EQUIV=&amp;quot;CONTENT-LANGUAGE&amp;quot; CONTENT=&amp;quot;FR&amp;quot;&amp;gt;
+    &amp;lt;META NAME=&amp;quot;VIEWPORT&amp;quot; CONTENT=&amp;quot;WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0&amp;quot;&amp;gt;
+
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+    &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+
+        &amp;lt;div class=&amp;quot;header clearfix&amp;quot;&amp;gt;
+            &amp;lt;h3 class=&amp;quot;text-muted&amp;quot;&amp;gt;Facebook Pages&amp;lt;/h3&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&amp;quot;jumbotron text-center&amp;quot;&amp;gt;
+            &amp;lt;h1&amp;gt;Facebook Pages&amp;lt;/h1&amp;gt;
+            &amp;lt;p class=&amp;quot;lead&amp;quot;&amp;gt;Cliquez sur l'un des boutons suivant pour afficher le fil d'actualité de la page Facebook.&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;
+                &amp;lt;a class=&amp;quot;btn btn-lg btn-success&amp;quot; href=&amp;quot;?pageName=LemonCake&amp;quot; role=&amp;quot;button&amp;quot;&amp;gt;Lemon Cake&amp;lt;/a&amp;gt;
+                &amp;lt;a class=&amp;quot;btn btn-lg btn-success&amp;quot; href=&amp;quot;?pageName=GoldenMoustache&amp;quot; role=&amp;quot;button&amp;quot;&amp;gt;Golden Moustache&amp;lt;/a&amp;gt;
+            &amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;?php
+
+            if(isset($_GET['pageName'])) {
+
+        ?&amp;gt;
+                &amp;lt;div class=&amp;quot;actus&amp;quot;&amp;gt;
+                    &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                        &amp;lt;?php
+
+                            $app_id = 'aaa';
+                            $secret = 'bbb';
+
+                            $token = $app_id . '|' . $secret;
+
+                            $page = file_get_contents('https://graph.facebook.com/' . $_GET['pageName'] . '?fields=fan_count,talking_about_count,name&amp;amp;access_token='.$token);
+                            $page = json_decode($page);
+
+                            $pageID = $page-&amp;gt;id;
+
+                            $response = file_get_contents(&amp;quot;https://graph.facebook.com/v2.6/$pageID/feed?fields=picture,message,story,created_time,shares,likes.limit(1).summary(true),comments.limit(1).summary(true)&amp;amp;access_token=&amp;quot;.$token);
+                            $response = json_decode($response);
+
+                            $i = 0;
+
+                            foreach($response-&amp;gt;data as $data) {
+
+                        ?&amp;gt;
+                                &amp;lt;div class=&amp;quot;col-sm-4 text-center&amp;quot;&amp;gt;
+                                    &amp;lt;img class=&amp;quot;img-circle&amp;quot; src=&amp;quot;&amp;lt;?php echo isset($data-&amp;gt;picture) ? $data-&amp;gt;picture : 'http://placehold.it/140x140' ?&amp;gt;&amp;quot; width=&amp;quot;140&amp;quot; height=&amp;quot;140&amp;quot;&amp;gt;
+                                    &amp;lt;p&amp;gt;&amp;lt;small&amp;gt;&amp;lt;?php echo date('d/m/Y H:i', strtotime($data-&amp;gt;created_time)) ?&amp;gt;&amp;lt;/small&amp;gt;&amp;lt;/p&amp;gt;
+                                    &amp;lt;p&amp;gt;&amp;lt;?php echo isset($data-&amp;gt;message) ? $data-&amp;gt;message : '' ?&amp;gt;&amp;lt;/p&amp;gt;
+                                    &amp;lt;p&amp;gt;
+                                        &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary btn-xs&amp;quot;&amp;gt;&amp;lt;?php echo (isset($data-&amp;gt;likes-&amp;gt;summary-&amp;gt;total_count)) ? $data-&amp;gt;likes-&amp;gt;summary-&amp;gt;total_count : 0 ?&amp;gt; j'aime(s)&amp;lt;/button&amp;gt;
+                                        &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-success btn-xs&amp;quot;&amp;gt;&amp;lt;?php echo (isset($data-&amp;gt;shares-&amp;gt;count)) ? $data-&amp;gt;shares-&amp;gt;count : 0 ?&amp;gt; partage(s)&amp;lt;/button&amp;gt;
+                                        &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-info btn-xs&amp;quot; style=&amp;quot;margin-top: 5px&amp;quot;&amp;gt;&amp;lt;?php echo (isset($data-&amp;gt;comments-&amp;gt;summary-&amp;gt;total_count)) ? $data-&amp;gt;comments-&amp;gt;summary-&amp;gt;total_count : 0 ?&amp;gt; commenaite(s)&amp;lt;/button&amp;gt;
+                                    &amp;lt;/p&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                        &amp;lt;?php
+
+                                $i++;
+
+                                if($i === 3) {
+
+                        ?&amp;gt;
+                                    &amp;lt;/div&amp;gt;
+                                    &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                        &amp;lt;?php
+
+                                    $i = 0;
+                                }
+
+                            }
+
+                        ?&amp;gt;
+
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+
+                &amp;lt;p class=&amp;quot;text-center loadMoreActusContainer&amp;quot;&amp;gt;
+                    &amp;lt;button data-href=&amp;quot;&amp;lt;?php echo $response-&amp;gt;paging-&amp;gt;next ?&amp;gt;&amp;quot; type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary btn-lg loadMoreActus&amp;quot;&amp;gt;Charger plus d'actualités&amp;lt;/button&amp;gt;
+                &amp;lt;/p&amp;gt;
+        &amp;lt;?php
+
+            }
+
+        ?&amp;gt;
+
+        &amp;lt;footer class=&amp;quot;footer&amp;quot;&amp;gt;
+            &amp;lt;p&amp;gt;&amp;amp;copy; 2016 Facebook Pages.&amp;lt;/p&amp;gt;
+        &amp;lt;/footer&amp;gt;
+
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://code.jquery.com/jquery-2.2.3.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://momentjs.com/downloads/moment-with-locales.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        jQuery(function($){
+
+            $(document).on('click', '.loadMoreActus', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                var that = this;
+
+                href = $(that).attr('data-href');
+
+                console.log($(that).attr('data-href'));
+
+                $(that).prop('disabled', true);
+
+                $.ajax({
+                    url: href,
+                    type: 'get',
+                    success: function(response) {
+                        var $row = $(&amp;quot;&amp;lt;div/&amp;gt;&amp;quot;).addClass('row');
+                        var i = 0;
+                        $.each(response.data, function(index, data) {
+                            try {
+                                $row.append(
+                                    $(&amp;quot;&amp;lt;div/&amp;gt;&amp;quot;).addClass('col-sm-4 text-center').append(
+                                        $(&amp;quot;&amp;lt;img/&amp;gt;&amp;quot;).addClass('img-circle').attr('src', (data.picture !== undefined) ? data.picture : 'http://placehold.it/140x140').width(140).height(140),
+                                        $(&amp;quot;&amp;lt;p/&amp;gt;&amp;quot;).html(
+                                            $(&amp;quot;&amp;lt;small/&amp;gt;&amp;quot;).text(moment(data.created_time).format('DD/MM/YYYY HH:mm'))
+                                        ),
+                                        $(&amp;quot;&amp;lt;p/&amp;gt;&amp;quot;).text(
+                                            (data.message !== undefined) ? data.message : ''
+                                        ),
+                                        $(&amp;quot;&amp;lt;p/&amp;gt;&amp;quot;).append(
+                                            $(&amp;quot;&amp;lt;button/&amp;gt;&amp;quot;).attr('type', 'button').addClass('btn btn-primary btn-xs').append(
+                                                (data.likes !== undefined) ? data.likes.summary.total_count : 0,
+                                                &amp;quot; j'aime(s)&amp;quot;
+                                            ),
+                                            $(&amp;quot;&amp;lt;button/&amp;gt;&amp;quot;).attr('type', 'button').addClass('btn btn-success btn-xs').css('margin-left', '5px').append(
+                                                (data.shares !== undefined) ? data.shares.count : 0,
+                                                &amp;quot; partage(s)&amp;quot;
+                                            ),
+                                            $(&amp;quot;&amp;lt;button/&amp;gt;&amp;quot;).attr('type', 'button').addClass('btn btn-info btn-xs').append(
+                                                (data.comments !== undefined) ? data.comments.summary.total_count : 0,
+                                                &amp;quot; commenaite(s)&amp;quot;
+                                            )
+                                        )
+                                    )
+                                );
+                            } catch(Err) {
+                                console.log(Err);
+                                console.log(data);
+                            }
+
+                            i++;
+
+                            if(i === 3) {
+                                $(&amp;quot;.actus&amp;quot;).append($row);
+                                $row = $(&amp;quot;&amp;lt;div/&amp;gt;&amp;quot;).addClass('row');
+                                i = 0;
+                            }
+                        });
+
+                        $(&amp;quot;.actus&amp;quot;).append($row);
+
+                        if(response.data.length === 25) {
+                            $(&amp;quot;.loadMoreActusContainer&amp;quot;).html(
+                                $(&amp;quot;&amp;lt;button/&amp;gt;&amp;quot;).attr('data-href', response.paging.next).attr('type', 'button').addClass('btn btn-primary btn-lg loadMoreActus').text(&amp;quot;Charger plus d'actualités&amp;quot;)
+                            );
+                        } else {
+                            $(&amp;quot;.loadMoreActusContainer&amp;quot;).html('');
+                        }
+                    },
+                    error: function(response) {
+                        alert('ERROR LOAD MORE ACTUS');
+                    }
+                });
+            });
+
+        });
+    &amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+</code></pre>
+
+<p>&lt;/html&gt;
+[/html]</p>
+
+<p>Voilà j&rsquo;espère que ce petit tuto vous aidera</p>
+
+<h2 id="démo">Démo</h2>
+
+<p>2016-05-26 08:05:01</p>
+
+<h2 id="source">Source</h2>
+
+<p><a href="http://lemon-cake.fr/?p=813">http://lemon-cake.fr/?p=813</a></p>
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="https://lemon-cake.github.io//tags/ajax/">AJAX</a>
+            
+                <a href="https://lemon-cake.github.io//tags/api/">API</a>
+            
+                <a href="https://lemon-cake.github.io//tags/jquery/">jQuery</a>
+            
+                <a href="https://lemon-cake.github.io//tags/php/">PHP</a>
+            
+                <a href="https://lemon-cake.github.io//tags/tutoriaux/">Tutoriaux</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=R%c3%a9cup%c3%a9rer%20le%20fil%20d%27actualit%c3%a9%20d%27une%20page%20Facebook%20facilement&url=https%3a%2f%2flemon-cake.github.io%2fpost%2frecuperer-fil-dactualite-dune-page-facebook-facilement%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flemon-cake.github.io%2fpost%2frecuperer-fil-dactualite-dune-page-facebook-facilement%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2flemon-cake.github.io%2fpost%2frecuperer-fil-dactualite-dune-page-facebook-facilement%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
+			</div>
+
+			<nav class="post-nav">
+				
+					<a class="post-nav-item post-nav-next" href="https://lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Cacher la configuration de son serveur web</h4>
+								<p class="post-nav-excerpt">Savoir comment et avec quoi sont fait les sites c&#39;est bien, mais des fois on souhaite quand même cacher sa configuration&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				
+					<a class="post-nav-item post-nav-prev" href="https://lemon-cake.github.io/post/css-lorthographe-de-selecteurs/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Le CSS et l&#39;orthographe de ses sélecteurs</h4>
+								<p class="post-nav-excerpt">Maîtrisez le CSS et son orthographe comme vous ne l&#39;avez jamais fait.&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
+
+		</div>
+	</article>
+</main>
+
+				<div id="body-class" style="display: none;"></div>
+				<footer id="footer">
+					<section class="credits">
+						<span class="credits-theme">A forked FR theme of <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
+					</section>
+				</footer>
+				
+				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#démo">Démo</a></li>
+<li><a href="#source">Source</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+				<div class="overlay"></div>
+			</div>
+		</section>
+
+    <script async src="https://lemon-cake.github.io/js/main.js"></script>
+
+
+
+
+  <noscript><link rel="stylesheet" href="https://lemon-cake.github.io/css/main.css"></noscript>
+</body>
+</html>
+

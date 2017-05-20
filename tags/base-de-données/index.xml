@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base De Données on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/base-de-donn%C3%A9es/</link>
+    <description>Recent content in Base De Données on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 15 Feb 2017 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/base-de-donn%C3%A9es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
+      <link>https://lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
+Commençons par supprimer le dossier setup qui permet la configuration de base
+rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
+    </item>
+    
+    <item>
+      <title>Connexion à PDO MySQL</title>
+      <link>https://lemon-cake.github.io/post/connexion-pdo-mysql/</link>
+      <pubDate>Tue, 28 Jan 2014 13:00:28 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/connexion-pdo-mysql/</guid>
+      <description>&lt;p&gt;PDO ou PHP Data Objects est une classe PHP permettant de se connecter à une base de donnée. Pour utiliser PDO il faut la version 5.1.0 de PHP. Afin de voir si cette extension est installée sur votre serveur, utiliser la fonction phpinfo() et recherchez la ligne PDO Driver.
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

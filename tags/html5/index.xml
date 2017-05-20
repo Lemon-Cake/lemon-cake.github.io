@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/html5/</link>
+    <description>Recent content in Html5 on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 13 May 2017 19:35:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tester son site sur toutes les versions de Microsoft Internet Explorer</title>
+      <link>https://lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
+      <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
+      <description>Lors de la réalisation d&amp;rsquo;un site Internet, il est important de devoir le rendre compatible avec les navigateurs les plus utilisés et surtout avec Microsoft Internet Explorer. Le problème c&amp;rsquo;est qu&amp;rsquo;il existe plein de versions différentes de ce navigateur. Et dès que vous allez faire une mise à jour Windows, il va installer automatiquement la dernière version. Du coup plutôt que d&amp;rsquo;avoir une batterie d&amp;rsquo;ordinateurs avec toutes les versions d&amp;rsquo;IE qui existe, Microsoft a pensé à nous, petits développeurs web.</description>
+    </item>
+    
+    <item>
+      <title>Blur et masques en SVG</title>
+      <link>https://lemon-cake.github.io/post/blur-et-masques-en-svg/</link>
+      <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/blur-et-masques-en-svg/</guid>
+      <description>Il existe de plus en plus de site avec le fond de leur site qui est flouté ou d&amp;rsquo;autres qui utilisent des formes complexes pour rendre un peu plus joli leur site. Je me suis donc penché sur sur ces techniques et voici quelques petites astuces pour faire du flou (ou blur en anglais) et pour faire aussi des masques en SVG.
+Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas correctement la demo, c&amp;rsquo;est sans doute car votre navigateur gère mal le SVG.</description>
+    </item>
+    
+    <item>
+      <title>Convertir les styles CSS en attribut style des balises HTML</title>
+      <link>https://lemon-cake.github.io/post/convertir-les-styles-css-en-attribut-style-des-balises-html/</link>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/convertir-les-styles-css-en-attribut-style-des-balises-html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Développez des applications iOS en HTML et JavaScript</title>
+      <link>https://lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/developpez-des-applications-ios-en-html-et-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Améliorer votre site avec DareBoost</title>
+      <link>https://lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SourceTree, mergez sous Windows et Mac</title>
+      <link>https://lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
+
+
+&lt;p&gt;Comme vous pouvez le voir sur l&amp;#39;image de t&amp;ecirc;te vous avez acc&amp;egrave;s aux diff&amp;eacute;rentes branches des projets, vous pouvez laissez des commentaires sur ces branches ...&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Turbulenz leur moteur de jeux HTML5 OpenSource</title>
+      <link>https://lemon-cake.github.io/post/turbulenz-leur-moteur-de-jeux-html5-opensource/</link>
+      <pubDate>Mon, 06 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/turbulenz-leur-moteur-de-jeux-html5-opensource/</guid>
+      <description>&lt;p&gt;Vous aimez les jeux vid&amp;eacute;o je suppose ? Vous aimez la programmation web si vous suivez ce blog ? Alors vous allez aimer le nouveau moteur de rendu de la soci&amp;eacute;t&amp;eacute;&amp;nbsp;&lt;a href=&#34;https://turbulenz.com/games&#34; target=&#34;_blank&#34; title=&#34;https://turbulenz.com/games&#34;&gt;&lt;strong&gt;Turbulenz&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;La soci&amp;eacute;t&amp;eacute; qui &amp;eacute;dite des jeux met en place gratuitement sur son &lt;a href=&#34;https://github.com/turbulenz/turbulenz_engine&#34; target=&#34;_blank&#34; title=&#34;https://github.com/turbulenz/turbulenz_engine&#34;&gt;Github&lt;/a&gt;, les sources de leur moteur de rendu.&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Codiad, la programmation dans les nuages</title>
+      <link>https://lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</link>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</guid>
+      <description>&lt;p&gt;En tant que programmeur vous avez d&amp;ucirc;t &amp;ecirc;tre confront&amp;eacute; &amp;agrave; ce probl&amp;egrave;me au travail, (enfin pour ma part c&amp;#39;est le cas), d&amp;#39;avoir un peu de temps libre et vouloir programmer quelque chose. Mais soit vous n&amp;#39;avez pas vous sources sur vous, soit vous un &amp;ecirc;tes un aficionado de l&amp;#39;&amp;eacute;diteur de texte libre Sublime Text et forc&amp;eacute;ment vous ne l&amp;#39;avez pas sur la machine et vous ne voulez pas programmer sous DreamWeaver ou Notepad++.&amp;nbsp;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;zoombox zgallery1&#34; href=&#34;https://www.babeuloula.fr/mages/codiad.png&#34;&gt;&lt;img alt=&#34;L&#39;interface&#34; src=&#34;https://www.babeuloula.fr/images/codiad.png&#34; style=&#34;display:block; height:344px; margin-left:auto; margin-right:auto; width:500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

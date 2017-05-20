@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriaux on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/tutoriaux/</link>
+    <description>Recent content in Tutoriaux on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Thu, 23 Mar 2017 17:00:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/tutoriaux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installer Apache HTTP/2 sur un serveur web Ubuntu 14.04</title>
+      <link>https://lemon-cake.github.io/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</link>
+      <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</guid>
+      <description>Depuis sa mise en place en 1997, le protocole HTTP n&amp;rsquo;avait pas (ou peu) évolué. Mais en 2014, il a subit une grosse mise à jour et passe à sa version 2 (HTTP/2).
+Pour ce tuto, je pars du principe que vous avez déjà votre serveur d&amp;rsquo;installer avec HTTP/1.1.
+Par contre, il faut absolument que vous ayez un certificat SSL sur votre site pour que cela fonctionne. Le strandard ne l&amp;rsquo;impose pas mais les navigateurs récents, eux, l&amp;rsquo;imposent.</description>
+    </item>
+    
+    <item>
+      <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
+      <link>https://lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
+Commençons par supprimer le dossier setup qui permet la configuration de base
+rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
+    </item>
+    
+    <item>
+      <title>Créer une tâche CRON sous Symfony</title>
+      <link>https://lemon-cake.github.io/post/creer-une-tache-cron-sous-symfony/</link>
+      <pubDate>Tue, 10 Jan 2017 12:30:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/creer-une-tache-cron-sous-symfony/</guid>
+      <description>Je me suis enfin plongé dans Symfony pour des besoins professionnels et j&amp;rsquo;ai été confronté au fait de devoir exécuter une tâche CRON sur un site Symfony. Alors oui créer un CRON n&amp;rsquo;est pas dur mais pouvoir réutiliser la logique et surtout la puissance de Symfony n&amp;rsquo;est pas forcément facile à faire si on doit charger composants après composants.
+Il y a toujours la possibilité de créer des routes et d&amp;rsquo;appeler les URL dans le CRON mais comme Symfony intègre une console, pourquoi ne pas s&amp;rsquo;en servir justement.</description>
+    </item>
+    
+    <item>
+      <title>Crypter et décrypter une chaîne de caractères avec Node JS</title>
+      <link>https://lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</link>
+      <pubDate>Tue, 20 Dec 2016 16:45:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</guid>
+      <description>Dans un précèdent article je vous expliquais comment on pouvait crypter et décrypter une chaine de caractères en PHP. Cette fois je vais vous montrer comment le faire en Node JS.
+var crypto = require(&#39;crypto&#39;); var text = &amp;quot;Master of puppets I&#39;m pulling your strings, twisting your mind and smashing your dreams.&amp;quot; // On définit notre algorithme de cryptage var algorithm = &#39;aes256&#39;; // Notre clé de chiffrement, elle est souvent générée aléatoirement mais elle doit être la même pour le décryptage var password = &#39;l5JmP+G0/1zB%;r8B8?</description>
+    </item>
+    
+    <item>
+      <title>Installer HTTPie sur Windows et Linux</title>
+      <link>https://lemon-cake.github.io/post/installer-httpie-sur-windows-et-linux/</link>
+      <pubDate>Mon, 12 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/installer-httpie-sur-windows-et-linux/</guid>
+      <description>HTTPie, que l&amp;rsquo;on prononce aitch-tee-tee-pie, est une librairie pour Mac qui permet de taper des requêtes HTTP directement en lignes de commandes. Elle a été créée par Jakub Roztocil un développeur installé à Londres.
+Cela est assez pratique si on doit tester une API ou une URL rapidement sans utiliser un logiciel ou autre.
+Normalement, quand vous souhaitez envoyer une requête HTTP en ligne de commande, vous passez sans doute par cURL avec une commande de ce genre là :</description>
+    </item>
+    
+    <item>
+      <title>Huawei EMUI, revenir au mode de déverrouillage Aucun</title>
+      <link>https://lemon-cake.github.io/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</link>
+      <pubDate>Tue, 22 Nov 2016 12:15:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</guid>
+      <description>J&amp;rsquo;ai récement changé mon Nexus 5 qui commençait à dater par un nouveau téléphone et abandonnant par la même les téléphones Google pour un téléphone de la firme chinoise, Huawei. J&amp;rsquo;ai pris le Mate 8 en provenance direct de chine afin de le payer moins cher. 600€ en Europe, contre 400€ en Chine. J&amp;rsquo;ai eu de la chance d&amp;rsquo;être en NXT-L29C432, qui est la ROM Européenne et pas en NXT-TL00.</description>
+    </item>
+    
+    <item>
+      <title>Résoudre &#34;Impossible d’ouvrir l’application avec le compte Administrateur intégré&#34;</title>
+      <link>https://lemon-cake.github.io/post/resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre/</link>
+      <pubDate>Mon, 07 Nov 2016 12:15:32 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre/</guid>
+      <description>J&amp;rsquo;ai récement fais l&amp;rsquo;acquisition de Gears Of War 4 sur ma console Xbox One et j&amp;rsquo;ai voulu bénéficier de la nouvelle foncitonnalité proposé par Microsoft, j&amp;rsquo;ai nommé Play Everywhere. Ce système permet de jouer à un jeu sorti sur Xbox One sur votre PC et inversement.
+Le problème c&amp;rsquo;est qu&amp;rsquo;au lancement de l&amp;rsquo;application Xbox (ou toute autre application proposé par le Windows Store), j&amp;rsquo;avais ce message d&amp;rsquo;erreur :
+
+Voici comment résoudre le soucis, très faiclement.</description>
+    </item>
+    
+    <item>
+      <title>Migrer gratuitement de Windows 7 à Windows 10 même après la fin de la mise à jour gratuite</title>
+      <link>https://lemon-cake.github.io/post/migrer-de-windows-7-a-windows-10-meme-apres-la-fin-de-la-mise-a-jour-gratuite/</link>
+      <pubDate>Fri, 28 Oct 2016 11:45:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/migrer-de-windows-7-a-windows-10-meme-apres-la-fin-de-la-mise-a-jour-gratuite/</guid>
+      <description>Je suis passé à Windows 10 lorsque Microsoft à proposé de faire la mise à jour gratuite. Le problème c&amp;rsquo;est que comme n&amp;rsquo;importe quel Windows, au bout d&amp;rsquo;un certains temps, il est bon de réinstaller son système pour palier à divers problèmes comme des lenteurs, ou des BSoD (Blue Screen of Death).
+Malheureusement depuis le mois de Juillet 2016, la mise à jour gratuite est terminée et il est donc impossible de passer à Windows 10 gratuitement.</description>
+    </item>
+    
+    <item>
+      <title>Installer CozyCloud en parallèle d&#39;apache sur un serveur Linux</title>
+      <link>https://lemon-cake.github.io/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</link>
+      <pubDate>Thu, 06 Oct 2016 12:00:21 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</guid>
+      <description>Cozy Cloud est un serveur de données personnelles où vous pouvez installer plusieurs applications, comme par exemple : - Un webmail - Un agenda - Un système de todo list &amp;hellip;
+Il est même possible, via l&amp;rsquo;application smartphone et tablette, de faire comme avec Dropbox, d&amp;rsquo;envoyer directement ses photos sur votre serveur.
+A propos 
+ Cozy est une plateforme open source et auto-hébergée de gestion des données personnelles. Elle transforme le serveur personnel en quelque chose de nouveau.</description>
+    </item>
+    
+    <item>
+      <title>Créer un système de connexion &#34;Se souvenir de moi&#34;</title>
+      <link>https://lemon-cake.github.io/post/creer-un-systeme-de-connexion-se-souvenir-de-moi/</link>
+      <pubDate>Fri, 23 Sep 2016 12:30:01 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/creer-un-systeme-de-connexion-se-souvenir-de-moi/</guid>
+      <description>Dans mon billet précédent, Crypter et décrypter une chaîne de caractères en PHP, je vous expliquais comment crypter une chaine de caractère. Voici un cas concret de son utilisation
+Avant-propos J&amp;rsquo;ai un site Internet où dessus mes utilisateurs peuvent s&amp;rsquo;inscrire afin de faire diverses actions. Et j&amp;rsquo;aimerai que lors de la connexion, mes utilisateurs, puissent cocher la case &amp;ldquo;Se souvenir de moi&amp;rdquo; afin de ne pas devoir en permanence se reconnecter.</description>
+    </item>
+    
+    <item>
+      <title>Crypter et décrypter une chaîne de caractères en PHP</title>
+      <link>https://lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/</link>
+      <pubDate>Fri, 23 Sep 2016 12:30:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/</guid>
+      <description>Dans certains programmes il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble. Voici comment faire en PHP pour passer d&amp;rsquo;une chaîne de caractère compréhensible à quelque chose d&amp;rsquo;incompréhensible.
+Avant-propos Avant toute chose, il est préférable de bien distinguer la différence entre cryptage (double sens) et authentification (sens unique).
+Différence entre le cryptage et l&amp;rsquo;authentification Le cryptage permet de modifier un message, afin qu&amp;rsquo;il ne peut être décrypté que si l&amp;rsquo;on obtient la bonne clé.</description>
+    </item>
+    
+    <item>
+      <title>Visualiser les photos Windows 10 dans l&#39;ordre d&#39;affichage</title>
+      <link>https://lemon-cake.github.io/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/</link>
+      <pubDate>Tue, 20 Sep 2016 12:15:41 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/</guid>
+      <description>Quand Windows 10 est sorti j&amp;rsquo;ai voulu tester sur mon PC portable où je fais des tests dessus et je me suis aperçu d&amp;rsquo;un soucis assez génant concernant l&amp;rsquo;affichage des photos.
+J&amp;rsquo;ai voulu faire une recherche dans mes photos de famille et je voulais regarder les photos via la Visionneuse de photos Windows (Windows Photo Viewer pour les intimes) et à ma grande surprise, lorsque je regardais ces photos, j&amp;rsquo;arrivais à visualiser des photos qui n&amp;rsquo;étaient pas du tout issues de la recherche mais du dossier où était contenu la photo que je visualisais.</description>
+    </item>
+    
+    <item>
+      <title>Cacher la configuration de son serveur web</title>
+      <link>https://lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/</link>
+      <pubDate>Sat, 03 Sep 2016 17:15:00 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/</guid>
+      <description>Savoir comment et avec quoi sont fait les sites c&amp;rsquo;est bien, mais des fois on souhaite quand même cacher sa configuration.
+J&amp;rsquo;ai découvert depuis quelques temps une extension pour Google Chrome et Mozilla Firefox, nommée Wapppalyzer. Elle permet de voir quel langage de programmation et quelles technologies sont utilisées sur un site web ou un serveur.
+
+Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite extension gratuite, les pirates peuvent savoir comment est fait le site et donc utiliser des failles.</description>
+    </item>
+    
+    <item>
+      <title>Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement</title>
+      <link>https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</link>
+      <pubDate>Thu, 26 May 2016 12:30:03 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</guid>
+      <description>&lt;p&gt;Si vous connaissez l&amp;rsquo;API de Facebook, vous savez à quel point celle-ci est très complexe à utiliser.
+Aujourd&amp;rsquo;hui je vous propose de récupérer le contenu des actualités qui ont été postés sur une page Facebook (dont vous êtes ou non le propriétaire).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Le CSS et l&#39;orthographe de ses sélecteurs</title>
+      <link>https://lemon-cake.github.io/post/css-lorthographe-de-selecteurs/</link>
+      <pubDate>Tue, 03 Nov 2015 12:30:21 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/css-lorthographe-de-selecteurs/</guid>
+      <description>&lt;p&gt;Le &lt;strong&gt;CSS (Cascading Style Sheets)&lt;/strong&gt; est un langage web qui permet de rendre vos pages &lt;strong&gt;HTML&lt;/strong&gt; un peu plus jolie à vos utilisateur.
+Dans ce tuto je vais vous (ré)appendre certaines notions quant aux sélecteurs CSS.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Les bases du Shell</title>
+      <link>https://lemon-cake.github.io/post/bases-shell/</link>
+      <pubDate>Mon, 03 Aug 2015 12:30:31 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/bases-shell/</guid>
+      <description>&lt;p&gt;Si vous utilisez un serveur Linux, il peut être utile d&amp;rsquo;utiliser le langage Shell qui permet d’exécuter du code un peu comme on le ferait avec des fichiers batch (ou *.bat) sous Windows.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Animation d&#39;un fichier PNG sans une seule ligne de JavaScript</title>
+      <link>https://lemon-cake.github.io/post/animation-d-un-fichier-png-sans-une-seule-ligne-de-javascript/</link>
+      <pubDate>Sun, 01 Jun 2014 12:30:25 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/animation-d-un-fichier-png-sans-une-seule-ligne-de-javascript/</guid>
+      <description>&lt;p&gt;Si comme moi vous en avez assez de voir des animations GIF, toutes pixelisés et en 256 couleurs voici comment créer des animations avec un fichier PNG ou JPG très facilement et sans une seule ligne de JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer des graphiques dynamiques avec Highcharts</title>
+      <link>https://lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</link>
+      <pubDate>Mon, 14 Apr 2014 12:30:25 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;Highcharts&#34; href=&#34;http://www.highcharts.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Highcharts&lt;/strong&gt;&lt;/a&gt; est un &lt;strong&gt;plugin JavaScript&lt;/strong&gt; gratuit vous permettant de créer facilement des graphiques interactifs. Tous ces graphiques sont réalisés en &lt;strong&gt;SVG&lt;/strong&gt;, qui est un format d’image vectorielle pour le web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Highcharts&lt;/strong&gt; propose deux types de librairies. La première &lt;strong&gt;Highstock&lt;/strong&gt; (pour la bourse par exemple) et la deuxième, celle que nous allons utiliser, &lt;strong&gt;Highcharts&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer une barre de progression incrémentable</title>
+      <link>https://lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</link>
+      <pubDate>Tue, 25 Feb 2014 12:31:17 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</guid>
+      <description>&lt;p&gt;Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème &amp;ldquo;Mais où en est mon script ?&amp;rdquo;. Et bien voici un petit tutorial simple pour vous apprendre à créer une barre de progression incrémentable très facilement.&lt;/p&gt;
+
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Lors de ce tutorial nous allons créer 2 scripts PHP, l&amp;rsquo;un qui servira à savoir où en est l&amp;rsquo;avancement du script et l&amp;rsquo;autre qui sera le script à écouter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer et préparer un serveur dédié ou local pour le web (LAMP)</title>
+      <link>https://lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</link>
+      <pubDate>Tue, 18 Feb 2014 12:30:05 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</guid>
+      <description>&lt;p&gt;Vous avez besoin chez vous ou à distance d&amp;rsquo;avoir un serveur Web pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ? Vous voulez avoir la main sur tout et ne pas être bridé ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Minimiser des scripts Javascript en PHP</title>
+      <link>https://lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</link>
+      <pubDate>Mon, 06 Jan 2014 14:02:42 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</guid>
+      <description>&lt;p&gt;Je viens de trouver une petite classe PHP qui vous permettra de gagner du temps de chargement sur vos gros scripts Javascript.&lt;/p&gt;
+
+&lt;p&gt;Vous avez déjà vu que lorsque vous télécharger par exemple la bibliothèque JavaScript jQuery vous avez une version *.min.js et une autre ? Et bien c&amp;rsquo;est que celle ci a été minimisé. Et bien je vais vous montrer comment minimiser vous même vos scripts JavaScript.&lt;/p&gt;
+
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+
+&lt;h2&gt;Prérequis&lt;/h2&gt;
+
+&lt;p&gt;Il vous faudra juste télécharger la classe à cette adresse : &lt;a href=&#34;https://github.com/rgrove/jsmin-php&#34;&gt;https://github.com/rgrove/jsmin-php&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explorateur de fichiers</title>
+      <link>https://lemon-cake.github.io/post/explorateur-de-fichiers/</link>
+      <pubDate>Thu, 12 Dec 2013 15:07:49 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/explorateur-de-fichiers/</guid>
+      <description>&lt;p&gt;Il y a quelques jours je vous parlais d&amp;rsquo;un petit plugin sympa pour parcourir un dossier et ses sous-dossiers. Le système est très pratique mais je me suis aperçu qu&amp;rsquo;il comportait une grosse faille de sécurité. En effet, il suffisait de faire une petite injection JavaScript via la console du navigateur et vous aviez accès aux dossiers que vous n&amp;rsquo;auriez jamais pu voir.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Formulaire de contact</title>
+      <link>https://lemon-cake.github.io/post/formulaire-de-contact/</link>
+      <pubDate>Fri, 29 Nov 2013 19:42:35 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/formulaire-de-contact/</guid>
+      <description>&lt;p&gt;Afin que les visiteurs de votre site puissent vous contacter, le mieux serai de mettre en place un formulaire de contact.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

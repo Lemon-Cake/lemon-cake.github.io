@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ressources on Lemon Cake</title>
+    <link>https://lemon-cake.github.io/tags/ressources/</link>
+    <description>Recent content in Ressources on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 28 Jan 2014 13:00:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://lemon-cake.github.io/tags/ressources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connexion à PDO MySQL</title>
+      <link>https://lemon-cake.github.io/post/connexion-pdo-mysql/</link>
+      <pubDate>Tue, 28 Jan 2014 13:00:28 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/connexion-pdo-mysql/</guid>
+      <description>&lt;p&gt;PDO ou PHP Data Objects est une classe PHP permettant de se connecter à une base de donnée. Pour utiliser PDO il faut la version 5.1.0 de PHP. Afin de voir si cette extension est installée sur votre serveur, utiliser la fonction phpinfo() et recherchez la ligne PDO Driver.
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Minimiser des scripts Javascript en PHP</title>
+      <link>https://lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</link>
+      <pubDate>Mon, 06 Jan 2014 14:02:42 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</guid>
+      <description>&lt;p&gt;Je viens de trouver une petite classe PHP qui vous permettra de gagner du temps de chargement sur vos gros scripts Javascript.&lt;/p&gt;
+
+&lt;p&gt;Vous avez déjà vu que lorsque vous télécharger par exemple la bibliothèque JavaScript jQuery vous avez une version *.min.js et une autre ? Et bien c&amp;rsquo;est que celle ci a été minimisé. Et bien je vais vous montrer comment minimiser vous même vos scripts JavaScript.&lt;/p&gt;
+
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+
+&lt;h2&gt;Prérequis&lt;/h2&gt;
+
+&lt;p&gt;Il vous faudra juste télécharger la classe à cette adresse : &lt;a href=&#34;https://github.com/rgrove/jsmin-php&#34;&gt;https://github.com/rgrove/jsmin-php&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bibliothèque d&#39;icônes gratuite</title>
+      <link>https://lemon-cake.github.io/post/bibliotheque-dicones-gratuite/</link>
+      <pubDate>Wed, 11 Dec 2013 11:09:14 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/bibliotheque-dicones-gratuite/</guid>
+      <description>&lt;p&gt;Si vous en avez toujours eu assez de ne jamais trouver 2 icônes avec le même style graphique pour votre site Internet ou si vous n&amp;rsquo;avez jamais l&amp;rsquo;icône qui correspond à la bonne utilisation. Je vous propose alors cette bibliothèque d&amp;rsquo;icônes gratuite qui compte plus de 3500 icônes.
+&lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
+Il sont disponible en 16x16 pixels au format PNG.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Créer des cookies avec du JavaScript</title>
+      <link>https://lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/</link>
+      <pubDate>Fri, 29 Nov 2013 11:30:46 +0000</pubDate>
+      
+      <guid>https://lemon-cake.github.io/post/creer-des-cookies-avec-du-javascript/</guid>
+      <description>&lt;p&gt;Un cookie en informatique est un ensemble de fichiers qui sont stockés sur votre ordinateur afin de charger plus facilement des informations. Ainsi grâce à eux, vous pouvez rester connecté à un site même après plusieurs jours sans y être venu. Et oui car la plupart du temps quand vous cocher la petite case &amp;ldquo;Se souvenir de moi&amp;rdquo;, le script de connexion va créer des cookies pour vous reconnaître plus facilement. Le système de panier sur les sites de e-commerce fonctionnent sur le même principe.&lt;/p&gt;
+
+&lt;p&gt;Des fois il se peut que vous reveniez sur un site plusieurs jours après mais vous n&amp;rsquo;êtes pas reconnu, car les cookies pour des raisons de sécurités ont une date d&amp;rsquo;expiration qui est modifiable.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
