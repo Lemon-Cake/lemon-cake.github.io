@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/sql/</link>
+    <link>/tags/sql/</link>
     <description>Recent content in Sql on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Wed, 15 Feb 2017 12:30:00 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
-      <link>lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <link>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <guid>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
       <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
 Commençons par supprimer le dossier setup qui permet la configuration de base
 rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
@@ -24,28 +24,28 @@ rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsq
     
     <item>
       <title>Couper une chaîne en concervant les balises HTML</title>
-      <link>lemon-cake.github.io/post/couper-une-chaine-en-concervant-les-balises-html/</link>
+      <link>/post/couper-une-chaine-en-concervant-les-balises-html/</link>
       <pubDate>Sat, 16 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/couper-une-chaine-en-concervant-les-balises-html/</guid>
+      <guid>/post/couper-une-chaine-en-concervant-les-balises-html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Créer un fichier zip de votre serveur et sauvegarde SQL</title>
-      <link>lemon-cake.github.io/post/creer-un-fichier-zip-de-votre-serveur/</link>
+      <link>/post/creer-un-fichier-zip-de-votre-serveur/</link>
       <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-un-fichier-zip-de-votre-serveur/</guid>
+      <guid>/post/creer-un-fichier-zip-de-votre-serveur/</guid>
       <description>&lt;p&gt;</description>
     </item>
     
     <item>
       <title>La téléportation à portée de tous</title>
-      <link>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</link>
+      <link>/post/la-teleportation-a-portee-de-tous/</link>
       <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</guid>
+      <guid>/post/la-teleportation-a-portee-de-tous/</guid>
       <description>&lt;p&gt;Vous avez toujours voulu vous d&amp;eacute;placer aux quatres coins du monde mais il faut payer et c&amp;#39;est souvent tr&amp;egrave;s long ? Et bien gr&amp;acirc;ce &amp;agrave; la premi&amp;egrave;re et unique application gratuite de t&amp;eacute;l&amp;eacute;portation, ce r&amp;ecirc;ve est maintenant r&amp;eacute;alit&amp;eacute; :&amp;nbsp;&lt;a href=&#34;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&#34; target=&#34;_blank&#34; title=&#34;Teleport v2&#34;&gt;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&lt;/a&gt;&lt;/p&gt;
 
 
@@ -54,19 +54,19 @@ rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsq
     
     <item>
       <title>Piwik, une alternative à Google Analytics</title>
-      <link>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</link>
+      <link>/post/piwik-une-alternative-a-google-analytics/</link>
       <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</guid>
+      <guid>/post/piwik-une-alternative-a-google-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SourceTree, mergez sous Windows et Mac</title>
-      <link>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <link>/post/sourcetree-mergez-sous-windows-et-mac/</link>
       <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <guid>/post/sourcetree-mergez-sous-windows-et-mac/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
 
 
@@ -75,10 +75,10 @@ rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsq
     
     <item>
       <title>Codiad, la programmation dans les nuages</title>
-      <link>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</link>
+      <link>/post/codiad-la-programmation-dans-les-nuages/</link>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</guid>
+      <guid>/post/codiad-la-programmation-dans-les-nuages/</guid>
       <description>&lt;p&gt;En tant que programmeur vous avez d&amp;ucirc;t &amp;ecirc;tre confront&amp;eacute; &amp;agrave; ce probl&amp;egrave;me au travail, (enfin pour ma part c&amp;#39;est le cas), d&amp;#39;avoir un peu de temps libre et vouloir programmer quelque chose. Mais soit vous n&amp;#39;avez pas vous sources sur vous, soit vous un &amp;ecirc;tes un aficionado de l&amp;#39;&amp;eacute;diteur de texte libre Sublime Text et forc&amp;eacute;ment vous ne l&amp;#39;avez pas sur la machine et vous ne voulez pas programmer sous DreamWeaver ou Notepad++.&amp;nbsp;&lt;/p&gt;
 
 

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nas on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/nas/</link>
+    <link>/tags/nas/</link>
     <description>Recent content in Nas on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Fri, 19 Jun 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Synchroniser des fichiers entre un Linux Server et un NAS Synology avec rsync</title>
-      <link>lemon-cake.github.io/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</link>
+      <link>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</link>
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</guid>
+      <guid>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</guid>
       <description>&lt;p&gt;La sauvegarde de fichier avant un crash est toujours crucial&amp;nbsp;et souvent assez compliqu&amp;eacute; &amp;agrave; mettre en place quand on ne s&amp;#39;y connait pas beaucoup en ligne de commandes.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer BitTorrent Sync sur son NAS Synology</title>
-      <link>lemon-cake.github.io/post/installer-bittorrent-sync-sur-son-nas-synology/</link>
+      <link>/post/installer-bittorrent-sync-sur-son-nas-synology/</link>
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-bittorrent-sync-sur-son-nas-synology/</guid>
+      <guid>/post/installer-bittorrent-sync-sur-son-nas-synology/</guid>
       <description>&lt;p&gt;Si comme moi vous cherchez un moyen de &lt;strong&gt;synchroniser facilement&lt;/strong&gt; des dossiers entre un &lt;strong&gt;poste distant&lt;/strong&gt; (ou non) et votre &lt;strong&gt;NAS Synology&lt;/strong&gt;&amp;nbsp;et bien voici comment installer &lt;a href=&#34;https://www.getsync.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BitTorrent Sync&lt;/strong&gt;&lt;/a&gt; sur votre NAS Synology.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer un serveur Terraria sous Linux ou sur un NAS Synology</title>
-      <link>lemon-cake.github.io/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</link>
+      <link>/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</link>
       <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</guid>
+      <guid>/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</guid>
       <description>&lt;p&gt;Je viens de me mettre &amp;agrave; un&amp;nbsp;petit jeu ind&amp;eacute;pendant, &lt;a href=&#34;http://www.terraria.org/&#34; target=&#34;_blank&#34;&gt;Terraria&lt;/a&gt;. Pour ceux qui ne connaissant pas, c&amp;#39;est un genre de Minecraft mais en 2D. En gros vous avez un personnag et vous devez utiliser votre environnement pour construite des habitations, trouver des ressources pour faire des armes, armures ... Le jeu est soit PvE, soit PvP. Et voulant y jouer avec mes amis &amp;agrave; moindre frais, j&amp;#39;ai cr&amp;eacute;&amp;eacute; mon propre serveur.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer IPKG sur son NAS Synology DSM 5</title>
-      <link>lemon-cake.github.io/post/installer-ipkg-sur-son-nas-synology-dsm-5/</link>
+      <link>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</link>
       <pubDate>Fri, 02 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-ipkg-sur-son-nas-synology-dsm-5/</guid>
+      <guid>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</guid>
       <description>&lt;p&gt;Sur les NAS Synology il n&amp;#39;est pas possible d&amp;#39;installer des paquets sans passer par le gestionnaire. Ce qui ne permet de pas d&amp;#39;installer ce que l&amp;#39;on veut. Par exemple pour &amp;eacute;diter un fichier en ligne commande il faut utilser &lt;em&gt;vi&lt;/em&gt;, perso je pr&amp;eacute;f&amp;egrave;re utiliser &lt;em&gt;nano&lt;/em&gt; comme sous Linux. Voici comment installer &lt;strong&gt;IPKG&lt;/strong&gt; sur son &lt;strong&gt;NAS Synology DSM 5&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git sur un NAS Synology</title>
-      <link>lemon-cake.github.io/post/git-sur-un-nas-synology/</link>
+      <link>/post/git-sur-un-nas-synology/</link>
       <pubDate>Sat, 27 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/git-sur-un-nas-synology/</guid>
+      <guid>/post/git-sur-un-nas-synology/</guid>
       <description></description>
     </item>
     

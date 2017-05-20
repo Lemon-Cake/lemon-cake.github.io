@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/android/</link>
+    <link>/tags/android/</link>
     <description>Recent content in Android on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Tue, 22 Nov 2016 12:15:00 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Huawei EMUI, revenir au mode de déverrouillage Aucun</title>
-      <link>lemon-cake.github.io/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</link>
+      <link>/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</link>
       <pubDate>Tue, 22 Nov 2016 12:15:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</guid>
+      <guid>/post/huawei-emui-revenir-au-mode-de-deverrouillage-aucun/</guid>
       <description>J&amp;rsquo;ai récement changé mon Nexus 5 qui commençait à dater par un nouveau téléphone et abandonnant par la même les téléphones Google pour un téléphone de la firme chinoise, Huawei. J&amp;rsquo;ai pris le Mate 8 en provenance direct de chine afin de le payer moins cher. 600€ en Europe, contre 400€ en Chine. J&amp;rsquo;ai eu de la chance d&amp;rsquo;être en NXT-L29C432, qui est la ROM Européenne et pas en NXT-TL00.</description>
     </item>
     
     <item>
       <title>Payez en ligne simplement avec Stripe</title>
-      <link>lemon-cake.github.io/post/payez-en-ligne-simplement-avec-stripe/</link>
+      <link>/post/payez-en-ligne-simplement-avec-stripe/</link>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/payez-en-ligne-simplement-avec-stripe/</guid>
+      <guid>/post/payez-en-ligne-simplement-avec-stripe/</guid>
       <description>&lt;p&gt;La derni&amp;egrave;re fois que j&amp;#39;ai programm&amp;eacute; un site de vente en ligne, j&amp;#39;ai d&amp;ucirc; utiliser Paypal car le client ne voulait pas utiliser le syst&amp;egrave;me de sa banque. Vous allez dire que c&amp;#39;est cool car l&amp;#39;API de Paypal est simple. Le seul souci&amp;nbsp;c&amp;#39;est que pour payer on est forc&amp;eacute;ment redirig&amp;eacute; vers leur site Internet.&amp;nbsp;Et bien gr&amp;acirc;ce &amp;agrave;&amp;nbsp;&lt;a href=&#34;https://stripe.com/fr&#34; target=&#34;_blank&#34;&gt;Stripe&lt;/a&gt;&amp;nbsp;vous pourrez cr&amp;eacute;er votre propre page de paiement avec vos petits doigts.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>La téléportation à portée de tous</title>
-      <link>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</link>
+      <link>/post/la-teleportation-a-portee-de-tous/</link>
       <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/la-teleportation-a-portee-de-tous/</guid>
+      <guid>/post/la-teleportation-a-portee-de-tous/</guid>
       <description>&lt;p&gt;Vous avez toujours voulu vous d&amp;eacute;placer aux quatres coins du monde mais il faut payer et c&amp;#39;est souvent tr&amp;egrave;s long ? Et bien gr&amp;acirc;ce &amp;agrave; la premi&amp;egrave;re et unique application gratuite de t&amp;eacute;l&amp;eacute;portation, ce r&amp;ecirc;ve est maintenant r&amp;eacute;alit&amp;eacute; :&amp;nbsp;&lt;a href=&#34;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&#34; target=&#34;_blank&#34; title=&#34;Teleport v2&#34;&gt;https://play.google.com/store/apps/details?id=fr.babeuloula.teleport&lt;/a&gt;&lt;/p&gt;
 
 
@@ -43,10 +43,10 @@
     
     <item>
       <title>Gites.fr, Application Android</title>
-      <link>lemon-cake.github.io/post/gites-fr-application-android/</link>
+      <link>/post/gites-fr-application-android/</link>
       <pubDate>Thu, 13 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/gites-fr-application-android/</guid>
+      <guid>/post/gites-fr-application-android/</guid>
       <description>&lt;p&gt;La raison pour laquelle je n&amp;#39;ai pas publi&amp;eacute; depuis plusieurs jours est celle ci. Durant mon stage de fin d&amp;#39;&amp;eacute;tude j&amp;#39;ai d&amp;ucirc; r&amp;eacute;aliser une application Android pour Cybevasion et j&amp;#39;ai &amp;eacute;t&amp;eacute; plut&amp;ocirc;t occup&amp;eacute; ces derni&amp;egrave;res semaines car la fin de mon stage approche et je n&amp;#39;avais pas fini l&amp;#39;application et le client ne validait pas encore. Mais bon cette histoire est fini, l&amp;#39;application est enfin disponible sur le Google Play Store. Elle est bien s&amp;ucirc;r gratuite.&lt;/p&gt;
 
 

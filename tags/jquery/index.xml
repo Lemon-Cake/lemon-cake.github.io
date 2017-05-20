@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jquery on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/jquery/</link>
+    <link>/tags/jquery/</link>
     <description>Recent content in Jquery on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Wed, 17 May 2017 12:30:16 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Détecter des visages grâce au Javascript</title>
-      <link>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</link>
+      <link>/post/detecter-des-visages-grace-au-javascript/</link>
       <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/detecter-des-visages-grace-au-javascript/</guid>
+      <guid>/post/detecter-des-visages-grace-au-javascript/</guid>
       <description>Le développeur Jay Salvat a développé un plugin jQuery qui permet de détecter les visages sur des images et des vidéos.
 
 Une fois les visages reconnus, le plugin vous retourne un tableau d&amp;rsquo;objets avec les informations suivantes :
@@ -25,19 +25,19 @@ Une fois les visages reconnus, le plugin vous retourne un tableau d&amp;rsquo;ob
     
     <item>
       <title>Tester son site sur toutes les versions de Microsoft Internet Explorer</title>
-      <link>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
+      <link>/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
+      <guid>/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
       <description>Lors de la réalisation d&amp;rsquo;un site Internet, il est important de devoir le rendre compatible avec les navigateurs les plus utilisés et surtout avec Microsoft Internet Explorer. Le problème c&amp;rsquo;est qu&amp;rsquo;il existe plein de versions différentes de ce navigateur. Et dès que vous allez faire une mise à jour Windows, il va installer automatiquement la dernière version. Du coup plutôt que d&amp;rsquo;avoir une batterie d&amp;rsquo;ordinateurs avec toutes les versions d&amp;rsquo;IE qui existe, Microsoft a pensé à nous, petits développeurs web.</description>
     </item>
     
     <item>
       <title>Récupérer le fil d&#39;actualité d&#39;une page Facebook facilement</title>
-      <link>lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</link>
+      <link>/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</link>
       <pubDate>Thu, 26 May 2016 12:30:03 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</guid>
+      <guid>/post/recuperer-fil-dactualite-dune-page-facebook-facilement/</guid>
       <description>&lt;p&gt;Si vous connaissez l&amp;rsquo;API de Facebook, vous savez à quel point celle-ci est très complexe à utiliser.
 Aujourd&amp;rsquo;hui je vous propose de récupérer le contenu des actualités qui ont été postés sur une page Facebook (dont vous êtes ou non le propriétaire).&lt;/p&gt;
 
@@ -46,29 +46,29 @@ Aujourd&amp;rsquo;hui je vous propose de récupérer le contenu des actualités 
     
     <item>
       <title>Créer une fonction JavaScript avec un callback</title>
-      <link>lemon-cake.github.io/post/creer-une-fonction-javascript-avec-un-callback/</link>
+      <link>/post/creer-une-fonction-javascript-avec-un-callback/</link>
       <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-une-fonction-javascript-avec-un-callback/</guid>
+      <guid>/post/creer-une-fonction-javascript-avec-un-callback/</guid>
       <description>&lt;p&gt;Lorsque vous faites de la programmation en &lt;strong&gt;JavaScript&lt;/strong&gt;, vous &amp;eacute;xecutez sans doute des fonctions et des fois vous avez besoin d&amp;#39;une fonction se termine pour appeler une nouvelle fonction. Donc vous avez besoin d&amp;#39;un &lt;strong&gt;callback&lt;/strong&gt;. Voici comment cr&amp;eacute;er un &lt;strong&gt;callback &lt;/strong&gt;en &lt;strong&gt;JavaScript&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Blur et masques en SVG</title>
-      <link>lemon-cake.github.io/post/blur-et-masques-en-svg/</link>
+      <link>/post/blur-et-masques-en-svg/</link>
       <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/blur-et-masques-en-svg/</guid>
+      <guid>/post/blur-et-masques-en-svg/</guid>
       <description>Il existe de plus en plus de site avec le fond de leur site qui est flouté ou d&amp;rsquo;autres qui utilisent des formes complexes pour rendre un peu plus joli leur site. Je me suis donc penché sur sur ces techniques et voici quelques petites astuces pour faire du flou (ou blur en anglais) et pour faire aussi des masques en SVG.
 Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas correctement la demo, c&amp;rsquo;est sans doute car votre navigateur gère mal le SVG.</description>
     </item>
     
     <item>
       <title>Créer des graphiques dynamiques avec Highcharts</title>
-      <link>lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</link>
+      <link>/post/creer-graphiques-dynamiques-highcharts/</link>
       <pubDate>Mon, 14 Apr 2014 12:30:25 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-graphiques-dynamiques-highcharts/</guid>
+      <guid>/post/creer-graphiques-dynamiques-highcharts/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;Highcharts&#34; href=&#34;http://www.highcharts.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Highcharts&lt;/strong&gt;&lt;/a&gt; est un &lt;strong&gt;plugin JavaScript&lt;/strong&gt; gratuit vous permettant de créer facilement des graphiques interactifs. Tous ces graphiques sont réalisés en &lt;strong&gt;SVG&lt;/strong&gt;, qui est un format d’image vectorielle pour le web.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Highcharts&lt;/strong&gt; propose deux types de librairies. La première &lt;strong&gt;Highstock&lt;/strong&gt; (pour la bourse par exemple) et la deuxième, celle que nous allons utiliser, &lt;strong&gt;Highcharts&lt;/strong&gt;.&lt;/p&gt;</description>
@@ -76,28 +76,28 @@ Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas corr
     
     <item>
       <title>Extension Pyload pour Google Chrome</title>
-      <link>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</link>
+      <link>/post/extension-pyload-pour-google-chrome/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</guid>
+      <guid>/post/extension-pyload-pour-google-chrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Une barre de progression à la sauce YouTube</title>
-      <link>lemon-cake.github.io/post/une-barre-de-progression-a-la-sauce-youtube/</link>
+      <link>/post/une-barre-de-progression-a-la-sauce-youtube/</link>
       <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/une-barre-de-progression-a-la-sauce-youtube/</guid>
+      <guid>/post/une-barre-de-progression-a-la-sauce-youtube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Créer une barre de progression incrémentable</title>
-      <link>lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</link>
+      <link>/post/creer-une-barre-de-progression-incrementable/</link>
       <pubDate>Tue, 25 Feb 2014 12:31:17 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-une-barre-de-progression-incrementable/</guid>
+      <guid>/post/creer-une-barre-de-progression-incrementable/</guid>
       <description>&lt;p&gt;Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème &amp;ldquo;Mais où en est mon script ?&amp;rdquo;. Et bien voici un petit tutorial simple pour vous apprendre à créer une barre de progression incrémentable très facilement.&lt;/p&gt;
 
 &lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
@@ -107,19 +107,19 @@ Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas corr
     
     <item>
       <title>Améliorer votre site avec DareBoost</title>
-      <link>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</link>
+      <link>/post/ameliorer-votre-site-avec-dareboost/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/ameliorer-votre-site-avec-dareboost/</guid>
+      <guid>/post/ameliorer-votre-site-avec-dareboost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Minimiser des scripts Javascript en PHP</title>
-      <link>lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</link>
+      <link>/post/minimiser-des-scripts-javascript-en-php/</link>
       <pubDate>Mon, 06 Jan 2014 14:02:42 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/minimiser-des-scripts-javascript-en-php/</guid>
+      <guid>/post/minimiser-des-scripts-javascript-en-php/</guid>
       <description>&lt;p&gt;Je viens de trouver une petite classe PHP qui vous permettra de gagner du temps de chargement sur vos gros scripts Javascript.&lt;/p&gt;
 
 &lt;p&gt;Vous avez déjà vu que lorsque vous télécharger par exemple la bibliothèque JavaScript jQuery vous avez une version *.min.js et une autre ? Et bien c&amp;rsquo;est que celle ci a été minimisé. Et bien je vais vous montrer comment minimiser vous même vos scripts JavaScript.&lt;/p&gt;
@@ -133,19 +133,19 @@ Tout d&amp;rsquo;abord, je tiens à vous dire que si vous ne visualisez pas corr
     
     <item>
       <title>Explorateur de fichiers</title>
-      <link>lemon-cake.github.io/post/explorateur-de-fichiers/</link>
+      <link>/post/explorateur-de-fichiers/</link>
       <pubDate>Thu, 12 Dec 2013 15:07:49 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/explorateur-de-fichiers/</guid>
+      <guid>/post/explorateur-de-fichiers/</guid>
       <description>&lt;p&gt;Il y a quelques jours je vous parlais d&amp;rsquo;un petit plugin sympa pour parcourir un dossier et ses sous-dossiers. Le système est très pratique mais je me suis aperçu qu&amp;rsquo;il comportait une grosse faille de sécurité. En effet, il suffisait de faire une petite injection JavaScript via la console du navigateur et vous aviez accès aux dossiers que vous n&amp;rsquo;auriez jamais pu voir.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Explorateur de fichiers jQuery File Tree</title>
-      <link>lemon-cake.github.io/post/explorateur-de-fichiers-jquery-file-tree/</link>
+      <link>/post/explorateur-de-fichiers-jquery-file-tree/</link>
       <pubDate>Tue, 26 Nov 2013 20:18:59 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/explorateur-de-fichiers-jquery-file-tree/</guid>
+      <guid>/post/explorateur-de-fichiers-jquery-file-tree/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;jQuery File Tree&#34; href=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34; target=&#34;_blank&#34;&gt;jQuery File Tree&lt;/a&gt; est un plugin jQuery fonctionnant en AJAX qui permet d&amp;rsquo;explorer facilement un dossier. Ainsi en quelques lignes de codes vous pourrez parcourir un dossier pour votre front ou back office.
 &lt;div class=&#34;read-more&#34;&gt;&lt;/div&gt;
 Vous avez une démo à cette adresse : &lt;a href=&#34;http://labs.abeautifulsite.net/archived/jquery-fileTree/demo/&#34;&gt;http://labs.abeautifulsite.net/archived/jquery-fileTree/demo/&lt;/a&gt;&lt;/p&gt;</description>
@@ -153,10 +153,10 @@ Vous avez une démo à cette adresse : &lt;a href=&#34;http://labs.abeautifulsi
     
     <item>
       <title>Parcourez des dossiers facilement avec jQuery</title>
-      <link>lemon-cake.github.io/post/parcourez-des-dossiers-facilement-avec-jquery/</link>
+      <link>/post/parcourez-des-dossiers-facilement-avec-jquery/</link>
       <pubDate>Fri, 22 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/parcourez-des-dossiers-facilement-avec-jquery/</guid>
+      <guid>/post/parcourez-des-dossiers-facilement-avec-jquery/</guid>
       <description>&lt;p&gt;Si vous chercher une m&amp;eacute;thode facile, efficace et jolie de parcourir vos dossiers pour un site Internet sans devoir conna&amp;icirc;tre une seule ligne de PHP je vous conseil le plugin &lt;a href=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34; target=&#34;_blank&#34; title=&#34;http://www.abeautifulsite.net/blog/2008/03/jquery-file-tree/&#34;&gt;jQuery File Tree&lt;/a&gt;&amp;nbsp;qui est tr&amp;egrave;s simple &amp;agrave; mettre en place.&lt;/p&gt;
 
 
@@ -165,19 +165,19 @@ Vous avez une démo à cette adresse : &lt;a href=&#34;http://labs.abeautifulsi
     
     <item>
       <title>Explorez vos dossiers avec Apaxy</title>
-      <link>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</link>
+      <link>/post/explorez-vos-dossiers-avec-apaxy/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</guid>
+      <guid>/post/explorez-vos-dossiers-avec-apaxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SourceTree, mergez sous Windows et Mac</title>
-      <link>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</link>
+      <link>/post/sourcetree-mergez-sous-windows-et-mac/</link>
       <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/sourcetree-mergez-sous-windows-et-mac/</guid>
+      <guid>/post/sourcetree-mergez-sous-windows-et-mac/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34; target=&#34;_blank&#34; title=&#34;SourceTree&#34;&gt;SourceTree&lt;/a&gt; est un logiciel qui va vous permettre de merger facilement vos diff&amp;eacute;rents projets entre programmeurs. Il est totalement gratuit et est compatible Windows et Mac.&lt;/p&gt;
 
 
@@ -186,10 +186,10 @@ Vous avez une démo à cette adresse : &lt;a href=&#34;http://labs.abeautifulsi
     
     <item>
       <title>Codiad, la programmation dans les nuages</title>
-      <link>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</link>
+      <link>/post/codiad-la-programmation-dans-les-nuages/</link>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/codiad-la-programmation-dans-les-nuages/</guid>
+      <guid>/post/codiad-la-programmation-dans-les-nuages/</guid>
       <description>&lt;p&gt;En tant que programmeur vous avez d&amp;ucirc;t &amp;ecirc;tre confront&amp;eacute; &amp;agrave; ce probl&amp;egrave;me au travail, (enfin pour ma part c&amp;#39;est le cas), d&amp;#39;avoir un peu de temps libre et vouloir programmer quelque chose. Mais soit vous n&amp;#39;avez pas vous sources sur vous, soit vous un &amp;ecirc;tes un aficionado de l&amp;#39;&amp;eacute;diteur de texte libre Sublime Text et forc&amp;eacute;ment vous ne l&amp;#39;avez pas sur la machine et vous ne voulez pas programmer sous DreamWeaver ou Notepad++.&amp;nbsp;&lt;/p&gt;
 
 

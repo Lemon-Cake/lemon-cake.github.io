@@ -2,408 +2,408 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Thu, 26 May 2016 12:30:03 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ajax</title>
-      <link>lemon-cake.github.io/tags/ajax/</link>
+      <link>/tags/ajax/</link>
       <pubDate>Thu, 26 May 2016 12:30:03 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/ajax/</guid>
+      <guid>/tags/ajax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithme</title>
-      <link>lemon-cake.github.io/tags/algorithme/</link>
+      <link>/tags/algorithme/</link>
       <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/algorithme/</guid>
+      <guid>/tags/algorithme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>lemon-cake.github.io/tags/android/</link>
+      <link>/tags/android/</link>
       <pubDate>Tue, 22 Nov 2016 12:15:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/android/</guid>
+      <guid>/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Animation</title>
-      <link>lemon-cake.github.io/tags/animation/</link>
+      <link>/tags/animation/</link>
       <pubDate>Sun, 01 Jun 2014 12:30:25 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/animation/</guid>
+      <guid>/tags/animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api</title>
-      <link>lemon-cake.github.io/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Mon, 12 Dec 2016 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Articles</title>
-      <link>lemon-cake.github.io/tags/articles/</link>
+      <link>/tags/articles/</link>
       <pubDate>Tue, 26 Nov 2013 20:18:59 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/articles/</guid>
+      <guid>/tags/articles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Base De Données</title>
-      <link>lemon-cake.github.io/tags/base-de-donn%C3%A9es/</link>
+      <link>/tags/base-de-donn%C3%A9es/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/base-de-donn%C3%A9es/</guid>
+      <guid>/tags/base-de-donn%C3%A9es/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cours</title>
-      <link>lemon-cake.github.io/tags/cours/</link>
+      <link>/tags/cours/</link>
       <pubDate>Mon, 14 Apr 2014 12:30:25 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/cours/</guid>
+      <guid>/tags/cours/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css</title>
-      <link>lemon-cake.github.io/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Tue, 03 Nov 2015 12:30:21 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css3</title>
-      <link>lemon-cake.github.io/tags/css3/</link>
+      <link>/tags/css3/</link>
       <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/css3/</guid>
+      <guid>/tags/css3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Développement</title>
-      <link>lemon-cake.github.io/tags/d%C3%A9veloppement/</link>
+      <link>/tags/d%C3%A9veloppement/</link>
       <pubDate>Mon, 14 Apr 2014 12:30:25 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/d%C3%A9veloppement/</guid>
+      <guid>/tags/d%C3%A9veloppement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Framework</title>
-      <link>lemon-cake.github.io/tags/framework/</link>
+      <link>/tags/framework/</link>
       <pubDate>Tue, 10 Jan 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/framework/</guid>
+      <guid>/tags/framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hors Sujet</title>
-      <link>lemon-cake.github.io/tags/hors-sujet/</link>
+      <link>/tags/hors-sujet/</link>
       <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/hors-sujet/</guid>
+      <guid>/tags/hors-sujet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>lemon-cake.github.io/tags/html/</link>
+      <link>/tags/html/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/html/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html5</title>
-      <link>lemon-cake.github.io/tags/html5/</link>
+      <link>/tags/html5/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/html5/</guid>
+      <guid>/tags/html5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Information</title>
-      <link>lemon-cake.github.io/tags/information/</link>
+      <link>/tags/information/</link>
       <pubDate>Mon, 19 Dec 2016 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/information/</guid>
+      <guid>/tags/information/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ios</title>
-      <link>lemon-cake.github.io/tags/ios/</link>
+      <link>/tags/ios/</link>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/ios/</guid>
+      <guid>/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>lemon-cake.github.io/tags/java/</link>
+      <link>/tags/java/</link>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/java/</guid>
+      <guid>/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>lemon-cake.github.io/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jeux</title>
-      <link>lemon-cake.github.io/tags/jeux/</link>
+      <link>/tags/jeux/</link>
       <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/jeux/</guid>
+      <guid>/tags/jeux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jquery</title>
-      <link>lemon-cake.github.io/tags/jquery/</link>
+      <link>/tags/jquery/</link>
       <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/jquery/</guid>
+      <guid>/tags/jquery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>lemon-cake.github.io/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Logiciel</title>
-      <link>lemon-cake.github.io/tags/logiciel/</link>
+      <link>/tags/logiciel/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/logiciel/</guid>
+      <guid>/tags/logiciel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nas</title>
-      <link>lemon-cake.github.io/tags/nas/</link>
+      <link>/tags/nas/</link>
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/nas/</guid>
+      <guid>/tags/nas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Navigateur</title>
-      <link>lemon-cake.github.io/tags/navigateur/</link>
+      <link>/tags/navigateur/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/navigateur/</guid>
+      <guid>/tags/navigateur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.Js</title>
-      <link>lemon-cake.github.io/tags/node.js/</link>
+      <link>/tags/node.js/</link>
       <pubDate>Tue, 20 Dec 2016 16:45:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/node.js/</guid>
+      <guid>/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>lemon-cake.github.io/tags/open-source/</link>
+      <link>/tags/open-source/</link>
       <pubDate>Wed, 17 May 2017 12:30:16 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/open-source/</guid>
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Php</title>
-      <link>lemon-cake.github.io/tags/php/</link>
+      <link>/tags/php/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/php/</guid>
+      <guid>/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Problème</title>
-      <link>lemon-cake.github.io/tags/probl%C3%A8me/</link>
+      <link>/tags/probl%C3%A8me/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/probl%C3%A8me/</guid>
+      <guid>/tags/probl%C3%A8me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projet</title>
-      <link>lemon-cake.github.io/tags/projet/</link>
+      <link>/tags/projet/</link>
       <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/projet/</guid>
+      <guid>/tags/projet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ressources</title>
-      <link>lemon-cake.github.io/tags/ressources/</link>
+      <link>/tags/ressources/</link>
       <pubDate>Tue, 28 Jan 2014 13:00:28 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/ressources/</guid>
+      <guid>/tags/ressources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serveur</title>
-      <link>lemon-cake.github.io/tags/serveur/</link>
+      <link>/tags/serveur/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/serveur/</guid>
+      <guid>/tags/serveur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>lemon-cake.github.io/tags/shell/</link>
+      <link>/tags/shell/</link>
       <pubDate>Mon, 03 Aug 2015 12:30:31 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/shell/</guid>
+      <guid>/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sprites</title>
-      <link>lemon-cake.github.io/tags/sprites/</link>
+      <link>/tags/sprites/</link>
       <pubDate>Sun, 01 Jun 2014 12:30:25 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/sprites/</guid>
+      <guid>/tags/sprites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>lemon-cake.github.io/tags/sql/</link>
+      <link>/tags/sql/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/sql/</guid>
+      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Svg</title>
-      <link>lemon-cake.github.io/tags/svg/</link>
+      <link>/tags/svg/</link>
       <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/svg/</guid>
+      <guid>/tags/svg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symfony</title>
-      <link>lemon-cake.github.io/tags/symfony/</link>
+      <link>/tags/symfony/</link>
       <pubDate>Tue, 10 Jan 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/symfony/</guid>
+      <guid>/tags/symfony/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synology</title>
-      <link>lemon-cake.github.io/tags/synology/</link>
+      <link>/tags/synology/</link>
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/synology/</guid>
+      <guid>/tags/synology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sécurité</title>
-      <link>lemon-cake.github.io/tags/s%C3%A9curit%C3%A9/</link>
+      <link>/tags/s%C3%A9curit%C3%A9/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/s%C3%A9curit%C3%A9/</guid>
+      <guid>/tags/s%C3%A9curit%C3%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>lemon-cake.github.io/tags/tutorial/</link>
+      <link>/tags/tutorial/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/tutorial/</guid>
+      <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutoriaux</title>
-      <link>lemon-cake.github.io/tags/tutoriaux/</link>
+      <link>/tags/tutoriaux/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/tutoriaux/</guid>
+      <guid>/tags/tutoriaux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>lemon-cake.github.io/tags/ubuntu/</link>
+      <link>/tags/ubuntu/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/ubuntu/</guid>
+      <guid>/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>lemon-cake.github.io/tags/windows/</link>
+      <link>/tags/windows/</link>
       <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/windows/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Youtube</title>
-      <link>lemon-cake.github.io/tags/youtube/</link>
+      <link>/tags/youtube/</link>
       <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/tags/youtube/</guid>
+      <guid>/tags/youtube/</guid>
       <description></description>
     </item>
     

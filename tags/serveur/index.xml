@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serveur on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/serveur/</link>
+    <link>/tags/serveur/</link>
     <description>Recent content in Serveur on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Thu, 23 Mar 2017 17:00:07 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/serveur/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/serveur/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installer Apache HTTP/2 sur un serveur web Ubuntu 14.04</title>
-      <link>lemon-cake.github.io/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</link>
+      <link>/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</link>
       <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</guid>
+      <guid>/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</guid>
       <description>Depuis sa mise en place en 1997, le protocole HTTP n&amp;rsquo;avait pas (ou peu) évolué. Mais en 2014, il a subit une grosse mise à jour et passe à sa version 2 (HTTP/2).
 Pour ce tuto, je pars du principe que vous avez déjà votre serveur d&amp;rsquo;installer avec HTTP/1.1.
 Par contre, il faut absolument que vous ayez un certificat SSL sur votre site pour que cela fonctionne. Le strandard ne l&amp;rsquo;impose pas mais les navigateurs récents, eux, l&amp;rsquo;imposent.</description>
@@ -24,10 +24,10 @@ Par contre, il faut absolument que vous ayez un certificat SSL sur votre site po
     
     <item>
       <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
-      <link>lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <link>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
       <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <guid>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
       <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
 Commençons par supprimer le dossier setup qui permet la configuration de base
 rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
@@ -35,10 +35,10 @@ rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsq
     
     <item>
       <title>Installer CozyCloud en parallèle d&#39;apache sur un serveur Linux</title>
-      <link>lemon-cake.github.io/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</link>
+      <link>/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</link>
       <pubDate>Thu, 06 Oct 2016 12:00:21 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</guid>
+      <guid>/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</guid>
       <description>Cozy Cloud est un serveur de données personnelles où vous pouvez installer plusieurs applications, comme par exemple : - Un webmail - Un agenda - Un système de todo list &amp;hellip;
 Il est même possible, via l&amp;rsquo;application smartphone et tablette, de faire comme avec Dropbox, d&amp;rsquo;envoyer directement ses photos sur votre serveur.
 A propos 
@@ -47,10 +47,10 @@ A propos
     
     <item>
       <title>Cacher la configuration de son serveur web</title>
-      <link>lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/</link>
+      <link>/post/cacher-la-configuration-de-son-serveur-web/</link>
       <pubDate>Sat, 03 Sep 2016 17:15:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/cacher-la-configuration-de-son-serveur-web/</guid>
+      <guid>/post/cacher-la-configuration-de-son-serveur-web/</guid>
       <description>Savoir comment et avec quoi sont fait les sites c&amp;rsquo;est bien, mais des fois on souhaite quand même cacher sa configuration.
 J&amp;rsquo;ai découvert depuis quelques temps une extension pour Google Chrome et Mozilla Firefox, nommée Wapppalyzer. Elle permet de voir quel langage de programmation et quelles technologies sont utilisées sur un site web ou un serveur.
 
@@ -59,10 +59,10 @@ Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite e
     
     <item>
       <title>Les bases du Shell</title>
-      <link>lemon-cake.github.io/post/bases-shell/</link>
+      <link>/post/bases-shell/</link>
       <pubDate>Mon, 03 Aug 2015 12:30:31 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/bases-shell/</guid>
+      <guid>/post/bases-shell/</guid>
       <description>&lt;p&gt;Si vous utilisez un serveur Linux, il peut être utile d&amp;rsquo;utiliser le langage Shell qui permet d’exécuter du code un peu comme on le ferait avec des fichiers batch (ou *.bat) sous Windows.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -70,46 +70,46 @@ Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite e
     
     <item>
       <title>Connaître la durée d&#39;un script Shell</title>
-      <link>lemon-cake.github.io/post/connaitre-la-duree-d-un-script-shell/</link>
+      <link>/post/connaitre-la-duree-d-un-script-shell/</link>
       <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/connaitre-la-duree-d-un-script-shell/</guid>
+      <guid>/post/connaitre-la-duree-d-un-script-shell/</guid>
       <description>&lt;p&gt;La semaine derni&amp;egrave;re je vous expliquais comment mettre en place un syst&amp;egrave;me de sauvegarde sur votre machine mais je me dis qu&amp;#39;il serai int&amp;eacute;ressant de conna&amp;icirc;tre la dur&amp;eacute;e de la copie.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Synchroniser des fichiers entre un Linux Server et un NAS Synology avec rsync</title>
-      <link>lemon-cake.github.io/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</link>
+      <link>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</link>
       <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</guid>
+      <guid>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</guid>
       <description>&lt;p&gt;La sauvegarde de fichier avant un crash est toujours crucial&amp;nbsp;et souvent assez compliqu&amp;eacute; &amp;agrave; mettre en place quand on ne s&amp;#39;y connait pas beaucoup en ligne de commandes.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer BitTorrent Sync sur son NAS Synology</title>
-      <link>lemon-cake.github.io/post/installer-bittorrent-sync-sur-son-nas-synology/</link>
+      <link>/post/installer-bittorrent-sync-sur-son-nas-synology/</link>
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-bittorrent-sync-sur-son-nas-synology/</guid>
+      <guid>/post/installer-bittorrent-sync-sur-son-nas-synology/</guid>
       <description>&lt;p&gt;Si comme moi vous cherchez un moyen de &lt;strong&gt;synchroniser facilement&lt;/strong&gt; des dossiers entre un &lt;strong&gt;poste distant&lt;/strong&gt; (ou non) et votre &lt;strong&gt;NAS Synology&lt;/strong&gt;&amp;nbsp;et bien voici comment installer &lt;a href=&#34;https://www.getsync.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;BitTorrent Sync&lt;/strong&gt;&lt;/a&gt; sur votre NAS Synology.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer IPKG sur son NAS Synology DSM 5</title>
-      <link>lemon-cake.github.io/post/installer-ipkg-sur-son-nas-synology-dsm-5/</link>
+      <link>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</link>
       <pubDate>Fri, 02 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-ipkg-sur-son-nas-synology-dsm-5/</guid>
+      <guid>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</guid>
       <description>&lt;p&gt;Sur les NAS Synology il n&amp;#39;est pas possible d&amp;#39;installer des paquets sans passer par le gestionnaire. Ce qui ne permet de pas d&amp;#39;installer ce que l&amp;#39;on veut. Par exemple pour &amp;eacute;diter un fichier en ligne commande il faut utilser &lt;em&gt;vi&lt;/em&gt;, perso je pr&amp;eacute;f&amp;egrave;re utiliser &lt;em&gt;nano&lt;/em&gt; comme sous Linux. Voici comment installer &lt;strong&gt;IPKG&lt;/strong&gt; sur son &lt;strong&gt;NAS Synology DSM 5&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Commandes utiles PostFix</title>
-      <link>lemon-cake.github.io/post/commandes-utiles-postfix/</link>
+      <link>/post/commandes-utiles-postfix/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/commandes-utiles-postfix/</guid>
+      <guid>/post/commandes-utiles-postfix/</guid>
       <description>&lt;p&gt;Petit billet tr&amp;egrave;s court juste pour vous donner quelques lignes de commandes pour &lt;a href=&#34;http://www.postfix.org/&#34; target=&#34;_blank&#34;&gt;PostFix&lt;/a&gt;.&lt;/p&gt;
 
 
@@ -118,28 +118,28 @@ Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite e
     
     <item>
       <title>Créer des événements récurrents en PHP</title>
-      <link>lemon-cake.github.io/post/creer-des-evenements-recurrents-en-php/</link>
+      <link>/post/creer-des-evenements-recurrents-en-php/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-des-evenements-recurrents-en-php/</guid>
+      <guid>/post/creer-des-evenements-recurrents-en-php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installer et préparer un serveur dédié ou local pour le web (LAMP)</title>
-      <link>lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</link>
+      <link>/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</link>
       <pubDate>Tue, 18 Feb 2014 12:30:05 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</guid>
+      <guid>/post/installer-et-preparer-un-serveur-dedie-ou-local-pour-le-web-lamp/</guid>
       <description>&lt;p&gt;Vous avez besoin chez vous ou à distance d&amp;rsquo;avoir un serveur Web pour pouvoir exécuter des scripts ou même pour votre site Internet, et vous ne savez pas comment faire ? Vous voulez avoir la main sur tout et ne pas être bridé ?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Faire un backup d&#39;un volume Synology planté ou crashed</title>
-      <link>lemon-cake.github.io/post/faire-un-backup-d-un-volume-synology-plante-ou-crashed-/</link>
+      <link>/post/faire-un-backup-d-un-volume-synology-plante-ou-crashed-/</link>
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/faire-un-backup-d-un-volume-synology-plante-ou-crashed-/</guid>
+      <guid>/post/faire-un-backup-d-un-volume-synology-plante-ou-crashed-/</guid>
       <description>&lt;p&gt;Un de mes lecteurs me faisait remarquer qu&amp;#39;apr&amp;egrave;s plus de 2 mois je n&amp;#39;avais toujours pas fait un retour sur Git syr les NAS Synology. Et bien je voulais en faire un ce weekend comme j&amp;#39;avais 3 jours de libre et bien s&amp;ucirc;r en me connectant ce matin a mon NAS j&amp;#39;ai eu la bonne surprise de d&amp;eacute;couvrir que mon disque dur de donn&amp;eacute;es (Volume 1) venait de planter lamentablement. Je peux encore m&amp;#39;en servir mais du coup je dois faire un backup, supprimer le volume, le recr&amp;eacute;er et bien s&amp;ucirc;r effectuer un test SMART pour corriger les erreurs car il ne pouvait pas &amp;ecirc;tre fait avant.&amp;nbsp;&lt;/p&gt;
 
 
@@ -148,46 +148,46 @@ Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite e
     
     <item>
       <title>Créer un fichier zip de votre serveur et sauvegarde SQL</title>
-      <link>lemon-cake.github.io/post/creer-un-fichier-zip-de-votre-serveur/</link>
+      <link>/post/creer-un-fichier-zip-de-votre-serveur/</link>
       <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/creer-un-fichier-zip-de-votre-serveur/</guid>
+      <guid>/post/creer-un-fichier-zip-de-votre-serveur/</guid>
       <description>&lt;p&gt;</description>
     </item>
     
     <item>
       <title>Explorez vos dossiers avec Apaxy</title>
-      <link>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</link>
+      <link>/post/explorez-vos-dossiers-avec-apaxy/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/explorez-vos-dossiers-avec-apaxy/</guid>
+      <guid>/post/explorez-vos-dossiers-avec-apaxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Piwik, une alternative à Google Analytics</title>
-      <link>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</link>
+      <link>/post/piwik-une-alternative-a-google-analytics/</link>
       <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/piwik-une-alternative-a-google-analytics/</guid>
+      <guid>/post/piwik-une-alternative-a-google-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git sur un NAS Synology</title>
-      <link>lemon-cake.github.io/post/git-sur-un-nas-synology/</link>
+      <link>/post/git-sur-un-nas-synology/</link>
       <pubDate>Sat, 27 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/git-sur-un-nas-synology/</guid>
+      <guid>/post/git-sur-un-nas-synology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Du SSH dans le navigateur (Chrome)</title>
-      <link>lemon-cake.github.io/post/du-ssh-dans-le-navigateur-chrome/</link>
+      <link>/post/du-ssh-dans-le-navigateur-chrome/</link>
       <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/du-ssh-dans-le-navigateur-chrome/</guid>
+      <guid>/post/du-ssh-dans-le-navigateur-chrome/</guid>
       <description></description>
     </item>
     

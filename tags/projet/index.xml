@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projet on Lemon Cake</title>
-    <link>lemon-cake.github.io/tags/projet/</link>
+    <link>/tags/projet/</link>
     <description>Recent content in Projet on Lemon Cake</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
     <lastBuildDate>Wed, 10 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="lemon-cake.github.io/tags/projet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/projet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nouvelle version de GameApp</title>
-      <link>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</link>
+      <link>/post/nouvelle-version-de-gameapp/</link>
       <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/nouvelle-version-de-gameapp/</guid>
+      <guid>/post/nouvelle-version-de-gameapp/</guid>
       <description>&lt;p&gt;Il y a quelques temps je vous parlais de mon application &lt;strong&gt;&lt;a href=&#34;https://www.babeuloula.fr/blog/gameapp-l-application-qui-gere-vos-jeux-pc.html&#34; target=&#34;_blank&#34;&gt;GameApp&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;qui permettait de lancer des applications facilements via une interface simplifi&amp;eacute;e. Et bien la version 0.4 est sortie.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>GameApp, l&#39;application qui gère vos jeux PC</title>
-      <link>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</link>
+      <link>/post/gameapp-l-application-qui-gere-vos-jeux-pc/</link>
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/gameapp-l-application-qui-gere-vos-jeux-pc/</guid>
+      <guid>/post/gameapp-l-application-qui-gere-vos-jeux-pc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Extension Pyload pour Google Chrome</title>
-      <link>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</link>
+      <link>/post/extension-pyload-pour-google-chrome/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>lemon-cake.github.io/post/extension-pyload-pour-google-chrome/</guid>
+      <guid>/post/extension-pyload-pour-google-chrome/</guid>
       <description></description>
     </item>
     
