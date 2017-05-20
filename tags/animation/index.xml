@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Animation on Lemon Cake</title>
+    <link>/tags/animation/</link>
+    <description>Recent content in Animation on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 01 Jun 2014 12:30:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Animation d&#39;un fichier PNG sans une seule ligne de JavaScript</title>
+      <link>/post/animation-d-un-fichier-png-sans-une-seule-ligne-de-javascript/</link>
+      <pubDate>Sun, 01 Jun 2014 12:30:25 +0000</pubDate>
+      
+      <guid>/post/animation-d-un-fichier-png-sans-une-seule-ligne-de-javascript/</guid>
+      <description>&lt;p&gt;Si comme moi vous en avez assez de voir des animations GIF, toutes pixelisés et en 256 couleurs voici comment créer des animations avec un fichier PNG ou JPG très facilement et sans une seule ligne de JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

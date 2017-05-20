@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sécurité on Lemon Cake</title>
+    <link>/tags/s%C3%A9curit%C3%A9/</link>
+    <description>Recent content in Sécurité on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 15 Feb 2017 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/s%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
+      <link>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
+      
+      <guid>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
+Commençons par supprimer le dossier setup qui permet la configuration de base
+rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
+    </item>
+    
+    <item>
+      <title>Crypter et décrypter une chaîne de caractères avec Node JS</title>
+      <link>/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</link>
+      <pubDate>Tue, 20 Dec 2016 16:45:00 +0000</pubDate>
+      
+      <guid>/post/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js/</guid>
+      <description>Dans un précèdent article je vous expliquais comment on pouvait crypter et décrypter une chaine de caractères en PHP. Cette fois je vais vous montrer comment le faire en Node JS.
+var crypto = require(&#39;crypto&#39;); var text = &amp;quot;Master of puppets I&#39;m pulling your strings, twisting your mind and smashing your dreams.&amp;quot; // On définit notre algorithme de cryptage var algorithm = &#39;aes256&#39;; // Notre clé de chiffrement, elle est souvent générée aléatoirement mais elle doit être la même pour le décryptage var password = &#39;l5JmP+G0/1zB%;r8B8?</description>
+    </item>
+    
+    <item>
+      <title>Crypter et décrypter une chaîne de caractères en PHP</title>
+      <link>/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/</link>
+      <pubDate>Fri, 23 Sep 2016 12:30:00 +0000</pubDate>
+      
+      <guid>/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/</guid>
+      <description>Dans certains programmes il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble. Voici comment faire en PHP pour passer d&amp;rsquo;une chaîne de caractère compréhensible à quelque chose d&amp;rsquo;incompréhensible.
+Avant-propos Avant toute chose, il est préférable de bien distinguer la différence entre cryptage (double sens) et authentification (sens unique).
+Différence entre le cryptage et l&amp;rsquo;authentification Le cryptage permet de modifier un message, afin qu&amp;rsquo;il ne peut être décrypté que si l&amp;rsquo;on obtient la bonne clé.</description>
+    </item>
+    
+  </channel>
+</rss>

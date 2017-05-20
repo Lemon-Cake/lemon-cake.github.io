@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logiciel on Lemon Cake</title>
+    <link>/tags/logiciel/</link>
+    <description>Recent content in Logiciel on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 13 May 2017 19:35:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/logiciel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tester son site sur toutes les versions de Microsoft Internet Explorer</title>
+      <link>/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</link>
+      <pubDate>Sat, 13 May 2017 19:35:07 +0000</pubDate>
+      
+      <guid>/post/tester-son-site-sur-toutes-les-versions-de-microsoft-internet-explorer/</guid>
+      <description>Lors de la réalisation d&amp;rsquo;un site Internet, il est important de devoir le rendre compatible avec les navigateurs les plus utilisés et surtout avec Microsoft Internet Explorer. Le problème c&amp;rsquo;est qu&amp;rsquo;il existe plein de versions différentes de ce navigateur. Et dès que vous allez faire une mise à jour Windows, il va installer automatiquement la dernière version. Du coup plutôt que d&amp;rsquo;avoir une batterie d&amp;rsquo;ordinateurs avec toutes les versions d&amp;rsquo;IE qui existe, Microsoft a pensé à nous, petits développeurs web.</description>
+    </item>
+    
+    <item>
+      <title>Nouvelle version de GameApp</title>
+      <link>/post/nouvelle-version-de-gameapp/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nouvelle-version-de-gameapp/</guid>
+      <description>&lt;p&gt;Il y a quelques temps je vous parlais de mon application &lt;strong&gt;&lt;a href=&#34;https://www.babeuloula.fr/blog/gameapp-l-application-qui-gere-vos-jeux-pc.html&#34; target=&#34;_blank&#34;&gt;GameApp&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;qui permettait de lancer des applications facilements via une interface simplifi&amp;eacute;e. Et bien la version 0.4 est sortie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GameApp, l&#39;application qui gère vos jeux PC</title>
+      <link>/post/gameapp-l-application-qui-gere-vos-jeux-pc/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gameapp-l-application-qui-gere-vos-jeux-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lire de gros fichiers textes</title>
+      <link>/post/lire-de-gros-fichiers-textes/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lire-de-gros-fichiers-textes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

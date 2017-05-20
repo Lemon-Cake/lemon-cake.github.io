@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Lemon Cake</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in Linux on Lemon Cake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Thu, 23 Mar 2017 17:00:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installer Apache HTTP/2 sur un serveur web Ubuntu 14.04</title>
+      <link>/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</link>
+      <pubDate>Thu, 23 Mar 2017 17:00:07 +0000</pubDate>
+      
+      <guid>/post/installer-apache-http-2-sur-un-serveur-web-ubuntu-14-04/</guid>
+      <description>Depuis sa mise en place en 1997, le protocole HTTP n&amp;rsquo;avait pas (ou peu) évolué. Mais en 2014, il a subit une grosse mise à jour et passe à sa version 2 (HTTP/2).
+Pour ce tuto, je pars du principe que vous avez déjà votre serveur d&amp;rsquo;installer avec HTTP/1.1.
+Par contre, il faut absolument que vous ayez un certificat SSL sur votre site pour que cela fonctionne. Le strandard ne l&amp;rsquo;impose pas mais les navigateurs récents, eux, l&amp;rsquo;imposent.</description>
+    </item>
+    
+    <item>
+      <title>Sécuriser et cacher l&#39;accès à phpMyAdmin sur votre serveur</title>
+      <link>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</link>
+      <pubDate>Wed, 15 Feb 2017 12:30:00 +0000</pubDate>
+      
+      <guid>/post/securiser-et-cacher-l-acces-a-phpmyadmin-sur-votre-serveur/</guid>
+      <description>Après l&amp;rsquo;installation de votre serveur web sous Linux, vous allez sans doute vouloir gérer vos bases de données via phpMyAdmin. Mais par défaut, après son installation il est important de sécuriser un minium et cacher l&amp;rsquo;accès à phpMyAdmin.
+Commençons par supprimer le dossier setup qui permet la configuration de base
+rm -rf /usr/share/phpmyadmin/setup  Puis, afin d&amp;rsquo;éviter que l&amp;rsquo;accès à phpMyAdmin soit dispo sur l&amp;rsquo;ensemble de vos VirtualHost, il faut supprimer l&amp;rsquo;alias qui dans le fichier /etc/phpmyadmin/apache.</description>
+    </item>
+    
+    <item>
+      <title>Créer une tâche CRON sous Symfony</title>
+      <link>/post/creer-une-tache-cron-sous-symfony/</link>
+      <pubDate>Tue, 10 Jan 2017 12:30:00 +0000</pubDate>
+      
+      <guid>/post/creer-une-tache-cron-sous-symfony/</guid>
+      <description>Je me suis enfin plongé dans Symfony pour des besoins professionnels et j&amp;rsquo;ai été confronté au fait de devoir exécuter une tâche CRON sur un site Symfony. Alors oui créer un CRON n&amp;rsquo;est pas dur mais pouvoir réutiliser la logique et surtout la puissance de Symfony n&amp;rsquo;est pas forcément facile à faire si on doit charger composants après composants.
+Il y a toujours la possibilité de créer des routes et d&amp;rsquo;appeler les URL dans le CRON mais comme Symfony intègre une console, pourquoi ne pas s&amp;rsquo;en servir justement.</description>
+    </item>
+    
+    <item>
+      <title>Comment fonctionne la compression Gzip</title>
+      <link>/post/comment-fonctionne-la-compression-gzip/</link>
+      <pubDate>Mon, 19 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>/post/comment-fonctionne-la-compression-gzip/</guid>
+      <description>Vous avez tous déjà compressé des fichiers, soit pour gagner de la place soit pour un envoi. Mais savez-vous vraiment comment elle fonctionne ?
+Lors de la KiwiParty de 2012 organisé par Alsacréations, une agence web basée à Strasbourg, Frédéric Kayser est intervenu avec une conférence sur Images : état de l&amp;rsquo;art et aspects méconnus qui parlait de la compression des images.
+Et un peu plus tard, après cette conférence, il est revenu plus en détails sur le fonctionnement de la compression Gzip.</description>
+    </item>
+    
+    <item>
+      <title>Installer HTTPie sur Windows et Linux</title>
+      <link>/post/installer-httpie-sur-windows-et-linux/</link>
+      <pubDate>Mon, 12 Dec 2016 12:30:00 +0000</pubDate>
+      
+      <guid>/post/installer-httpie-sur-windows-et-linux/</guid>
+      <description>HTTPie, que l&amp;rsquo;on prononce aitch-tee-tee-pie, est une librairie pour Mac qui permet de taper des requêtes HTTP directement en lignes de commandes. Elle a été créée par Jakub Roztocil un développeur installé à Londres.
+Cela est assez pratique si on doit tester une API ou une URL rapidement sans utiliser un logiciel ou autre.
+Normalement, quand vous souhaitez envoyer une requête HTTP en ligne de commande, vous passez sans doute par cURL avec une commande de ce genre là :</description>
+    </item>
+    
+    <item>
+      <title>Chronologie des distributions GNU/Linux</title>
+      <link>/post/gnu-linux-distribution-timeline/</link>
+      <pubDate>Tue, 25 Oct 2016 12:30:00 +0000</pubDate>
+      
+      <guid>/post/gnu-linux-distribution-timeline/</guid>
+      <description>GNU/Linux ou Linux est un système d&amp;rsquo;exploitation créé en 1991 par Linus Torvalds qui remplace le précédent noyau GNU fondé en 1984 par Richard Stallman.
+Depuis cette date, il existe une multitude de déclinaisons (ou fork) ou distributions. Et pour illustrer toutes ces distributions, José Alex Sandoval, aidé par d&amp;rsquo;autres personnes (Andreas Lundqvist, Donjan Rodic, Mohammed A. Mustafa, Aleksandar Urošević) ont décidés de créer la GNU/Linux Distribution Timeline.
+On y retrouve toutes (sauf oubli) les distributions, comme les plus connues Debian, Ubuntu, RedHat, CentOS ou encore Fedora.</description>
+    </item>
+    
+    <item>
+      <title>Installer CozyCloud en parallèle d&#39;apache sur un serveur Linux</title>
+      <link>/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</link>
+      <pubDate>Thu, 06 Oct 2016 12:00:21 +0000</pubDate>
+      
+      <guid>/post/installer-cozycloud-en-parallele-d-apache-sur-un-serveur-linux/</guid>
+      <description>Cozy Cloud est un serveur de données personnelles où vous pouvez installer plusieurs applications, comme par exemple : - Un webmail - Un agenda - Un système de todo list &amp;hellip;
+Il est même possible, via l&amp;rsquo;application smartphone et tablette, de faire comme avec Dropbox, d&amp;rsquo;envoyer directement ses photos sur votre serveur.
+A propos 
+ Cozy est une plateforme open source et auto-hébergée de gestion des données personnelles. Elle transforme le serveur personnel en quelque chose de nouveau.</description>
+    </item>
+    
+    <item>
+      <title>Cacher la configuration de son serveur web</title>
+      <link>/post/cacher-la-configuration-de-son-serveur-web/</link>
+      <pubDate>Sat, 03 Sep 2016 17:15:00 +0000</pubDate>
+      
+      <guid>/post/cacher-la-configuration-de-son-serveur-web/</guid>
+      <description>Savoir comment et avec quoi sont fait les sites c&amp;rsquo;est bien, mais des fois on souhaite quand même cacher sa configuration.
+J&amp;rsquo;ai découvert depuis quelques temps une extension pour Google Chrome et Mozilla Firefox, nommée Wapppalyzer. Elle permet de voir quel langage de programmation et quelles technologies sont utilisées sur un site web ou un serveur.
+
+Le problème pour les développeurs c&amp;rsquo;est que grâce à cette petite extension gratuite, les pirates peuvent savoir comment est fait le site et donc utiliser des failles.</description>
+    </item>
+    
+    <item>
+      <title>Connaître la durée d&#39;un script Shell</title>
+      <link>/post/connaitre-la-duree-d-un-script-shell/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/connaitre-la-duree-d-un-script-shell/</guid>
+      <description>&lt;p&gt;La semaine derni&amp;egrave;re je vous expliquais comment mettre en place un syst&amp;egrave;me de sauvegarde sur votre machine mais je me dis qu&amp;#39;il serai int&amp;eacute;ressant de conna&amp;icirc;tre la dur&amp;eacute;e de la copie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Synchroniser des fichiers entre un Linux Server et un NAS Synology avec rsync</title>
+      <link>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</link>
+      <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/synchroniser-des-fichiers-entre-un-linux-server-et-un-nas-synology-avec-rsyn/</guid>
+      <description>&lt;p&gt;La sauvegarde de fichier avant un crash est toujours crucial&amp;nbsp;et souvent assez compliqu&amp;eacute; &amp;agrave; mettre en place quand on ne s&amp;#39;y connait pas beaucoup en ligne de commandes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer un serveur Terraria sous Linux ou sur un NAS Synology</title>
+      <link>/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/installer-un-serveur-terraria-sous-linux-ou-sur-un-nas-synology/</guid>
+      <description>&lt;p&gt;Je viens de me mettre &amp;agrave; un&amp;nbsp;petit jeu ind&amp;eacute;pendant, &lt;a href=&#34;http://www.terraria.org/&#34; target=&#34;_blank&#34;&gt;Terraria&lt;/a&gt;. Pour ceux qui ne connaissant pas, c&amp;#39;est un genre de Minecraft mais en 2D. En gros vous avez un personnag et vous devez utiliser votre environnement pour construite des habitations, trouver des ressources pour faire des armes, armures ... Le jeu est soit PvE, soit PvP. Et voulant y jouer avec mes amis &amp;agrave; moindre frais, j&amp;#39;ai cr&amp;eacute;&amp;eacute; mon propre serveur.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer IPKG sur son NAS Synology DSM 5</title>
+      <link>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</link>
+      <pubDate>Fri, 02 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/installer-ipkg-sur-son-nas-synology-dsm-5/</guid>
+      <description>&lt;p&gt;Sur les NAS Synology il n&amp;#39;est pas possible d&amp;#39;installer des paquets sans passer par le gestionnaire. Ce qui ne permet de pas d&amp;#39;installer ce que l&amp;#39;on veut. Par exemple pour &amp;eacute;diter un fichier en ligne commande il faut utilser &lt;em&gt;vi&lt;/em&gt;, perso je pr&amp;eacute;f&amp;egrave;re utiliser &lt;em&gt;nano&lt;/em&gt; comme sous Linux. Voici comment installer &lt;strong&gt;IPKG&lt;/strong&gt; sur son &lt;strong&gt;NAS Synology DSM 5&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

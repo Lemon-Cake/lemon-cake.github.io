@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Crypter et décrypter une chaîne de caractères en PHP &middot;  Lemon Cake" />
+        <meta property="og:site_name" content="Lemon Cake" />
+        <meta property="og:url" content="/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2016-09-23T12:30:00Z" />
+        <meta property="og:article:tag" content="PHP" />
+        <meta property="og:article:tag" content="Sécurité" />
+        <meta property="og:article:tag" content="Tutorial" />
+        <meta property="og:article:tag" content="Tutoriaux" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="Crypter et décrypter une chaîne de caractères en PHP" />
+        <meta name="twitter:description" content="Dans certains programmes PHP il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble" />
+        <meta name="twitter:url" content="/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/" />
+    
+
+        <title> Crypter et décrypter une chaîne de caractères en PHP &middot;  Lemon Cake</title>
+
+        <link rel="preload" href="/js/main.js" as="script" />
+        <link rel="preload" href="/css/main.css" as="style" />
+
+    
+        <meta name="description" content="Dans certains programmes PHP il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Lemon Cake" />
+    
+
+    
+        <link rel="canonical" href="/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "/post/crypter-et-decrypter-une-chaine-de-caracteres-en-php/"
+        },
+        "headline": "Crypter et décrypter une chaîne de caractères en PHP",
+        "description": "Dans certains programmes PHP il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "/",
+          "name": "Lemon Cake",
+          "url": "/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.babeuloula.fr/images/blog/head/encryption-authentification.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2016-09-23",
+        "dateModified": "2016-09-23",
+        "wordCount": 998,
+        "keywords": ["PHP","Sécurité","Tutorial","Tutoriaux"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face{font-family:'icons';src:url(//fonts/icons.eot?9273991);src:url(//fonts/icons.eot?9273991#iefix) format("embedded-opentype"),url(//fonts/icons.woff?9273991) format("woff"),url(//fonts/icons.ttf?9273991) format("truetype"),url(//fonts/icons.svg?9273991#icons) format("svg");font-weight:400;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #36D995}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #36D995}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#36D995}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #36D995;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#2DB77E}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #36D995;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#36D995;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#2DB77E;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+              <a href="/">
+      			  
+              </a>
+            </div>
+            <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
+                
+                
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+	<article class="post">
+		<div class="inner">
+
+			<div id="push">
+
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">23/09/2016</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">998</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">Crypter et décrypter une chaîne de caractères en PHP</h1>
+  			</header>
+
+  			<section class="post-content">
+  				
+
+<p>Dans certains programmes il peut être intéressant de vouloir stocker une chaîne de caractère crypté et pouvoir la décrypter quand bon vous semble. Voici comment faire en PHP pour passer d&rsquo;une chaîne de caractère compréhensible à quelque chose d&rsquo;incompréhensible.</p>
+
+<h2 id="avant-propos">Avant-propos</h2>
+
+<p>Avant toute chose, il est préférable de bien distinguer la différence entre cryptage (double sens) et authentification (sens unique).</p>
+
+<h3 id="différence-entre-le-cryptage-et-l-authentification">Différence entre le cryptage et l&rsquo;authentification</h3>
+
+<p><strong>Le cryptage</strong> permet de modifier un message, afin qu&rsquo;il ne peut être décrypté que si l&rsquo;on obtient la bonne clé. Exactement comme la machine  <a href="https://fr.wikipedia.org/wiki/Enigma_(machine)"><strong>Enigma</strong></a> qui était utilisé pendant la seconde guerre mondiale.</p>
+
+<p>En cryptographie, il existe la <strong>cryptographie symétrique</strong> où une même clé de chiffrement est utilisée à la fois pour chiffrer et déchiffrer un message. A l&rsquo;inverse il existe la <strong>cryptographie asymétrique</strong>, où il faut utiliser un couple de clé publique et clé privée.</p>
+
+<p>Dans le deuxième cas, prenons par exemple une discussion entre 2 personnes, <em>Mr A</em> et <em>Mr B</em>. <em>Mr A</em> génère un couple de clés, puis <em>Mr A</em> envoi sa clé publique à <em>Mr B</em>. Quand <em>Mr B</em> voudra envoyer un message à <em>Mr A</em>, il devra utiliser la clé publique de <em>Mr A</em> pour crypter le message. Une fois le message reçu par <em>Mr A</em>, il pourra utiliser sa clé privée pour décoder le message et <strong>uniquement grâce à celle-ci</strong>. Sans cette clé, personne ne pourra voir le message de <em>Mr B</em>. D&rsquo;où les termes de <strong>clé privée</strong> et <strong>clé publique</strong>.</p>
+
+<p><strong>L&rsquo;authentification</strong> quant à elle, est le principe de rendre un message indéchiffrable via un système de hashage comme le <strong>md5</strong>, <strong>sha1</strong>, <strong>sha512</strong> &hellip;</p>
+
+<p>Pour résumer <strong>l&rsquo;encryption assure la confidentialité</strong> et <strong>l&rsquo;authentification fournit l&rsquo;intégrité</strong>.</p>
+
+<h2 id="cryptage-symétrique">Cryptage symétrique</h2>
+
+<p>Comme expliqué plus haut, nous allons utiliser une seule et même clé pour chiffrer et déchiffrer notre message.</p>
+
+<p>Commençons par installer le paquet <code>defuse/php-encryption</code> via composer :</p>
+
+<pre><code class="language-shell">composer require defuse/php-encryption
+</code></pre>
+
+<p>Voici comment en quelques lignes je vais pouvoir crypter la phrase suivante <code>Master of puppets I'm pulling your strings, twisting your mind and smashing your dreams.</code></p>
+
+<pre><code class="language-php">&lt;?php
+    
+    use \Defuse\Crypto\Crypto;
+    use \Defuse\Crypto\Key;
+
+    require &quot;vendor/autoload.php&quot;;
+
+    // On génère une clé aléatoire pour le cryptage
+    $key = Key::createNewRandomKey();
+
+    $message = 'Master of puppets I\'m pulling your strings, twisting your mind and smashing your dreams.';
+
+    $cryptText = Crypto::encrypt($message, $key);
+</code></pre>
+
+<p>Et voici le contenu de la variable <em>$cryptText</em> : <code>def50200320358969bec524d8605c4099a7c6474fcb311029bec162c41a3aa881584b3f32a3d8d5585faf153f155c1170956d945b95548ec5be7b67d5009bb856e22ad532c5c2460f4f54aacf9b52010b16d8e2ca3bfe95d867e26ec2423b74d6e04deb6d91739b36fc4ca66befddc061d9fe2c87dd1e879ff00b0d604dbe4285c18bfe0756b542bf9c4f4b38b970031f6def067da05bbb84be45a832af20ebade7de1f7bc7ca0f52f2a8c5a</code>.</p>
+
+<p>Bien-sûr il faut penser à stocker la clé aléatoire pour crypter/décrypter les futurs données. Mais attention, la clé générée par la librairie n&rsquo;est pas une chaine de caractère. Il faut donc la convertir pour la sauvegarder correctement :</p>
+
+<pre><code class="language-php">// Récupération de la clé aléatoire en chaîne de caractère pour le stockage
+$key-&gt;saveToAsciiSafeString();
+</code></pre>
+
+<p>Ce qui me donne une clé comme ceci <code>def000006f289f278c817e85ca4fa1731fe08d16d0b621356e8f90b89a25a18bb3ce0265ff8fe0473b152cedd832fd85fa4148e8d03df7072e218ccb015a1e0a4eaeba97</code></p>
+
+<p>Si je souhaite la réutiliser pour décrypter mon message :</p>
+
+<pre><code class="language-php">$asciKey = &quot;def000006f289f278c817e85ca4fa1731fe08d16d0b621356e8f90b89a25a18bb3ce0265ff8fe0473b152cedd832fd85fa4148e8d03df7072e218ccb015a1e0a4eaeba97&quot;
+$key = Key::loadFromAsciiSafeString($asciKey);
+</code></pre>
+
+<p>Et je peux maintenant décrypter mon message :</p>
+
+<pre><code class="language-php">$plainText = Crypto::decrypt($ciphertext, $key);
+</code></pre>
+
+<h2 id="cryptage-asymétrique">Cryptage asymétrique</h2>
+
+<p>Pour utiliser le <strong>Cryptage asymétrique</strong>, il faut que l&rsquo;extension <strong>openssl</strong> soit activé dans votre <em>php.ini</em>.</p>
+
+<p>Si vous avez lu la première partie, vous savez qu&rsquo;il nous faut un couple de clés pour utiliser ce type de cryptage. Nous allons donc les générer :</p>
+
+<pre><code class="language-shell">openssl genrsa -out private.key 1024
+openssl rsa -in private.key -out public.key -pubout -outform PEM
+</code></pre>
+
+<p>Si vous êtes sous Windows, vous avez dû vous rendre compte que la commande <code>openssl</code> ne fonctionne pas. Pas de panique, rendez-vous à l&rsquo;adresse suivante pour télécharger les fichiers binaires : <a href="https://wiki.openssl.org/index.php/Binaries">https://wiki.openssl.org/index.php/Binaries</a></p>
+
+<p>L&rsquo;utilisation est très simple, toutes les fonctions dont vous avez besoin sont disponible nativement dans PHP (à condition d&rsquo;avoir activé l&rsquo;extension <em>openssl</em>) :</p>
+
+<pre><code class="language-php">&lt;?php 
+
+$publicKey  = file_get_contents('public.key');
+$privateKey = file_get_contents('private.key');
+
+$message = 'Master of puppets I\'m pulling your strings, twisting your mind and smashing your dreams.';
+
+// On crypte avec la clé publique
+openssl_public_encrypt($message, $crypted, $publicKey);
+
+// On décrypte avec la clé privée
+openssl_private_decrypt($crypted, $decrypted, $privateKey);
+</code></pre>
+
+<p>Vous trouverez la liste complète de fonctions <strong>OpenSSL</strong> pour <strong>PHP</strong> ici : <a href="http://php.net/manual/fr/ref.openssl.php">http://php.net/manual/fr/ref.openssl.php</a></p>
+
+<p>Les variables <code>$crypted</code> et <code>$decrypted</code> sont des références. Voici ce que dit la documentation PHP dessus :</p>
+
+<blockquote>
+<p>En PHP, les références sont un moyen d&rsquo;accéder au contenu d&rsquo;une même variable en utilisant plusieurs noms. Les références ne sont pas comme des pointeurs en C : vous ne pouvez pas effectuer d&rsquo;opération arithmétique de pointeurs sur celles-ci, ce ne sont pas des adresses mémoires, etc. Vous pouvez consulter Ce que les références ne sont pas pour plus d&rsquo;informations. En fait, les références sont des alias dans la table des symboles. Notez qu&rsquo;en PHP, le nom d&rsquo;une variable et son contenu sont deux notions distinctes, ce qui fait que l&rsquo;on peut donner plusieurs noms au même contenu. On peut faire l&rsquo;analogie avec les fichiers sous Unix, et leurs noms : les noms des variables sont les entrées dans un répertoire, tandis que le contenu de la variable est le fichier en lui-même. Les références en PHP peuvent alors être considérées comme semblables aux liens sous Unix.</p>
+</blockquote>
+
+<p>Et voici la documentation : <a href="http://php.net/manual/fr/language.references.php">http://php.net/manual/fr/language.references.php</a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Sous savez maintenant comment crypter des données facilement en PHP.</p>
+
+<p>Mais toutefois attention, <strong>il ne faut jamais utiliser le cryptage pour des mots de passe.</strong> Si vous souhaitez protéger des mots de passe il est préférable d&rsquo;utiliser des systèmes d&rsquo;authentification.</p>
+
+<p>Vous en avez plusieurs comme le <strong>md5</strong> ou le <strong>sha1</strong>. Je les déconseille car ils donnent à chaque fois la même chose, et on peut facilement retrouver le message grâce à des dictionnaires ou de sites comme <a href="http://hashtoolkit.com/">hashtoolkit</a> qui ont une base de données de plus de 6 milliards de hashes décryptés.</p>
+
+<p>Utilisez plutôt les fonctions <a href="http://php.net/manual/fr/function.password-hash.php"><strong>password_hash</strong></a> ou <strong><a href="http://php.net/manual/fr/function.crypt.php">crypt</a></strong> et pour les vérifier, vous pouvez utiliser <a href="http://php.net/manual/fr/function.password-verify.php"><strong>password_verify</strong></a> ou <a href="http://php.net/manual/fr/function.hash-equals.php"><strong>hash_equals</strong></a>.</p>
+
+<h3 id="edit">EDIT</h3>
+
+<p>Pour ceux qui seraient intéressés, j&rsquo;ai fais un nouvel article concernant le <strong>cryptage et décryptage d&rsquo;une chaine de caractères en Node JS</strong>. A lire <a href="https://www.babeuloula.fr/blog/crypter-et-decrypter-une-chaine-de-caracteres-avec-node-js.html">ici</a></p>
+
+<h2 id="démo">Démo</h2>
+
+<h2 id="cas-concret">Cas concret</h2>
+
+<p>Je vous laisse vous rendez sur mon autre billet qui vous explique comment faire : <a href="//www.babeuloula.fr/blog/creer-un-systeme-de-connexion-se-souvenir-de-moi.html">Créer un système de connexion &ldquo;Se souvenir de moi&rdquo;</a></p>
+
+<h2 id="source">Source</h2>
+
+<p>Si vous souhaitez en savoir plus sur la différence entre <strong>le cryptage</strong> et <strong>l&rsquo;authentification</strong> : <a href="https://paragonie.com/blog/2015/05/using-encryption-and-authentication-correctly">Using Encryption and Authentication Correctly (for PHP developers)</a></p>
+
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="//tags/php/">PHP</a>
+            
+                <a href="//tags/s%C3%A9curit%C3%A9/">Sécurité</a>
+            
+                <a href="//tags/tutorial/">Tutorial</a>
+            
+                <a href="//tags/tutoriaux/">Tutoriaux</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=Crypter%20et%20d%c3%a9crypter%20une%20cha%c3%aene%20de%20caract%c3%a8res%20en%20PHP&url=%2fpost%2fcrypter-et-decrypter-une-chaine-de-caracteres-en-php%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fcrypter-et-decrypter-une-chaine-de-caracteres-en-php%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=%2fpost%2fcrypter-et-decrypter-une-chaine-de-caracteres-en-php%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
+			</div>
+
+			<nav class="post-nav">
+				
+					<a class="post-nav-item post-nav-next" href="/post/creer-un-systeme-de-connexion-se-souvenir-de-moi/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Créer un système de connexion &#34;Se souvenir de moi&#34;</h4>
+								<p class="post-nav-excerpt">Réalisez facilement un formulaire de connexion avec l&#39;option &#34;Se souvenir de moi&#34;&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				
+					<a class="post-nav-item post-nav-prev" href="/post/visualiser-les-photos-windows-10-dans-l-ordre-d-affichage/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Visualiser les photos Windows 10 dans l&#39;ordre d&#39;affichage</h4>
+								<p class="post-nav-excerpt">Comment afficher correctement l&#39;ordre des photos Windows 10 par rapport à l&#39;ordre de trie demandé&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
+
+		</div>
+	</article>
+</main>
+
+				<div id="body-class" style="display: none;"></div>
+				<footer id="footer">
+					<section class="credits">
+						<span class="credits-theme">A forked FR theme of <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
+					</section>
+				</footer>
+				
+				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#avant-propos">Avant-propos</a>
+<ul>
+<li><a href="#différence-entre-le-cryptage-et-l-authentification">Différence entre le cryptage et l&rsquo;authentification</a></li>
+</ul></li>
+<li><a href="#cryptage-symétrique">Cryptage symétrique</a></li>
+<li><a href="#cryptage-asymétrique">Cryptage asymétrique</a></li>
+<li><a href="#conclusion">Conclusion</a>
+<ul>
+<li><a href="#edit">EDIT</a></li>
+</ul></li>
+<li><a href="#démo">Démo</a></li>
+<li><a href="#cas-concret">Cas concret</a></li>
+<li><a href="#source">Source</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+				<div class="overlay"></div>
+			</div>
+		</section>
+
+    <script async src="/js/main.js"></script>
+
+
+
+
+  <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+</body>
+</html>
+
